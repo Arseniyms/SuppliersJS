@@ -1,0 +1,92 @@
+:root {
+    --divider-color: #adacac;
+    --primary-color: black;
+    --text-hover-color: #D2D2D2;
+    --button-icon-background-color: #e8edf2;
+    --button-text-background-color: #1A80E5;
+    --button-text-text-color: #ffffff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: var(--divider-color);
+}
+
+.navbar-icon-name {
+    color: var(--primary-color);
+    font-size: 1.8rem;
+    font-weight: bold;
+    padding-left: 1rem
+}
+
+.navbar-links {
+    align-items: center;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.navbar-links li {
+    border-radius: 16px;
+    background-color: transparent;
+    margin: 8px;
+}
+
+.navbar-links li a {
+    padding: 8px;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+.navbar-links li:hover {
+    background: var(--text-hover-color);
+}
+
+li {
+    display: inline;
+    padding: 0.5rem;
+}
+
+a {
+    color: var(--primary-color);
+}
+
+.navbar-buttons {
+    display: flex;
+    margin-right: 1rem;
+    align-items: center;
+    align-content: center;
+}
+
+.navbar-button-only-icon {
+    margin: 0.5rem;
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: var(--button-icon-background-color);
+    border-color: transparent;
+    cursor: pointer;
+}
+
+.navbar-button-only-icon:hover {
+    background: var(--text-hover-color);
+}
+
+.navbar-button-only-text {
+    margin: 0.5rem;
+    height: 40px;
+    background-color: var(--button-text-background-color);
+    border-color: transparent;
+    color: var(--button-text-text-color);
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+}
