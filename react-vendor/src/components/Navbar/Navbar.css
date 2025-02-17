@@ -4,7 +4,8 @@
     --text-hover-color: #D2D2D2;
     --button-icon-background-color: #e8edf2;
     --button-text-background-color: #1A80E5;
-    --button-text-text-color: #ffffff;
+    --button-text-background-hover-color: #1363b5;
+    --button-text-color: #ffffff;
 }
 
 .navbar {
@@ -17,6 +18,10 @@
     border-bottom-width: 1px;
     border-bottom-style: solid;
     border-bottom-color: var(--divider-color);
+}
+
+a {
+    color: var(--primary-color);
 }
 
 .navbar-icon-name {
@@ -32,20 +37,21 @@
     margin-right: 0;
 }
 
-.navbar-links li {
+.navbar-links li a {
     border-radius: 16px;
     background-color: transparent;
-    margin: 8px;
-}
-
-.navbar-links li a {
-    padding: 8px;
+    margin: 4px;
+    padding: 8px 16px;
+    font-weight: 400;
+    font-size: 1.1rem;
     text-decoration: none;
-    font-weight: bolder;
-    font-size: 1.2rem;
 }
 
-.navbar-links li:hover {
+.navbar-links li a.active {
+    background: var(--text-hover-color);
+}
+
+.navbar-links li a:hover {
     background: var(--text-hover-color);
 }
 
@@ -54,18 +60,15 @@ li {
     padding: 0.5rem;
 }
 
-a {
-    color: var(--primary-color);
-}
-
 .navbar-buttons {
     display: flex;
+    margin-top: 4px;
     margin-right: 1rem;
     align-items: center;
     align-content: center;
 }
 
-.navbar-button-only-icon {
+.navbar-buttons-only-icons a button {
     margin: 0.5rem;
     width: 40px;
     height: 40px;
@@ -75,18 +78,30 @@ a {
     cursor: pointer;
 }
 
-.navbar-button-only-icon:hover {
+.navbar-buttons-only-icons a.active button {
+    background-color: var(--text-hover-color);
+}
+
+.navbar-buttons-only-icons a button:hover {
     background: var(--text-hover-color);
 }
 
-.navbar-button-only-text {
+.navbar-button-only-text a button{
     margin: 0.5rem;
     height: 40px;
     background-color: var(--button-text-background-color);
     border-color: transparent;
-    color: var(--button-text-text-color);
+    color: var(--button-text-color);
     font-size: 1rem;
     font-weight: bold;
     border-radius: 8px;
     cursor: pointer;
+}
+
+.navbar-button-only-text a button:hover {
+    background-color: var(--button-text-background-hover-color);
+}
+
+.navbar-button-only-text a.active button {
+    background-color: var(--button-text-background-hover-color);
 }

@@ -1,7 +1,8 @@
 import React from 'react'
 import './Navbar.css'
-import notif from './Resources/notifications.svg'
-import search from './Resources/search.svg'
+import notificationImage from './Resources/notifications.svg'
+import searchImage from './Resources/search.svg'
+import {NavLink} from "react-router-dom";
 
 const Navbar = () => {
     return (
@@ -13,48 +14,61 @@ const Navbar = () => {
             <div className="navbar-links">
                 <ul>
                     <li>
-                       <a href="/vendors">
-                           Вендоры
-                       </a>
+                        <NavLinkButton text="Вендоры" link="/vendors"/>
                     </li>
                     <li>
-                       <a href="/export">
-                           Экспорт
-                       </a>
+                        <NavLinkButton text="Экспорт" link="/export"/>
                     </li>
                 </ul>
             </div>
 
             <div className="navbar-buttons">
-                <a href="/notifications" className="notification-icon"> <NavButtonIcon src={notif}/> </a>
-                <a href="/search" className="search-icon"> <NavButtonIcon src={search}/> </a>
-                <NavButtonText onClick={clickMe}/>
+                <div className="navbar-buttons-only-icons">
+                    <NavButtonIcon src={notificationImage} link="/notifications"/>
+                    <NavButtonIcon src={searchImage} link="/search"/>
+                </div>
+                <div className="navbar-button-only-text">
+                    <NavButtonText text="Добавить" link="/add"/>
+                </div>
             </div>
         </nav>
     );
 }
 
+const NavLinkCommon = (props) => {
+    return (
+        <NavLink to={props.link} end className={({isActive}) => (isActive ? 'active' : '')}>
+            {props.children}
+        </NavLink>
+    )
+}
+
+const NavLinkButton = (props) => {
+    return (
+        <NavLinkCommon link={props.link}>
+            {props.text}
+        </NavLinkCommon>
+    )
+}
+
 const NavButtonIcon = (props) => {
     return (
-        <button className="navbar-button-only-icon">
-            <img src={props.src} />
-        </button>
-    );
+        <NavLinkCommon link={props.link}>
+            <button>
+                <img src={props.src} alt=""/>
+            </button>
+        </NavLinkCommon>
+    )
 }
 
 const NavButtonText = (props) => {
     return (
-        <button
-            className="navbar-button-only-text"
-            onClick={props.onClick}
-        >
-            Добавить
-        </button>
+        <NavLinkCommon link={props.link}>
+            <button>
+                {props.text}
+            </button>
+        </NavLinkCommon>
     )
-}
-
-function clickMe() {
-    console.log('click me')
 }
 
 export default Navbar;
