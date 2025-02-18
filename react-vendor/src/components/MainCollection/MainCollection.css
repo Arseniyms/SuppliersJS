@@ -1,0 +1,11 @@
+
+.mainCollection {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin: auto 15%;
+}
+
+h1 {
+    font-weight: bolder;
+}

@@ -4,6 +4,12 @@ import notificationImage from './Resources/notifications.svg'
 import searchImage from './Resources/search.svg'
 import {NavLink} from "react-router-dom";
 
+const Text = {
+    VENDORS: "Поставщики",
+    EXPORT: "Экспорт",
+    ADD: "Добавить"
+}
+
 const Navbar = () => {
     return (
         <nav className="navbar">
@@ -14,10 +20,10 @@ const Navbar = () => {
             <div className="navbar-links">
                 <ul>
                     <li>
-                        <NavLinkButton text="Вендоры" link="/vendors"/>
+                        <NavLinkButton text={Text.VENDORS} link="/vendors"/>
                     </li>
                     <li>
-                        <NavLinkButton text="Экспорт" link="/export"/>
+                        <NavLinkButton text={Text.EXPORT} link="/export"/>
                     </li>
                 </ul>
             </div>
@@ -28,7 +34,7 @@ const Navbar = () => {
                     <NavButtonIcon src={searchImage} link="/search"/>
                 </div>
                 <div className="navbar-button-only-text">
-                    <NavButtonText text="Добавить" link="/add"/>
+                    <NavButtonText text={Text.ADD} link="/add"/>
                 </div>
             </div>
         </nav>

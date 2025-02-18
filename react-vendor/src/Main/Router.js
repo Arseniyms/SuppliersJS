@@ -1,24 +1,16 @@
 import {createBrowserRouter} from "react-router-dom";
 import App from "./App/App";
 import Navbar from "../components/Navbar/Navbar";
+import MainCollection from "../components/MainCollection/MainCollection";
 
 export const router = createBrowserRouter([
     { path: "/", element: <App/> },
-    { path: "/vendors", element: <Vendors/> },
+    { path: "/vendors", element: <MainCollection/> },
     { path: "/export", element: <Export/> },
     { path: "/notifications", element: <Notification/> },
     { path: "/search", element: <Search/> },
     { path: "/add", element: <Add/> }
 ])
-
-function Vendors() {
-    return (
-        <div className="App">
-            <Navbar/>
-            <div className="Vendors">Vendors</div>
-        </div>
-    )
-}
 
 function Export() {
     return (
