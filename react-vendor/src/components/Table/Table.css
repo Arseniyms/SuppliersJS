@@ -1,0 +1,67 @@
+
+.table-container {
+    margin-top: 32px;
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-bottom: auto;
+}
+
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    width: 100%;
+}
+
+th {
+    text-align: left;
+    position: relative;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
+
+td {
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
+
+table .resizer {
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -3px;
+    height: 100%;
+    width: 5px;
+    background-color: #1363b5;
+    cursor: col-resize;
+    user-select: none;
+    touch-action: none;
+    border-radius: 6px;
+}
+
+.resizer.isResizing {
+    opacity: 1;
+    background-color: chartreuse;
+}
+
+*:hover > .resizer {
+    opacity: 1;
+}
+
+th button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    margin-top: 3px;
+}
+
+th .header-sorting {
+    display: flex;
+    align-items: center;
+    align-content: start;
+    flex-direction: row;
+}

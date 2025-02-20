@@ -2,6 +2,7 @@ import React, {useState} from "react";
 import "./MainCollection.css"
 import Navbar from "../Navbar/Navbar";
 import SearchBar from "../SearchBar/SearchBar";
+import Table from "../Table/Table";
 
 const Text = {
     TITLE: "Управление поставщиками"
@@ -13,7 +14,9 @@ const MainCollection = () => {
     const handleSearch = (text) => {
         setSearchValue(text);
         console.log(text);
+        setColumnFilters(text)
     }
+    const [columnFilters, setColumnFilters] = useState("")
 
     return (
         <div>
@@ -22,7 +25,7 @@ const MainCollection = () => {
                 <h1>{Text.TITLE}</h1>
                 <SearchBar onSearch={handleSearch} />
             </div>
-            <h1> {searchValue} </h1>
+            <Table columnFilters={columnFilters} />
         </div>
     )
 }
