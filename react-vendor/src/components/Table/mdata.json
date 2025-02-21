@@ -1,0 +1,1066 @@
+[
+  {
+    "id": "a1d030c0-844a-4984-a5b5-0c11c8914115",
+    "companyName": "Гамма",
+    "type": {
+      "id": 1,
+      "type": "Вендор"
+    },
+    "inn": 257478921,
+    "website": "http://ft.com/erat/fermentum.xml",
+    "address": "переулок Солнечный",
+    "contacts": [
+      {
+        "id": "0845c918-76a5-43b4-9ed9-6da096b223be",
+        "name": "Оксана Белова",
+        "email": "ccescoti0@unc.edu",
+        "phones": [
+          {
+            "id": "30a842ca-5ef9-40ed-aedc-dbeca3e282c8",
+            "number": "+57 (758) 626-5917"
+          }
+        ]
+      }
+    ],
+    "comment": "Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.  Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.",
+    "itEquipmentInfo": {
+      "id": "d4119986-e5da-4c33-b7a6-118707695d0d",
+      "type": "сервер",
+      "name": "коммутатор",
+      "isMinPromTorg": true,
+      "isMinCifri": false,
+      "description": "Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.  Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.",
+      "status": null
+    },
+    "technoParkInfo": {
+      "id": "4385b348-80d8-446b-93b7-5ba56d501b2c",
+      "approbationStatus": "Ожидание",
+      "feedback": "Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus."
+    }
+  },
+  {
+    "id": "b216d4c7-231a-4619-9722-387b77f7cfa6",
+    "companyName": "Альфа",
+    "type": {
+      "id": 1,
+      "type": "Агрегатор"
+    },
+    "inn": 6456302392,
+    "website": "http://hatena.ne.jp/sapien/ut/nunc/vestibulum/ante.aspx",
+    "address": "улица Ленина",
+    "contacts": [
+      {
+        "id": "8e6a4068-9de8-4f4c-9984-f8966bbcab0b",
+        "name": "Алексей Новиков",
+        "email": "hpedrozzi0@xing.com",
+        "phones": [
+          {
+            "id": "26aab06e-6982-4dba-90d7-5f77e23ffd99",
+            "number": "+962 (873) 627-0514"
+          },
+          {
+            "id": "413c3db3-479c-492d-a476-55cc4deacfc4",
+            "number": "+92 (147) 448-0601"
+          },
+          {
+            "id": "2f9db6bd-b6b3-40c3-8210-3d48f7c731aa",
+            "number": "+1 (304) 580-3539"
+          }
+        ]
+      }
+    ],
+    "comment": "Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+    "itEquipmentInfo": {
+      "id": "99765d82-bec3-4cf4-b6aa-931444461408",
+      "type": "коммутатор",
+      "name": "сервер",
+      "isMinPromTorg": false,
+      "isMinCifri": false,
+      "description": "Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.",
+      "status": null
+    },
+    "technoParkInfo": {
+      "id": "b62e9354-80e6-449b-b3e8-2d6be6dc4fc8",
+      "approbationStatus": "Отказ",
+      "feedback": "Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem."
+    }
+  },
+  {
+    "id": "f6554a5d-6a62-434d-96c2-c768f498941c",
+    "companyName": "Дельта",
+    "type": {
+      "id": 1,
+      "type": "Агрегатор"
+    },
+    "inn": 4790983432,
+    "website": "https://pcworld.com/blandit/lacinia/erat.xml",
+    "address": "улица Ленина",
+    "contacts": [
+      {
+        "id": "189149e4-fa2a-4266-ba17-aa695ebf665c",
+        "name": "Анна Павлова",
+        "email": "dlivesay0@mac.com",
+        "phones": [
+          {
+            "id": "b1b8997d-d713-406b-8181-2703b314b601",
+            "number": "+98 (549) 985-7816"
+          },
+          {
+            "id": "2120ea5b-8cac-4af6-babf-e907fca6f22b",
+            "number": "+55 (136) 574-5354"
+          },
+          {
+            "id": "96d8c843-3f5d-4c06-a48e-0d4bd58d112b",
+            "number": "+7 (952) 996-4972"
+          }
+        ]
+      },
+      {
+        "id": "a8ef72aa-1f0e-4fe5-9e03-9ded590e997c",
+        "name": "Ольга Васильева",
+        "email": "icotton1@vk.com",
+        "phones": [
+          {
+            "id": "b82ad148-9aa9-4108-911e-36a28caf1b29",
+            "number": "+1 (469) 248-1490"
+          }
+        ]
+      }
+    ],
+    "comment": "Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.",
+    "itEquipmentInfo": {
+      "id": "b30f3444-c24e-49be-b4df-45e11093d2b7",
+      "type": "маршрутизатор",
+      "name": "ноутбук",
+      "isMinPromTorg": true,
+      "isMinCifri": false,
+      "description": "In congue. Etiam justo. Etiam pretium iaculis justo.",
+      "status": null
+    },
+    "technoParkInfo": {
+      "id": "3fed7c48-6f53-4a76-ad3b-cf04c37deec4",
+      "approbationStatus": "Ожидание",
+      "feedback": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+    }
+  },
+  {
+    "id": "39b5cda9-a783-42bc-8c74-24ec9b39d196",
+    "companyName": "Бета",
+    "type": {
+      "id": 1,
+      "type": "Вендор"
+    },
+    "inn": 9140578373,
+    "website": "http://howstuffworks.com/leo/odio/condimentum/id/luctus.xml",
+    "address": "площадь Революции",
+    "contacts": [
+      {
+        "id": "9d67fd23-ed0f-4905-9270-f5c07996d6b7",
+        "name": "Мария Лебедева",
+        "email": "pbrandi0@e-recht24.de",
+        "phones": [
+          {
+            "id": "c2240ada-a68b-4004-a1b6-009ce54aaae8",
+            "number": "+86 (592) 972-5553"
+          },
+          {
+            "id": "1eede19b-1595-4e0e-9e71-106714848edd",
+            "number": "+48 (351) 850-9469"
+          },
+          {
+            "id": "6cbd5213-55e0-4aed-adac-abc1df2eeac7",
+            "number": "+86 (436) 138-7536"
+          }
+        ]
+      }
+    ],
+    "comment": "Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.  Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.  Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+    "itEquipmentInfo": {
+      "id": "0d2aea60-3f00-44ac-8670-6f7508c513a7",
+      "type": "сервер",
+      "name": "планшет",
+      "isMinPromTorg": false,
+      "isMinCifri": false,
+      "description": "Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.  Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.",
+      "status": null
+    },
+    "technoParkInfo": {
+      "id": "a66b04e6-8df0-4e30-80fc-cc0bd55b060b",
+      "approbationStatus": "Отказ",
+      "feedback": "Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.  Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem."
+    }
+  },
+  {
+    "id": "ff9141d7-1edc-4677-91bb-32ea5a25db8d",
+    "companyName": "Эпсилон",
+    "type": {
+      "id": 1,
+      "type": "Вендор"
+    },
+    "inn": 6090824965,
+    "website": "http://senate.gov/turpis/integer/aliquet/massa.js",
+    "address": "проспект Победы",
+    "contacts": [
+      {
+        "id": "d4555cc7-02ef-4213-92d5-d502ec32f8c6",
+        "name": "Роман Иванов",
+        "email": "sbloomer0@mashable.com",
+        "phones": [
+          {
+            "id": "5eb746d8-648b-4dd9-863e-8188e38bd78e",
+            "number": "+244 (178) 469-7149"
+          },
+          {
+            "id": "0814e825-e173-4e02-955d-7beaa79904f2",
+            "number": "+33 (316) 866-7064"
+          },
+          {
+            "id": "a0ef254b-bd06-4e71-8f70-9d0bde8069df",
+            "number": "+880 (462) 524-4094"
+          }
+        ]
+      },
+      {
+        "id": "3a8ce374-2407-429b-b5be-426fb033489b",
+        "name": "Роман Петров",
+        "email": "hcourtin1@shutterfly.com",
+        "phones": [
+          {
+            "id": "237e8a06-5b72-4288-9a73-759a5c934102",
+            "number": "+52 (402) 136-1977"
+          },
+          {
+            "id": "9d0034b7-2cf5-4102-a2b8-f67ced7c7e7c",
+            "number": "+351 (667) 893-9705"
+          }
+        ]
+      }
+    ],
+    "comment": "Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.  Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.",
+    "itEquipmentInfo": {
+      "id": "8d386e73-93c4-41c0-9202-7a929f3d99e7",
+      "type": "ноутбук",
+      "name": "планшет",
+      "isMinPromTorg": false,
+      "isMinCifri": true,
+      "description": "Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.",
+      "status": null
+    },
+    "technoParkInfo": {
+      "id": "d9bcbb71-fd3b-4f54-83e1-c0b9c8e8a8b1",
+      "approbationStatus": "Отказ",
+      "feedback": "Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.  Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.  Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem."
+    }
+  },
+  {
+    "id": "377a265f-9a56-4eaa-a56c-f0d699c51d23",
+    "companyName": "Бета",
+    "type": {
+      "id": 1,
+      "type": "Вендор"
+    },
+    "inn": 1127568464,
+    "website": "http://google.co.uk/curae/donec/pharetra/magna/vestibulum.js",
+    "address": "проспект Победы",
+    "contacts": [
+      {
+        "id": "333349a6-6627-4670-be10-245e3500ebc5",
+        "name": "Евгения Новикова",
+        "email": "bheskey0@nasa.gov",
+        "phones": [
+          {
+            "id": "25b68609-cc81-4c8a-8573-435c638e8583",
+            "number": "+7 (559) 187-8917"
+          },
+          {
+            "id": "9b9a64e7-816f-44af-96e1-b3eddbc4b4dc",
+            "number": "+86 (513) 640-7882"
+          }
+        ]
+      }
+    ],
+    "comment": "In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.  Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.  Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.",
+    "itEquipmentInfo": {
+      "id": "d667086d-9f0a-4b81-a50a-60e50d8af47d",
+      "type": "планшет",
+      "name": "коммутатор",
+      "isMinPromTorg": true,
+      "isMinCifri": false,
+      "description": "Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.  Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.",
+      "status": null
+    },
+    "technoParkInfo": {
+      "id": "74fe190f-3dca-48a6-b393-c5fa8155c232",
+      "approbationStatus": "Принято",
+      "feedback": "Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.  Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.  Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus."
+    }
+  },
+  {
+    "id": "f1610323-fca4-45bf-8223-232a293b1652",
+    "companyName": "Бета",
+    "type": {
+      "id": 1,
+      "type": "Вендор"
+    },
+    "inn": 6222170997,
+    "website": "https://constantcontact.com/dolor/morbi/vel.jpg",
+    "address": "переулок Солнечный",
+    "contacts": [
+      {
+        "id": "0d5c87aa-d253-4682-9155-a1c7309c3815",
+        "name": "Иван Козлов",
+        "email": "bpallas0@disqus.com",
+        "phones": [
+          {
+            "id": "ab2c6425-88f6-4717-9276-85e7cd40beea",
+            "number": "+86 (941) 236-3828"
+          }
+        ]
+      },
+      {
+        "id": "4bda07c2-c18e-4e77-a14a-82f14c2f8081",
+        "name": "Константин Новиков",
+        "email": "smaytum1@hubpages.com",
+        "phones": [
+          {
+            "id": "92bb24e8-5c6a-40b5-9fa5-31cdde967ef1",
+            "number": "+48 (347) 902-6726"
+          },
+          {
+            "id": "d4125416-f3db-4af0-a8a8-4dfa4fdf2ef1",
+            "number": "+62 (267) 659-8966"
+          }
+        ]
+      },
+      {
+        "id": "91ce9814-acf1-4957-8235-72170c2c5cfe",
+        "name": "Ольга Алексеева",
+        "email": "nnelane2@wisc.edu",
+        "phones": [
+          {
+            "id": "7fe69eca-ce4f-4540-a07a-7deee754b14c",
+            "number": "+880 (200) 812-2242"
+          },
+          {
+            "id": "f9acf8cc-f875-4def-844e-4e3d90991932",
+            "number": "+62 (432) 508-7026"
+          }
+        ]
+      }
+    ],
+    "comment": "Sed ante. Vivamus tortor. Duis mattis egestas metus.  Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.  Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.",
+    "itEquipmentInfo": {
+      "id": "84237b1e-edf9-45d3-9e54-503421f2a5ea",
+      "type": "коммутатор",
+      "name": "ноутбук",
+      "isMinPromTorg": false,
+      "isMinCifri": false,
+      "description": "Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.",
+      "status": null
+    },
+    "technoParkInfo": {
+      "id": "dc8c2b21-02d7-47d5-873e-4d58a7801f19",
+      "approbationStatus": "Ожидание",
+      "feedback": "Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat."
+    }
+  },
+  {
+    "id": "9fcd1cc5-db16-404e-89fd-6ae7a2674202",
+    "companyName": "Альфа",
+    "type": {
+      "id": 1,
+      "type": "Агрегатор"
+    },
+    "inn": 7873873272,
+    "website": "http://ocn.ne.jp/nisl/venenatis/lacinia/aenean.aspx",
+    "address": "проспект Победы",
+    "contacts": [
+      {
+        "id": "c1342897-a292-4c31-a8be-d3d9f4f9f2db",
+        "name": "Павел Егоров",
+        "email": "ymelbourn0@posterous.com",
+        "phones": [
+          {
+            "id": "9208547b-18c5-4d02-9b02-db118cadcad0",
+            "number": "+47 (301) 488-1121"
+          }
+        ]
+      },
+      {
+        "id": "8e1bc0a0-779d-4ae8-9c6d-77ec12cfd56c",
+        "name": "Людмила Кузнецова",
+        "email": "hrediers1@friendfeed.com",
+        "phones": [
+          {
+            "id": "64af2fd6-31e6-4444-920c-943c36cf751f",
+            "number": "+63 (622) 356-8325"
+          }
+        ]
+      }
+    ],
+    "comment": "Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.  Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.  Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.",
+    "itEquipmentInfo": {
+      "id": "ee6bcbf0-a08c-4f7b-9cc4-7755ffffa58d",
+      "type": "сервер",
+      "name": "ноутбук",
+      "isMinPromTorg": false,
+      "isMinCifri": false,
+      "description": "Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.  Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.",
+      "status": null
+    },
+    "technoParkInfo": {
+      "id": "d9b67d51-05fa-4b62-8c06-6daa4efb2226",
+      "approbationStatus": "Принято",
+      "feedback": "Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.  Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.  Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh."
+    }
+  },
+  {
+    "id": "17b1065f-6ad8-4355-8da2-f4f8788b4b4c",
+    "companyName": "Дельта",
+    "type": {
+      "id": 1,
+      "type": "Агрегатор"
+    },
+    "inn": 5191047144,
+    "website": "http://t.co/ut/blandit.js",
+    "address": "переулок Солнечный",
+    "contacts": [
+      {
+        "id": "1e89b273-6dd2-4ffb-a8ba-f3a31d9bd774",
+        "name": "Константин Петров",
+        "email": "ehryniewicki0@hp.com",
+        "phones": [
+          {
+            "id": "b61bf489-b402-4e7d-8a37-46c73010e8dc",
+            "number": "+86 (416) 951-2142"
+          }
+        ]
+      },
+      {
+        "id": "2a6e4e2b-26bf-4c8a-a9ea-7830a3e435c2",
+        "name": "Татьяна Иванова",
+        "email": "mbaglan1@ezinearticles.com",
+        "phones": [
+          {
+            "id": "f4fffebe-6c72-4679-9ad6-7af25ff3cb0b",
+            "number": "+84 (999) 874-4325"
+          },
+          {
+            "id": "c24fb507-33e6-4acf-b2d6-b9d2feaa402d",
+            "number": "+234 (595) 635-8311"
+          }
+        ]
+      }
+    ],
+    "comment": "Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.  Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.",
+    "itEquipmentInfo": {
+      "id": "42e92a85-0621-403c-ae9b-eddeb27fef7d",
+      "type": "сервер",
+      "name": "сервер",
+      "isMinPromTorg": true,
+      "isMinCifri": true,
+      "description": "In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.  Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.",
+      "status": null
+    },
+    "technoParkInfo": {
+      "id": "4a9c7974-a799-49bf-968d-d727fe1e7030",
+      "approbationStatus": "Отказ",
+      "feedback": "Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum."
+    }
+  },
+  {
+    "id": "24870b1f-74e1-4824-b2dc-27c4a33d7df9",
+    "companyName": "Эпсилон",
+    "type": {
+      "id": 1,
+      "type": "Агрегатор"
+    },
+    "inn": 7972096437,
+    "website": "http://oakley.com/suscipit/ligula/in/lacus.html",
+    "address": "улица Ленина",
+    "contacts": [
+      {
+        "id": "f6ccd60c-dd62-4099-8491-f28c7c5d5a79",
+        "name": "Константин Новиков",
+        "email": "bmcguiness0@meetup.com",
+        "phones": [
+          {
+            "id": "64680720-19db-40ee-a37a-bbd4134ef83a",
+            "number": "+351 (110) 579-2795"
+          }
+        ]
+      },
+      {
+        "id": "95ab4cc6-4934-4e05-a59b-019806a4f546",
+        "name": "Сергей Козлов",
+        "email": "kphette1@tamu.edu",
+        "phones": [
+          {
+            "id": "ce7def2d-225c-4f39-9350-d0bf79b9017f",
+            "number": "+55 (848) 459-3463"
+          },
+          {
+            "id": "443d64e1-3947-450d-955f-b0c38bcce53b",
+            "number": "+598 (505) 145-8718"
+          }
+        ]
+      }
+    ],
+    "comment": "Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.",
+    "itEquipmentInfo": {
+      "id": "fc0d1c21-5c34-4bfe-9f0c-2143b5a40e37",
+      "type": "ноутбук",
+      "name": "сервер",
+      "isMinPromTorg": true,
+      "isMinCifri": false,
+      "description": "Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.",
+      "status": null
+    },
+    "technoParkInfo": {
+      "id": "7ae7c260-1775-45c4-a202-3c15d78c4a35",
+      "approbationStatus": "Принято",
+      "feedback": "In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus."
+    }
+  },
+  {
+    "id": "ad9cc5fb-a8f7-4615-ae07-f3f189d7a64d",
+    "companyName": "Эпсилон",
+    "type": {
+      "id": 1,
+      "type": "Агрегатор"
+    },
+    "inn": 3497857968,
+    "website": "http://state.tx.us/platea/dictumst/morbi.xml",
+    "address": "улица Ленина",
+    "contacts": [
+      {
+        "id": "f2d67db9-2d76-4ed7-a2cd-876cfedd356e",
+        "name": "Антон Петров",
+        "email": "ldumbleton0@deviantart.com",
+        "phones": [
+          {
+            "id": "0c8a6920-6f11-4888-b337-063d3613e3a5",
+            "number": "+62 (261) 303-7480"
+          }
+        ]
+      },
+      {
+        "id": "72c91730-2567-413a-83b1-f07f79f6606e",
+        "name": "Антон Соколов",
+        "email": "bscarsbrook1@altervista.org",
+        "phones": [
+          {
+            "id": "89688fc6-a9e5-4c84-b5b8-7ad28869ed01",
+            "number": "+63 (816) 314-5588"
+          },
+          {
+            "id": "8a586a81-9e8d-4c36-b379-ef0059ca0728",
+            "number": "+66 (906) 993-8567"
+          },
+          {
+            "id": "5c65dce0-1e77-4d64-a43c-b234b0997690",
+            "number": "+86 (593) 984-5681"
+          }
+        ]
+      },
+      {
+        "id": "c873cab4-0fa8-4289-86ce-0377c6881632",
+        "name": "Анна Семенова",
+        "email": "fsparshatt2@ezinearticles.com",
+        "phones": [
+          {
+            "id": "6e546d40-4c67-4daf-963b-563c4a15bd64",
+            "number": "+507 (992) 333-9759"
+          },
+          {
+            "id": "bbece9d5-fa0a-4cf8-b0a2-dcc7c25d1241",
+            "number": "+7 (241) 115-8810"
+          }
+        ]
+      }
+    ],
+    "comment": "Sed ante. Vivamus tortor. Duis mattis egestas metus.  Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.",
+    "itEquipmentInfo": {
+      "id": "5727636d-a0f2-4122-b7e5-49c8dd709187",
+      "type": "ноутбук",
+      "name": "ноутбук",
+      "isMinPromTorg": false,
+      "isMinCifri": true,
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.  Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.",
+      "status": null
+    },
+    "technoParkInfo": {
+      "id": "aebc26e5-d0c0-41e1-8f0a-8a6e243ee830",
+      "approbationStatus": "Отказ",
+      "feedback": "Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.  Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.  Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem."
+    }
+  },
+  {
+    "id": "d21ec514-a46e-44e1-a816-9f981c2a7152",
+    "companyName": "Альфа",
+    "type": {
+      "id": 1,
+      "type": "Агрегатор"
+    },
+    "inn": 9204172785,
+    "website": "https://addthis.com/amet/cursus/id/turpis/integer.js",
+    "address": "улица Гагарина",
+    "contacts": [
+      {
+        "id": "20c08e89-8caa-4033-a7f6-c90561e61dfb",
+        "name": "Мария Козлова",
+        "email": "mowenson0@friendfeed.com",
+        "phones": [
+          {
+            "id": "f9ae9a7c-e070-409b-b45a-da1368829253",
+            "number": "+358 (614) 326-1432"
+          },
+          {
+            "id": "796fe975-8fae-4811-924f-3610bdc7bc95",
+            "number": "+675 (411) 274-6460"
+          },
+          {
+            "id": "d1b28059-54b9-4e1d-a6cd-1c455d8ed0e2",
+            "number": "+234 (180) 112-1175"
+          }
+        ]
+      }
+    ],
+    "comment": "Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.  Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.  Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+    "itEquipmentInfo": {
+      "id": "ffab0b85-d0fe-4ea5-ae49-b21317bfe0a3",
+      "type": "коммутатор",
+      "name": "ноутбук",
+      "isMinPromTorg": true,
+      "isMinCifri": false,
+      "description": "Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.  Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.",
+      "status": null
+    },
+    "technoParkInfo": {
+      "id": "7b712794-9794-4a68-a419-f962b2afb755",
+      "approbationStatus": "Принято",
+      "feedback": "In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.  Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis."
+    }
+  },
+  {
+    "id": "3dbe8596-b338-40b7-9f74-40c98452cc37",
+    "companyName": "Альфа",
+    "type": {
+      "id": 1,
+      "type": "Агрегатор"
+    },
+    "inn": 9693990492,
+    "website": "https://economist.com/libero/non/mattis/pulvinar/nulla/pede/ullamcorper.jpg",
+    "address": "проспект Победы",
+    "contacts": [
+      {
+        "id": "972c7820-e391-454c-ac14-360895b828f2",
+        "name": "Владимир Кузнецов",
+        "email": "jschukert0@opera.com",
+        "phones": [
+          {
+            "id": "145c8c34-3653-44cd-8106-57c77d4b311d",
+            "number": "+47 (466) 710-2621"
+          }
+        ]
+      },
+      {
+        "id": "556d2928-f20f-40ff-b702-bf8a3230f8aa",
+        "name": "Антон Петров",
+        "email": "mjeayes1@newsvine.com",
+        "phones": [
+          {
+            "id": "21fb073e-d9f6-4540-8abb-3c03c4e1da9e",
+            "number": "+62 (265) 909-0503"
+          },
+          {
+            "id": "607ce688-82f9-4145-b1af-101f99e9f438",
+            "number": "+63 (487) 615-4513"
+          },
+          {
+            "id": "2fbb1de9-7a8b-476e-8bf9-c4a019b61240",
+            "number": "+86 (562) 266-0551"
+          }
+        ]
+      }
+    ],
+    "comment": "In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.  Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.",
+    "itEquipmentInfo": {
+      "id": "ffdb660b-0298-49bd-939c-c9665148ccf6",
+      "type": "коммутатор",
+      "name": "планшет",
+      "isMinPromTorg": false,
+      "isMinCifri": false,
+      "description": "Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.  Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.  Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.",
+      "status": null
+    },
+    "technoParkInfo": {
+      "id": "46c18736-5857-4722-950c-3304f53f04ac",
+      "approbationStatus": "Отказ",
+      "feedback": "Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus."
+    }
+  },
+  {
+    "id": "226a6896-5ee1-4f94-ba19-fe7b31eac193",
+    "companyName": "Бета",
+    "type": {
+      "id": 1,
+      "type": "Агрегатор"
+    },
+    "inn": 6592126620,
+    "website": "http://umich.edu/eros/elementum/pellentesque.json",
+    "address": "улица Ленина",
+    "contacts": [
+      {
+        "id": "1b2316e2-1be4-4b1b-a801-eb0107c58855",
+        "name": "Татьяна Иванова",
+        "email": "sjelk0@jimdo.com",
+        "phones": [
+          {
+            "id": "f9330bd3-ec1f-446a-b5cf-089e8d34de62",
+            "number": "+86 (437) 353-3396"
+          }
+        ]
+      },
+      {
+        "id": "fd31018e-6c8e-44c8-ac2a-f22d4a7a053c",
+        "name": "Григорий Козлов",
+        "email": "iglander1@topsy.com",
+        "phones": [
+          {
+            "id": "7bf76982-5b2f-42fe-8115-f2650e83a28c",
+            "number": "+1 (512) 273-8965"
+          },
+          {
+            "id": "deceee33-bd24-464d-a664-404cc6633aaa",
+            "number": "+62 (705) 880-7040"
+          }
+        ]
+      },
+      {
+        "id": "e77de754-345a-45d9-8b65-caabdf0043ed",
+        "name": "Владимир Кузнецов",
+        "email": "fcharsley2@hao123.com",
+        "phones": [
+          {
+            "id": "958eae7d-69ad-42b5-8bde-14e3098e10d1",
+            "number": "+352 (749) 388-3704"
+          },
+          {
+            "id": "4545a108-13a3-41bd-9dad-cc4d8944f419",
+            "number": "+685 (240) 624-1471"
+          },
+          {
+            "id": "899230d9-4561-4aec-9814-dd1c557f82d7",
+            "number": "+1 (865) 441-6633"
+          }
+        ]
+      }
+    ],
+    "comment": "Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.  Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.",
+    "itEquipmentInfo": {
+      "id": "3645e8bb-5587-442d-9fc4-8e7310b830d6",
+      "type": "маршрутизатор",
+      "name": "коммутатор",
+      "isMinPromTorg": true,
+      "isMinCifri": true,
+      "description": "Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.  Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.  Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.",
+      "status": null
+    },
+    "technoParkInfo": {
+      "id": "361bcf24-b854-4a26-aae4-6a199cce8854",
+      "approbationStatus": "Принято",
+      "feedback": "Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.  Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.  Fusce consequat. Nulla nisl. Nunc nisl."
+    }
+  },
+  {
+    "id": "7393e45d-6bbb-4e7a-8c9a-d766a9e41d2b",
+    "companyName": "Дельта",
+    "type": {
+      "id": 1,
+      "type": "Вендор"
+    },
+    "inn": 7518241306,
+    "website": "http://gov.uk/luctus.jpg",
+    "address": "проспект Победы",
+    "contacts": [
+      {
+        "id": "090b1bcd-655a-4913-94cc-01aa17d73bca",
+        "name": "Евгения Алексеева",
+        "email": "mmarwood0@intel.com",
+        "phones": [
+          {
+            "id": "774d8ae6-88e1-4619-ac32-c59833415274",
+            "number": "+63 (711) 786-4260"
+          }
+        ]
+      }
+    ],
+    "comment": "In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.  Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.",
+    "itEquipmentInfo": {
+      "id": "2956e24f-16ba-4b09-9713-cb2c4861a0e2",
+      "type": "сервер",
+      "name": "коммутатор",
+      "isMinPromTorg": false,
+      "isMinCifri": true,
+      "description": "Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.  Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.",
+      "status": null
+    },
+    "technoParkInfo": {
+      "id": "f03a2497-ce1b-4ad2-af67-50a35d805064",
+      "approbationStatus": "Отказ",
+      "feedback": "Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.  Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat."
+    }
+  },
+  {
+    "id": "91f906a4-f663-4541-b688-2d30840b80d5",
+    "companyName": "Дельта",
+    "type": {
+      "id": 1,
+      "type": "Вендор"
+    },
+    "inn": 4877530426,
+    "website": "https://hatena.ne.jp/quisque/erat/eros.aspx",
+    "address": "площадь Революции",
+    "contacts": [
+      {
+        "id": "fd57722d-141c-446a-8b2b-d360d65866f9",
+        "name": "Иван Козлов",
+        "email": "sjaine0@cloudflare.com",
+        "phones": [
+          {
+            "id": "f8f115b5-2f76-4c2b-b4b2-bd9eadfefdcf",
+            "number": "+358 (702) 653-8738"
+          }
+        ]
+      },
+      {
+        "id": "038ae228-5265-4ba8-a048-abb8881ef530",
+        "name": "Дмитрий Смирнов",
+        "email": "dleah1@yolasite.com",
+        "phones": [
+          {
+            "id": "87e8ea1a-2c0e-4e39-8c5f-90864b141731",
+            "number": "+375 (432) 335-0379"
+          },
+          {
+            "id": "e0a82ef6-185a-49dd-a20f-c20c7b622c78",
+            "number": "+62 (473) 696-5915"
+          }
+        ]
+      },
+      {
+        "id": "a39254e4-1c7b-4008-aaa7-02e26b5ccb7e",
+        "name": "Анна Павлова",
+        "email": "nroofe2@rakuten.co.jp",
+        "phones": [
+          {
+            "id": "e47e5437-5249-462e-8374-92afba430bb7",
+            "number": "+86 (544) 529-7554"
+          },
+          {
+            "id": "5dd2286d-6095-495c-a22b-0d9f46d4c5b6",
+            "number": "+374 (145) 722-9331"
+          }
+        ]
+      }
+    ],
+    "comment": "In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.",
+    "itEquipmentInfo": {
+      "id": "e31cf6e8-e016-497b-9c45-2c511eed1e37",
+      "type": "ноутбук",
+      "name": "коммутатор",
+      "isMinPromTorg": false,
+      "isMinCifri": false,
+      "description": "Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.  Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.",
+      "status": null
+    },
+    "technoParkInfo": {
+      "id": "e33930d0-23a3-438a-a87f-7700211e2a4a",
+      "approbationStatus": "Отказ",
+      "feedback": "Sed ante. Vivamus tortor. Duis mattis egestas metus.  Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh."
+    }
+  },
+  {
+    "id": "810098a2-3824-401f-84df-479d85551453",
+    "companyName": "Альфа",
+    "type": {
+      "id": 1,
+      "type": "Вендор"
+    },
+    "inn": 353989820,
+    "website": "https://stumbleupon.com/nunc/nisl/duis/bibendum/felis/sed/interdum.html",
+    "address": "улица Ленина",
+    "contacts": [
+      {
+        "id": "cf3807a0-ffaa-4138-8301-542b0768b80e",
+        "name": "Ольга Кузнецова",
+        "email": "lwick0@naver.com",
+        "phones": [
+          {
+            "id": "26bd8171-2668-4518-9e22-3512b1cc628a",
+            "number": "+7 (381) 876-1963"
+          },
+          {
+            "id": "45024413-69fd-49a9-9008-6787332c649a",
+            "number": "+7 (275) 241-3245"
+          },
+          {
+            "id": "86a9a2c9-8c22-495a-842d-be1e4cf998c5",
+            "number": "+385 (379) 552-5407"
+          }
+        ]
+      },
+      {
+        "id": "c4f778c4-04d7-46b8-950f-a6326e147bbb",
+        "name": "Юлия Соколова",
+        "email": "lbrothers1@hatena.ne.jp",
+        "phones": [
+          {
+            "id": "bbf25a79-907c-420b-99f6-c3438914b976",
+            "number": "+7 (870) 292-6887"
+          },
+          {
+            "id": "a337c1f8-f111-45bc-bba5-65b4b8106f1b",
+            "number": "+237 (859) 383-6423"
+          }
+        ]
+      }
+    ],
+    "comment": "Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.",
+    "itEquipmentInfo": {
+      "id": "009b4980-fd07-4ff5-ab6f-94b61eb7901e",
+      "type": "сервер",
+      "name": "ноутбук",
+      "isMinPromTorg": false,
+      "isMinCifri": false,
+      "description": "Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.",
+      "status": null
+    },
+    "technoParkInfo": {
+      "id": "5c69f639-f171-4c0d-aed0-57c6f921d564",
+      "approbationStatus": "Отказ",
+      "feedback": "Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.  Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat."
+    }
+  },
+  {
+    "id": "a2239b88-9b59-41b1-871d-ef41dda9914e",
+    "companyName": "Гамма",
+    "type": {
+      "id": 1,
+      "type": "Агрегатор"
+    },
+    "inn": 6711067372,
+    "website": "http://symantec.com/mi/in.json",
+    "address": "переулок Солнечный",
+    "contacts": [
+      {
+        "id": "8e374970-58a4-437e-8bec-2b4a08338188",
+        "name": "Людмила Кузнецова",
+        "email": "duglow0@squarespace.com",
+        "phones": [
+          {
+            "id": "ac8057c6-67c4-44bd-aeb2-32be42c00de0",
+            "number": "+420 (410) 767-0790"
+          },
+          {
+            "id": "254e06a3-d2fc-409b-873c-827fb888c51b",
+            "number": "+86 (529) 734-9352"
+          }
+        ]
+      }
+    ],
+    "comment": "Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.  In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.  Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.",
+    "itEquipmentInfo": {
+      "id": "520c1db0-2b5f-43bd-b15d-b12fbce7080e",
+      "type": "ноутбук",
+      "name": "сервер",
+      "isMinPromTorg": true,
+      "isMinCifri": true,
+      "description": "Fusce consequat. Nulla nisl. Nunc nisl.",
+      "status": null
+    },
+    "technoParkInfo": {
+      "id": "37c1b922-48de-418d-830d-1b3cb3ea27dc",
+      "approbationStatus": "Ожидание",
+      "feedback": "Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.  Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede."
+    }
+  },
+  {
+    "id": "f792ad62-b876-4185-b46d-468c724772be",
+    "companyName": "Альфа",
+    "type": {
+      "id": 1,
+      "type": "Вендор"
+    },
+    "inn": 9662710937,
+    "website": "https://ezinearticles.com/ante/vel/ipsum/praesent/blandit.js",
+    "address": "площадь Революции",
+    "contacts": [
+      {
+        "id": "12688197-4e6e-445a-8b05-201a57b1743e",
+        "name": "Денис Смирнов",
+        "email": "ngosz0@google.ca",
+        "phones": [
+          {
+            "id": "c7971afd-19a3-4d0e-b5ca-f498add4700c",
+            "number": "+62 (387) 828-5983"
+          }
+        ]
+      },
+      {
+        "id": "c2ba0cf6-8e68-4533-b111-d201b11e0b77",
+        "name": "Екатерина Лебедева",
+        "email": "dgammell1@ovh.net",
+        "phones": [
+          {
+            "id": "49866691-5259-49d0-8a1e-e53022814e8b",
+            "number": "+1 (650) 695-8495"
+          },
+          {
+            "id": "29776700-5b4c-4b5a-b5c8-e09fe1556deb",
+            "number": "+227 (686) 120-9171"
+          },
+          {
+            "id": "243163d9-331b-4cea-a8c9-b921f5d48815",
+            "number": "+503 (925) 217-7521"
+          }
+        ]
+      },
+      {
+        "id": "d981d1d8-8046-46b2-ae92-0c913859f32b",
+        "name": "Светлана Михайлова",
+        "email": "hkeaton2@dedecms.com",
+        "phones": [
+          {
+            "id": "e0a08b12-cfe6-43ad-8d7a-c020ce663040",
+            "number": "+7 (660) 671-5282"
+          },
+          {
+            "id": "3a05a38a-1595-4300-8554-48062cc4f65f",
+            "number": "+53 (983) 613-6672"
+          },
+          {
+            "id": "5cb2e41f-bd40-4024-bb92-4608a048ad1b",
+            "number": "+880 (397) 959-4999"
+          }
+        ]
+      }
+    ],
+    "comment": "Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.",
+    "itEquipmentInfo": {
+      "id": "20bc016d-3d40-4938-aaee-433a8122ed1d",
+      "type": "ноутбук",
+      "name": "коммутатор",
+      "isMinPromTorg": true,
+      "isMinCifri": true,
+      "description": "Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.",
+      "status": null
+    },
+    "technoParkInfo": {
+      "id": "70fa7987-a333-44fd-a8b0-0da633b748ba",
+      "approbationStatus": "Принято",
+      "feedback": "Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.  In congue. Etiam justo. Etiam pretium iaculis justo.  In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus."
+    }
+  }
+]

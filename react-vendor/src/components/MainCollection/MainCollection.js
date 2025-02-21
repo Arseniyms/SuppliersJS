@@ -9,10 +9,7 @@ const Text = {
 }
 
 const MainCollection = () => {
-    const [searchValue, setSearchValue] = useState('');
-
     const handleSearch = (text) => {
-        setSearchValue(text);
         console.log(text);
         setColumnFilters(text)
     }

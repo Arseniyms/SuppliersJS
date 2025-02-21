@@ -1,75 +1,18 @@
 
-import React, {useState} from "react";
+import React, {useMemo} from "react";
 import {getCoreRowModel, useReactTable, flexRender, getFilteredRowModel, getSortedRowModel} from '@tanstack/react-table'
 import "./Table.css"
 import sortImage from "./sort.svg"
-
-const DATA = [
-    {
-        name: "b",
-        website: "web.com1",
-        FIO: "FIO1",
-        phone: "phone1",
-        mail: "mail@mail.ru1",
-        address: "address1"
-    },
-    {
-        name: "c",
-        website: "web.com2",
-        FIO: "FIO2",
-        phone: "phone3",
-        mail: "mail@mail.ru3",
-        address: "address4"
-    },
-    {
-        name: "a",
-        website: "asd",
-        FIO: "asd",
-        phone: "asd",
-        mail: "mail@mail.asd",
-        address: "address4"
-    },
-]
-
-const columns = [
-    {
-        accessorKey: 'name',
-        header: 'Имя',
-        cell: (props) => <p>{props.getValue()}</p>
-    },
-    {
-        accessorKey: 'website',
-        header: 'Сайт',
-        cell: (props) => <p>{props.getValue()}</p>,
-    },
-    {
-        accessorKey: 'FIO',
-        header: 'ФИО',
-        cell: (props) => <p>{props.getValue()}</p>,
-    },
-    {
-        accessorKey: 'phone',
-        header: 'Телефон',
-        enableSorting: false,
-        cell: (props) => <p>{props.getValue()}</p>,
-    },
-    {
-        accessorKey: 'mail',
-        header: 'Эл. Почта',
-        enableSorting: false,
-        cell: (props) => <p>{props.getValue()}</p>,
-    },
-    {
-        accessorKey: 'address',
-        header: 'Адрес',
-        enableSorting: false,
-        cell: (props) => <p>{props.getValue()}</p>,
-    }
-]
+import mDataJSON from './mdata.json'
+import columnsData from "./Columns";
 
 const Table = ({ columnFilters }) => {
+    const data = useMemo(() => mDataJSON, [])
+    const columns = useMemo(() => columnsData, [])
 
-    const [data, setData] = useState(DATA);
+    const customFilterFn = (rows, columnId, filterValue) => {
+        console.log(rows, columnId, filterValue)
+    }
 
     const table = useReactTable({
         data,
@@ -80,20 +23,21 @@ const Table = ({ columnFilters }) => {
         getCoreRowModel: getCoreRowModel(),
         getFilteredRowModel: getFilteredRowModel(),
         getSortedRowModel: getSortedRowModel(),
-        columnResizeMode: "onChange",
+        columnResizeMode: "onChange"
     });
 
-    console.log(columnFilters);
     return (
-        <div className="table-container">
-            <table width={table.getTotalSize()}>
+        <div className="table-container" key="table-container">
+            <table width={table.getTotalSize()} key="table">
                 {
-                    table.getHeaderGroups().map(headerGroup => (
-                        <thead>
+                    table.getHeaderGroups().map((headerGroup, index) => (
+                        <thead key={index}>
                             <tr key={headerGroup.id}>{headerGroup.headers.map(header => (
-                                <th width={header.getSize()} colSpan={header.colSpan} key={header.id}>
+                                <th width={header.getSize()} key={header.id}>
                                     <div className="header-sorting">
-                                        <span className="header-sorting-text"> {header.column.columnDef.header} </span>
+                                        <span className="header-sorting-text">
+                                            {header.column.columnDef.header}
+                                        </span>
                                         <div>
                                            {header.column.getCanSort() && (
                                                <button onClick={ header.column.getToggleSortingHandler() }>
@@ -121,9 +65,9 @@ const Table = ({ columnFilters }) => {
                         </thead>
                     ))
                 }
+                <tbody>
                 {
                     table.getRowModel().rows.map((rowModel) => (
-                        <tbody>
                         <tr key={rowModel.id}>
                             {rowModel.getVisibleCells().map(cell =>
                                 <td width={cell.column.getSize()} key={cell.id}>
@@ -136,9 +80,9 @@ const Table = ({ columnFilters }) => {
                                 </td>
                             )}
                         </tr>
-                        </tbody>
                     ))
                 }
+                </tbody>
             </table>
         </div>
     );

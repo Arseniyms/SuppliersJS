@@ -4,15 +4,17 @@
     margin-right: 15%;
     margin-left: 15%;
     margin-bottom: auto;
+    box-sizing: border-box;
+    overflow-x: scroll;
 }
 
 table {
+    overflow-x: scroll;
     border-spacing: 0;
     border-collapse: collapse;
     border-width: 1px;
     border-style: solid;
     border-color: black;
-    width: 100%;
 }
 
 th {
@@ -48,9 +50,9 @@ table .resizer {
     background-color: chartreuse;
 }
 
-*:hover > .resizer {
-    opacity: 1;
-}
+/**:hover > .resizer {*/
+/*    opacity: 1;*/
+/*}*/
 
 th button {
     border: none;
@@ -64,4 +66,8 @@ th .header-sorting {
     align-items: center;
     align-content: start;
     flex-direction: row;
+}
+
+p {
+    word-break: break-word;
 }
