@@ -15,7 +15,7 @@
     border-radius: 32px;
 }
 
-input {
+.searchBar input {
     border: none;
     padding: 8px 8px 8px 32px;
     height: 48px;
@@ -25,11 +25,11 @@ input {
     caret-color: var(--placeholder-color);
 }
 
-input:focus {
+.searchBar input:focus {
     outline-width: 0;
 }
 
-input::placeholder {
+.searchBar input::placeholder {
     color: var(--placeholder-color);
 }
 

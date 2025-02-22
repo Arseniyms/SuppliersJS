@@ -1,0 +1,25 @@
+:root {
+    --button-text-background-color: #1A80E5;
+    --button-text-background-hover-color: #1363b5;
+    --button-text-color: white
+}
+
+.add-vendor {
+    margin: 3% 10%;
+}
+
+.add-vendor button {
+    margin-top: 16px;
+    background-color: var(--button-text-background-color);
+    border: none;
+    height: 40px;
+    border-radius: 8px;
+    color: var(--button-text-color);
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.add-vendor button:hover {
+    background-color: var(--button-text-background-hover-color);
+}
