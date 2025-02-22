@@ -1,7 +1,6 @@
 import React from 'react'
 import './Navbar.css'
-import notificationImage from './Resources/notifications.svg'
-import searchImage from './Resources/search.svg'
+import notificationImage from '../Resources/notifications.svg'
 import {NavLink} from "react-router-dom";
 
 const Text = {
@@ -31,7 +30,6 @@ const Navbar = () => {
             <div className="navbar-buttons">
                 <div className="navbar-buttons-only-icons">
                     <NavButtonIcon src={notificationImage} link="/notifications"/>
-                    <NavButtonIcon src={searchImage} link="/search"/>
                 </div>
                 <div className="navbar-button-only-text">
                     <NavButtonText text={Text.ADD} link="/add"/>

@@ -1,0 +1,39 @@
+:root {
+    --background-hover-color: #D2D2D2;
+}
+
+.selectable-column {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+}
+
+.selectable-column button {
+    position: relative;
+    margin-right: 8px;
+    width: 32px;
+    height: 32px;
+    background-color: var(--background-color);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.selectable-column button:hover {
+    background-color: var(--background-hover-color);
+}
+
+.selectable-column img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 16px;
+    height: 16px;
+}
+
+.selectable-column .selectable-column-text {
+    color: black;
+    font-size: 16px;
+}

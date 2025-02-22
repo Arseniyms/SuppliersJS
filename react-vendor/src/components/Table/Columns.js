@@ -4,8 +4,9 @@ const columnsData = [
     {
         accessorKey: 'companyName',
         header: 'Название компании',
-        size:100,
-        cell: (props) => <p>{props.getValue()}</p>
+        size: 100,
+        cell: (props) => <p>{props.getValue()}</p>,
+        isDefaultToExport: true,
     },
     {
         accessorKey: 'type',
@@ -13,18 +14,21 @@ const columnsData = [
         size: 100,
         header: 'Агрегатор/Вендор',
         cell: (props) => <p>{props.getValue().type}</p>,
+        isDefaultToExport: true
     },
     {
         accessorKey: 'inn',
         header: 'ИНН',
         enableSorting: false,
         cell: (props) => <p>{props.getValue()}</p>,
+        isDefaultToExport: true
     },
     {
         accessorKey: 'website',
         header: 'Сайт',
         enableSorting: false,
         cell: (props) => <p>{props.getValue()}</p>,
+        isDefaultToExport: true
     },
     {
         accessorKey: 'contacts',
@@ -32,20 +36,26 @@ const columnsData = [
         id: "fio",
         cell: (props) => <p>
             {
-                props.getValue()[0].name
+                props.getValue().map(item => (item.name)).join("\n")
             }
         </p>,
+        isDefaultToExport: true
     },
     {
         accessorKey: 'contacts',
-        header: 'Телефон',
+        header: 'Телефоны',
         id: "phone",
         enableSorting: false,
         cell: (props) => <p>
             {
-                props.getValue()[0].phones[0].number
+                props.getValue().map(
+                    item => (item.phones.map(
+                        (item) => (item.number)
+                    )).join("\n")
+                ).join("\n")
             }
         </p>,
+        isDefaultToExport: true
     },
     {
         accessorKey: 'contacts',
@@ -54,15 +64,17 @@ const columnsData = [
         enableSorting: false,
         cell: (props) => <p>
             {
-                props.getValue()[0].email
+                props.getValue().map(item => (item.email)).join("\n")
             }
         </p>,
+        isDefaultToExport: true
     },
     {
         accessorKey: 'address',
         header: 'Адрес',
         enableSorting: false,
         cell: (props) => <p>{props.getValue()}</p>,
+        isDefaultToExport: true
     },
     {
         accessorKey: 'itEquipmentInfo',
@@ -71,6 +83,7 @@ const columnsData = [
         cell: (props) => <p>{
             props.getValue().type
         }</p>,
+        isDefaultToExport: true
     },
     {
         accessorKey: 'itEquipmentInfo',
@@ -79,6 +92,7 @@ const columnsData = [
         cell: (props) => <p>{
             props.getValue().name
         }</p>,
+        isDefaultToExport: true
     },
     {
         accessorKey: 'itEquipmentInfo',
@@ -88,6 +102,7 @@ const columnsData = [
         cell: (props) => <p>{
             props.getValue().isMinPromTorg ? "Да" : "Нет"
         }</p>,
+        isDefaultToExport: true
     },
     {
         accessorKey: 'itEquipmentInfo',
@@ -97,12 +112,13 @@ const columnsData = [
         cell: (props) => <p>{
             props.getValue().isMinCifri ? "Да" : "Нет"
         }</p>,
+        isDefaultToExport: true
     },
     {
         accessorKey: 'itEquipmentInfo',
         header: 'Краткое описание ИТ-решения',
         id: "description",
-        size: 300,
+        size: 400,
         enableSorting: false,
         cell: (props) => <p>{
             props.getValue().description
@@ -127,6 +143,7 @@ const columnsData = [
     {
         accessorKey: 'technoParkInfo',
         header: 'Обратная связь со стороны Технопарка',
+        size: 400,
         id: "feedback",
         cell: (props) => <p>{
             props.getValue().feedback
@@ -135,6 +152,7 @@ const columnsData = [
     {
         accessorKey: 'comment',
         header: 'Комментарии',
+        size: 400,
         enableSorting: false,
         cell: (props) => <p>{
             props.getValue().comment

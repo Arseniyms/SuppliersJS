@@ -2,7 +2,7 @@
 import React, {useMemo} from "react";
 import {getCoreRowModel, useReactTable, flexRender, getFilteredRowModel, getSortedRowModel} from '@tanstack/react-table'
 import "./Table.css"
-import sortImage from "./sort.svg"
+import sortImage from "../Resources/sort.svg"
 import mDataJSON from './mdata.json'
 import columnsData from "./Columns";
 
@@ -23,7 +23,8 @@ const Table = ({ columnFilters }) => {
         getCoreRowModel: getCoreRowModel(),
         getFilteredRowModel: getFilteredRowModel(),
         getSortedRowModel: getSortedRowModel(),
-        columnResizeMode: "onChange"
+        columnResizeMode: "onChange",
+        getColumnCanGlobalFilter: () => true
     });
 
     return (
@@ -32,36 +33,36 @@ const Table = ({ columnFilters }) => {
                 {
                     table.getHeaderGroups().map((headerGroup, index) => (
                         <thead key={index}>
-                            <tr key={headerGroup.id}>{headerGroup.headers.map(header => (
-                                <th width={header.getSize()} key={header.id}>
-                                    <div className="header-sorting">
+                        <tr key={headerGroup.id}>{headerGroup.headers.map(header => (
+                            <th width={header.getSize()} key={header.id}>
+                                <div className="header-sorting">
                                         <span className="header-sorting-text">
                                             {header.column.columnDef.header}
                                         </span>
-                                        <div>
-                                           {header.column.getCanSort() && (
-                                               <button onClick={ header.column.getToggleSortingHandler() }>
-                                                   <img src={sortImage} alt=""/>
-                                               </button>
-                                           )}
-                                        </div>
+                                    <div>
+                                        {header.column.getCanSort() && (
+                                            <button onClick={header.column.getToggleSortingHandler()}>
+                                                <img src={sortImage} alt=""/>
+                                            </button>
+                                        )}
                                     </div>
-                                    <div
-                                        onMouseDown={
-                                            header.getResizeHandler()
-                                        }
-                                        onTouchStart={
-                                            header.getResizeHandler()
-                                        }
-                                        className={
-                                            `resizer ${
-                                                header.column.getIsResizing() ? 'isResizing' : ''
-                                            }`
-                                        }
-                                    />
-                                </th>
-                            ))}
-                            </tr>
+                                </div>
+                                <div
+                                    onMouseDown={
+                                        header.getResizeHandler()
+                                    }
+                                    onTouchStart={
+                                        header.getResizeHandler()
+                                    }
+                                    className={
+                                        `resizer ${
+                                            header.column.getIsResizing() ? 'isResizing' : ''
+                                        }`
+                                    }
+                                />
+                            </th>
+                        ))}
+                        </tr>
                         </thead>
                     ))
                 }
@@ -87,5 +88,6 @@ const Table = ({ columnFilters }) => {
         </div>
     );
 }
+
 
 export default Table;

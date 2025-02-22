@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import "./SearchBar.css"
-import searchImage from "./search.svg"
+import searchImage from "../Resources/search.svg"
 
 const SearchBar = (props) => {
     const [inputValue, setInputValue] = useState('');
