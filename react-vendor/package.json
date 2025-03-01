@@ -2,6 +2,8 @@
   "name": "react-vendor",
   "version": "0.1.0",
   "private": true,
+  "homepage": ".",
+  "main": "./src/main.js",
   "dependencies": {
     "@tanstack/react-table": "^8.21.2",
     "@testing-library/jest-dom": "^5.17.0",
@@ -18,7 +20,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "electron": "electron .",
+    "package": "electron-packager . --out=Packaged"
   },
   "eslintConfig": {
     "extends": [
@@ -39,6 +43,8 @@
     ]
   },
   "devDependencies": {
-    "@testing-library/react": "^16.2.0"
+    "@testing-library/react": "^16.2.0",
+    "electron": "^34.3.0",
+    "electron-packager": "^17.1.2"
   }
 }
