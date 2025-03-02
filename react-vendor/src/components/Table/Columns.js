@@ -9,11 +9,11 @@ const columnsData = [
         isDefaultToExport: true,
     },
     {
-        accessorKey: 'type',
+        accessorKey: 'companyType',
         enableSorting: false,
         size: 100,
         header: 'Агрегатор/Вендор',
-        cell: (props) => <p>{props.getValue().type}</p>,
+        cell: (props) => <p>{props.getValue()}</p>,
         isDefaultToExport: true
     },
     {
@@ -31,42 +31,23 @@ const columnsData = [
         isDefaultToExport: true
     },
     {
-        accessorKey: 'contacts',
+        accessorKey: 'people',
         header: 'ФИО',
-        id: "fio",
-        cell: (props) => <p>
-            {
-                props.getValue().map(item => (item.name)).join("\n")
-            }
-        </p>,
+        cell: (props) => <p>{props.getValue()}</p>,
         isDefaultToExport: true
     },
     {
-        accessorKey: 'contacts',
+        accessorKey: 'phones',
         header: 'Телефоны',
-        id: "phone",
         enableSorting: false,
-        cell: (props) => <p>
-            {
-                props.getValue().map(
-                    item => (item.phones.map(
-                        (item) => (item.number)
-                    )).join("\n")
-                ).join("\n")
-            }
-        </p>,
+        cell: (props) => <p>{props.getValue()}</p>,
         isDefaultToExport: true
     },
     {
-        accessorKey: 'contacts',
+        accessorKey: 'emails',
         header: 'Эл. Почта',
-        id: "email",
         enableSorting: false,
-        cell: (props) => <p>
-            {
-                props.getValue().map(item => (item.email)).join("\n")
-            }
-        </p>,
+        cell: (props) => <p>{props.getValue()}</p>,
         isDefaultToExport: true
     },
     {
@@ -77,86 +58,68 @@ const columnsData = [
         isDefaultToExport: true
     },
     {
-        accessorKey: 'itEquipmentInfo',
+        accessorKey: 'ITEquipment',
         header: 'Тип ИТ оборудования',
-        id: "ITtype",
         cell: (props) => <p>{
-            props.getValue().type
+            props.getValue()
         }</p>,
         isDefaultToExport: true
     },
     {
-        accessorKey: 'itEquipmentInfo',
+        accessorKey: 'softwareName',
         header: 'Наименование ПО',
-        id: "poName",
         cell: (props) => <p>{
-            props.getValue().name
+            props.getValue()
         }</p>,
         isDefaultToExport: true
     },
     {
-        accessorKey: 'itEquipmentInfo',
+        accessorKey: 'isMinPromTorg',
         header: 'Наличие в реестре Минпромторга',
         enableSorting: false,
-        id: "minpromtorg",
         cell: (props) => <p>{
-            props.getValue().isMinPromTorg ? "Да" : "Нет"
+            props.getValue() ? "Да" : "Нет"
         }</p>,
         isDefaultToExport: true
     },
     {
-        accessorKey: 'itEquipmentInfo',
+        accessorKey: 'isMincifr',
         header: 'Наличие в реестре Минцифор',
-        id: "mincifr",
         enableSorting: false,
         cell: (props) => <p>{
-            props.getValue().isMinCifri ? "Да" : "Нет"
+            props.getValue() ? "Да" : "Нет"
         }</p>,
         isDefaultToExport: true
     },
     {
-        accessorKey: 'itEquipmentInfo',
+        accessorKey: 'description',
         header: 'Краткое описание ИТ-решения',
-        id: "description",
         size: 400,
         enableSorting: false,
-        cell: (props) => <p>{
-            props.getValue().description
-        }</p>,
+        cell: (props) => <p>{props.getValue()}</p>
     },
     {
-        accessorKey: 'itEquipmentInfo',
+        accessorKey: 'status',
         header: 'Статус',
-        id: "status",
-        cell: (props) => <p>{
-            props.getValue().status
-        }</p>,
+        cell: (props) => <p>{props.getValue()}</p>
     },
     {
-        accessorKey: 'technoParkInfo',
+        accessorKey: 'approbation',
         header: 'Апробация в Технопарке',
-        id: "approbation",
-        cell: (props) => <p>{
-            props.getValue().approbationStatus
-        }</p>,
+        cell: (props) => <p>{props.getValue()}</p>,
     },
     {
-        accessorKey: 'technoParkInfo',
+        accessorKey: 'feedback',
         header: 'Обратная связь со стороны Технопарка',
         size: 400,
-        id: "feedback",
-        cell: (props) => <p>{
-            props.getValue().feedback
-        }</p>,
+        cell: (props) => <p>{props.getValue()}</p>,
     },
     {
-        accessorKey: 'comment',
+        accessorKey: 'comments',
         header: 'Комментарии',
         size: 400,
         enableSorting: false,
-        cell: (props) => <p>{
-            props.getValue().comment
-        }</p>,
+        cell: (props) => <p>{props.getValue()}</p>,
     }
 ]
 

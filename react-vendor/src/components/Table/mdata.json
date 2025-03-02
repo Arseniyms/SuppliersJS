@@ -1,1077 +1,2002 @@
 [
   {
-    "id": "a1d030c0-844a-4984-a5b5-0c11c8914115",
-    "companyName": "Гамма",
-    "type": {
-      "id": 1,
-      "type": "Вендор"
-    },
-    "inn": 257478921,
-    "website": "http://ft.com/erat/fermentum.xml",
-    "address": "переулок Солнечный",
-    "contacts": [
-      {
-        "id": "0845c918-76a5-43b4-9ed9-6da096b223be",
-        "name": "Оксана Белова",
-        "email": "ccescoti0@unc.edu",
-        "phones": [
-          {
-            "id": "30a842ca-5ef9-40ed-aedc-dbeca3e282c8",
-            "number": "+57 (758) 626-5917"
-          }
-        ]
-      },
-      {
-        "id": "0845c918-76a5-43b4-9ed9-123123123",
-        "name": "Оксана",
-        "email": "ccescoti0@unc.edu1",
-        "phones": [
-          {
-            "id": "30a842ca-5ef9-40ed-aedc-zxczxczxc",
-            "number": "+asdasdas"
-          }
-        ]
-      }
-    ],
-    "comment": "Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.  Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.",
-    "itEquipmentInfo": {
-      "id": "d4119986-e5da-4c33-b7a6-118707695d0d",
-      "type": "сервер",
-      "name": "коммутатор",
-      "isMinPromTorg": true,
-      "isMinCifri": false,
-      "description": "Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.  Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.",
-      "status": null
-    },
-    "technoParkInfo": {
-      "id": "4385b348-80d8-446b-93b7-5ba56d501b2c",
-      "approbationStatus": "Ожидание",
-      "feedback": "Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus."
-    }
+    "extId": "bf642021-052a-4004-9768-d5ed9fa75f72",
+    "companyName": "Quimba",
+    "companyType": "Вендор",
+    "inn": "4066689485",
+    "website": "https://storify.com/amet/lobortis.aspx",
+    "people": "Tobey Lyon",
+    "phones": "396-662-0628",
+    "emails": "tlyon0@cdbaby.com",
+    "address": "162 Golf Park",
+    "ITEquipment": "webcam",
+    "softwareName": "InnovateX",
+    "isMinPromTorg": true,
+    "isMincifr": true,
+    "description": "Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.\n\nCras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.\n\nProin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.",
+    "status": "отменен",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
   },
   {
-    "id": "b216d4c7-231a-4619-9722-387b77f7cfa6",
-    "companyName": "Альфа",
-    "type": {
-      "id": 1,
-      "type": "Агрегатор"
-    },
-    "inn": 6456302392,
-    "website": "http://hatena.ne.jp/sapien/ut/nunc/vestibulum/ante.aspx",
-    "address": "улица Ленина",
-    "contacts": [
-      {
-        "id": "8e6a4068-9de8-4f4c-9984-f8966bbcab0b",
-        "name": "Алексей Новиков",
-        "email": "hpedrozzi0@xing.com",
-        "phones": [
-          {
-            "id": "26aab06e-6982-4dba-90d7-5f77e23ffd99",
-            "number": "+962 (873) 627-0514"
-          },
-          {
-            "id": "413c3db3-479c-492d-a476-55cc4deacfc4",
-            "number": "+92 (147) 448-0601"
-          },
-          {
-            "id": "2f9db6bd-b6b3-40c3-8210-3d48f7c731aa",
-            "number": "+1 (304) 580-3539"
-          }
-        ]
-      }
-    ],
-    "comment": "Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
-    "itEquipmentInfo": {
-      "id": "99765d82-bec3-4cf4-b6aa-931444461408",
-      "type": "коммутатор",
-      "name": "сервер",
-      "isMinPromTorg": false,
-      "isMinCifri": false,
-      "description": "Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.",
-      "status": null
-    },
-    "technoParkInfo": {
-      "id": "b62e9354-80e6-449b-b3e8-2d6be6dc4fc8",
-      "approbationStatus": "Отказ",
-      "feedback": "Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem."
-    }
+    "extId": "43208336-687a-41b2-91a6-664ec38d4441",
+    "companyName": "Layo",
+    "companyType": "Вендор",
+    "inn": "4243294003",
+    "website": "https://sakura.ne.jp/venenatis.js",
+    "people": "Barton De Bruijne",
+    "phones": "364-120-6989",
+    "emails": "bde1@delicious.com",
+    "address": "714 Declaration Drive",
+    "ITEquipment": "laptop",
+    "softwareName": "InnovateX",
+    "isMinPromTorg": false,
+    "isMincifr": false,
+    "description": "Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.\n\nSed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.\n\nPellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.",
+    "status": "в планах",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
   },
   {
-    "id": "f6554a5d-6a62-434d-96c2-c768f498941c",
-    "companyName": "Дельта",
-    "type": {
-      "id": 1,
-      "type": "Агрегатор"
-    },
-    "inn": 4790983432,
-    "website": "https://pcworld.com/blandit/lacinia/erat.xml",
-    "address": "улица Ленина",
-    "contacts": [
-      {
-        "id": "189149e4-fa2a-4266-ba17-aa695ebf665c",
-        "name": "Анна Павлова",
-        "email": "dlivesay0@mac.com",
-        "phones": [
-          {
-            "id": "b1b8997d-d713-406b-8181-2703b314b601",
-            "number": "+98 (549) 985-7816"
-          },
-          {
-            "id": "2120ea5b-8cac-4af6-babf-e907fca6f22b",
-            "number": "+55 (136) 574-5354"
-          },
-          {
-            "id": "96d8c843-3f5d-4c06-a48e-0d4bd58d112b",
-            "number": "+7 (952) 996-4972"
-          }
-        ]
-      },
-      {
-        "id": "a8ef72aa-1f0e-4fe5-9e03-9ded590e997c",
-        "name": "Ольга Васильева",
-        "email": "icotton1@vk.com",
-        "phones": [
-          {
-            "id": "b82ad148-9aa9-4108-911e-36a28caf1b29",
-            "number": "+1 (469) 248-1490"
-          }
-        ]
-      }
-    ],
-    "comment": "Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.",
-    "itEquipmentInfo": {
-      "id": "b30f3444-c24e-49be-b4df-45e11093d2b7",
-      "type": "маршрутизатор",
-      "name": "ноутбук",
-      "isMinPromTorg": true,
-      "isMinCifri": false,
-      "description": "In congue. Etiam justo. Etiam pretium iaculis justo.",
-      "status": null
-    },
-    "technoParkInfo": {
-      "id": "3fed7c48-6f53-4a76-ad3b-cf04c37deec4",
-      "approbationStatus": "Ожидание",
-      "feedback": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
-    }
+    "extId": "57a1cc02-dc75-4c69-b8e6-66bb82e60e5f",
+    "companyName": "Aibox",
+    "companyType": "Агрегатор",
+    "inn": "6108554835",
+    "website": "https://nydailynews.com/vel.aspx",
+    "people": "Anneliese Elves",
+    "phones": "292-903-5594",
+    "emails": "aelves2@google.de",
+    "address": "5 Tomscot Avenue",
+    "ITEquipment": "webcam",
+    "softwareName": "ByteForge",
+    "isMinPromTorg": true,
+    "isMincifr": false,
+    "description": "Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.\n\nCum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+    "status": "выполнен",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
   },
   {
-    "id": "39b5cda9-a783-42bc-8c74-24ec9b39d196",
-    "companyName": "Бета",
-    "type": {
-      "id": 1,
-      "type": "Вендор"
-    },
-    "inn": 9140578373,
-    "website": "http://howstuffworks.com/leo/odio/condimentum/id/luctus.xml",
-    "address": "площадь Революции",
-    "contacts": [
-      {
-        "id": "9d67fd23-ed0f-4905-9270-f5c07996d6b7",
-        "name": "Мария Лебедева",
-        "email": "pbrandi0@e-recht24.de",
-        "phones": [
-          {
-            "id": "c2240ada-a68b-4004-a1b6-009ce54aaae8",
-            "number": "+86 (592) 972-5553"
-          },
-          {
-            "id": "1eede19b-1595-4e0e-9e71-106714848edd",
-            "number": "+48 (351) 850-9469"
-          },
-          {
-            "id": "6cbd5213-55e0-4aed-adac-abc1df2eeac7",
-            "number": "+86 (436) 138-7536"
-          }
-        ]
-      }
-    ],
-    "comment": "Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.  Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.  Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
-    "itEquipmentInfo": {
-      "id": "0d2aea60-3f00-44ac-8670-6f7508c513a7",
-      "type": "сервер",
-      "name": "планшет",
-      "isMinPromTorg": false,
-      "isMinCifri": false,
-      "description": "Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.  Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.",
-      "status": null
-    },
-    "technoParkInfo": {
-      "id": "a66b04e6-8df0-4e30-80fc-cc0bd55b060b",
-      "approbationStatus": "Отказ",
-      "feedback": "Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.  Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem."
-    }
+    "extId": "f77efa9a-9f8e-41ed-a175-347355de5e84",
+    "companyName": "Jabbertype",
+    "companyType": "Вендор",
+    "inn": "7267938795",
+    "website": "http://skype.com/iaculis/congue/vivamus.json",
+    "people": "Felic Wixey",
+    "phones": "982-485-8331",
+    "emails": "fwixey3@liveinternet.ru",
+    "address": "074 Corben Avenue",
+    "ITEquipment": "tablet",
+    "softwareName": "TechMaster Pro",
+    "isMinPromTorg": false,
+    "isMincifr": true,
+    "description": "Fusce consequat. Nulla nisl. Nunc nisl.\n\nDuis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.\n\nIn hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.",
+    "status": "ожидание подтверждения",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
   },
   {
-    "id": "ff9141d7-1edc-4677-91bb-32ea5a25db8d",
-    "companyName": "Эпсилон",
-    "type": {
-      "id": 1,
-      "type": "Вендор"
-    },
-    "inn": 6090824965,
-    "website": "http://senate.gov/turpis/integer/aliquet/massa.js",
-    "address": "проспект Победы",
-    "contacts": [
-      {
-        "id": "d4555cc7-02ef-4213-92d5-d502ec32f8c6",
-        "name": "Роман Иванов",
-        "email": "sbloomer0@mashable.com",
-        "phones": [
-          {
-            "id": "5eb746d8-648b-4dd9-863e-8188e38bd78e",
-            "number": "+244 (178) 469-7149"
-          },
-          {
-            "id": "0814e825-e173-4e02-955d-7beaa79904f2",
-            "number": "+33 (316) 866-7064"
-          },
-          {
-            "id": "a0ef254b-bd06-4e71-8f70-9d0bde8069df",
-            "number": "+880 (462) 524-4094"
-          }
-        ]
-      },
-      {
-        "id": "3a8ce374-2407-429b-b5be-426fb033489b",
-        "name": "Роман Петров",
-        "email": "hcourtin1@shutterfly.com",
-        "phones": [
-          {
-            "id": "237e8a06-5b72-4288-9a73-759a5c934102",
-            "number": "+52 (402) 136-1977"
-          },
-          {
-            "id": "9d0034b7-2cf5-4102-a2b8-f67ced7c7e7c",
-            "number": "+351 (667) 893-9705"
-          }
-        ]
-      }
-    ],
-    "comment": "Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.  Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.",
-    "itEquipmentInfo": {
-      "id": "8d386e73-93c4-41c0-9202-7a929f3d99e7",
-      "type": "ноутбук",
-      "name": "планшет",
-      "isMinPromTorg": false,
-      "isMinCifri": true,
-      "description": "Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.",
-      "status": null
-    },
-    "technoParkInfo": {
-      "id": "d9bcbb71-fd3b-4f54-83e1-c0b9c8e8a8b1",
-      "approbationStatus": "Отказ",
-      "feedback": "Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.  Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.  Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem."
-    }
+    "extId": "7d8e0ba9-d151-42cc-a8a9-51a122aa7f6f",
+    "companyName": "Thoughtsphere",
+    "companyType": "Агрегатор",
+    "inn": "6479897153",
+    "website": "https://chicagotribune.com/sociis/natoque/penatibus.jsp",
+    "people": "Farlie Mantrip",
+    "phones": "709-305-2764",
+    "emails": "fmantrip4@oakley.com",
+    "address": "60 Summit Way",
+    "ITEquipment": "monitor",
+    "softwareName": "DataWizard",
+    "isMinPromTorg": true,
+    "isMincifr": false,
+    "description": "Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.\n\nMaecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.\n\nNullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.",
+    "status": "отменен",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
   },
   {
-    "id": "377a265f-9a56-4eaa-a56c-f0d699c51d23",
-    "companyName": "Бета",
-    "type": {
-      "id": 1,
-      "type": "Вендор"
-    },
-    "inn": 1127568464,
-    "website": "http://google.co.uk/curae/donec/pharetra/magna/vestibulum.js",
-    "address": "проспект Победы",
-    "contacts": [
-      {
-        "id": "333349a6-6627-4670-be10-245e3500ebc5",
-        "name": "Евгения Новикова",
-        "email": "bheskey0@nasa.gov",
-        "phones": [
-          {
-            "id": "25b68609-cc81-4c8a-8573-435c638e8583",
-            "number": "+7 (559) 187-8917"
-          },
-          {
-            "id": "9b9a64e7-816f-44af-96e1-b3eddbc4b4dc",
-            "number": "+86 (513) 640-7882"
-          }
-        ]
-      }
-    ],
-    "comment": "In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.  Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.  Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.",
-    "itEquipmentInfo": {
-      "id": "d667086d-9f0a-4b81-a50a-60e50d8af47d",
-      "type": "планшет",
-      "name": "коммутатор",
-      "isMinPromTorg": true,
-      "isMinCifri": false,
-      "description": "Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.  Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.",
-      "status": null
-    },
-    "technoParkInfo": {
-      "id": "74fe190f-3dca-48a6-b393-c5fa8155c232",
-      "approbationStatus": "Принято",
-      "feedback": "Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.  Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.  Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus."
-    }
+    "extId": "fc4f05e4-5b37-408c-bd0e-5e47f6d25b3e",
+    "companyName": "Fatz",
+    "companyType": "Агрегатор",
+    "inn": "9124260908",
+    "website": "https://amazon.co.uk/quam/turpis.png",
+    "people": "Aliza Mildenhall",
+    "phones": "998-621-0937",
+    "emails": "amildenhall5@people.com.cn",
+    "address": "0 Summer Ridge Junction",
+    "ITEquipment": "headset",
+    "softwareName": "ByteForge",
+    "isMinPromTorg": false,
+    "isMincifr": true,
+    "description": "Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.\n\nIn quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.\n\nMaecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.",
+    "status": "приостановлен",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
   },
   {
-    "id": "f1610323-fca4-45bf-8223-232a293b1652",
-    "companyName": "Бета",
-    "type": {
-      "id": 1,
-      "type": "Вендор"
-    },
-    "inn": 6222170997,
-    "website": "https://constantcontact.com/dolor/morbi/vel.jpg",
-    "address": "переулок Солнечный",
-    "contacts": [
-      {
-        "id": "0d5c87aa-d253-4682-9155-a1c7309c3815",
-        "name": "Иван Козлов",
-        "email": "bpallas0@disqus.com",
-        "phones": [
-          {
-            "id": "ab2c6425-88f6-4717-9276-85e7cd40beea",
-            "number": "+86 (941) 236-3828"
-          }
-        ]
-      },
-      {
-        "id": "4bda07c2-c18e-4e77-a14a-82f14c2f8081",
-        "name": "Константин Новиков",
-        "email": "smaytum1@hubpages.com",
-        "phones": [
-          {
-            "id": "92bb24e8-5c6a-40b5-9fa5-31cdde967ef1",
-            "number": "+48 (347) 902-6726"
-          },
-          {
-            "id": "d4125416-f3db-4af0-a8a8-4dfa4fdf2ef1",
-            "number": "+62 (267) 659-8966"
-          }
-        ]
-      },
-      {
-        "id": "91ce9814-acf1-4957-8235-72170c2c5cfe",
-        "name": "Ольга Алексеева",
-        "email": "nnelane2@wisc.edu",
-        "phones": [
-          {
-            "id": "7fe69eca-ce4f-4540-a07a-7deee754b14c",
-            "number": "+880 (200) 812-2242"
-          },
-          {
-            "id": "f9acf8cc-f875-4def-844e-4e3d90991932",
-            "number": "+62 (432) 508-7026"
-          }
-        ]
-      }
-    ],
-    "comment": "Sed ante. Vivamus tortor. Duis mattis egestas metus.  Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.  Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.",
-    "itEquipmentInfo": {
-      "id": "84237b1e-edf9-45d3-9e54-503421f2a5ea",
-      "type": "коммутатор",
-      "name": "ноутбук",
-      "isMinPromTorg": false,
-      "isMinCifri": false,
-      "description": "Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.",
-      "status": null
-    },
-    "technoParkInfo": {
-      "id": "dc8c2b21-02d7-47d5-873e-4d58a7801f19",
-      "approbationStatus": "Ожидание",
-      "feedback": "Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat."
-    }
+    "extId": "b6abb857-7b26-48a8-a003-1b407057d6be",
+    "companyName": "Oyondu",
+    "companyType": "Вендор",
+    "inn": "0143656708",
+    "website": "https://github.com/placerat.jpg",
+    "people": "Jonathan Finey",
+    "phones": "776-152-2105",
+    "emails": "jfiney6@jigsy.com",
+    "address": "1196 Lien Parkway",
+    "ITEquipment": "keyboard",
+    "softwareName": "TechMaster Pro",
+    "isMinPromTorg": true,
+    "isMincifr": false,
+    "description": "Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.\n\nProin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.\n\nAenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.",
+    "status": "в процессе",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
   },
   {
-    "id": "9fcd1cc5-db16-404e-89fd-6ae7a2674202",
-    "companyName": "Альфа",
-    "type": {
-      "id": 1,
-      "type": "Агрегатор"
-    },
-    "inn": 7873873272,
-    "website": "http://ocn.ne.jp/nisl/venenatis/lacinia/aenean.aspx",
-    "address": "проспект Победы",
-    "contacts": [
-      {
-        "id": "c1342897-a292-4c31-a8be-d3d9f4f9f2db",
-        "name": "Павел Егоров",
-        "email": "ymelbourn0@posterous.com",
-        "phones": [
-          {
-            "id": "9208547b-18c5-4d02-9b02-db118cadcad0",
-            "number": "+47 (301) 488-1121"
-          }
-        ]
-      },
-      {
-        "id": "8e1bc0a0-779d-4ae8-9c6d-77ec12cfd56c",
-        "name": "Людмила Кузнецова",
-        "email": "hrediers1@friendfeed.com",
-        "phones": [
-          {
-            "id": "64af2fd6-31e6-4444-920c-943c36cf751f",
-            "number": "+63 (622) 356-8325"
-          }
-        ]
-      }
-    ],
-    "comment": "Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.  Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.  Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.",
-    "itEquipmentInfo": {
-      "id": "ee6bcbf0-a08c-4f7b-9cc4-7755ffffa58d",
-      "type": "сервер",
-      "name": "ноутбук",
-      "isMinPromTorg": false,
-      "isMinCifri": false,
-      "description": "Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.  Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.",
-      "status": null
-    },
-    "technoParkInfo": {
-      "id": "d9b67d51-05fa-4b62-8c06-6daa4efb2226",
-      "approbationStatus": "Принято",
-      "feedback": "Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.  Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.  Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh."
-    }
+    "extId": "9e698b4b-e508-4726-9619-c642b2839fc8",
+    "companyName": "Dabshots",
+    "companyType": "Агрегатор",
+    "inn": "9280921878",
+    "website": "http://ucoz.com/parturient/montes/nascetur/ridiculus/mus/vivamus/vestibulum.xml",
+    "people": "Lilith Flemyng",
+    "phones": "824-209-0078",
+    "emails": "lflemyng7@prnewswire.com",
+    "address": "9280 Crowley Crossing",
+    "ITEquipment": "laptop",
+    "softwareName": "CyberNinja",
+    "isMinPromTorg": false,
+    "isMincifr": false,
+    "description": "Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.",
+    "status": "активный",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
   },
   {
-    "id": "17b1065f-6ad8-4355-8da2-f4f8788b4b4c",
-    "companyName": "Дельта",
-    "type": {
-      "id": 1,
-      "type": "Агрегатор"
-    },
-    "inn": 5191047144,
-    "website": "http://t.co/ut/blandit.js",
-    "address": "переулок Солнечный",
-    "contacts": [
-      {
-        "id": "1e89b273-6dd2-4ffb-a8ba-f3a31d9bd774",
-        "name": "Константин Петров",
-        "email": "ehryniewicki0@hp.com",
-        "phones": [
-          {
-            "id": "b61bf489-b402-4e7d-8a37-46c73010e8dc",
-            "number": "+86 (416) 951-2142"
-          }
-        ]
-      },
-      {
-        "id": "2a6e4e2b-26bf-4c8a-a9ea-7830a3e435c2",
-        "name": "Татьяна Иванова",
-        "email": "mbaglan1@ezinearticles.com",
-        "phones": [
-          {
-            "id": "f4fffebe-6c72-4679-9ad6-7af25ff3cb0b",
-            "number": "+84 (999) 874-4325"
-          },
-          {
-            "id": "c24fb507-33e6-4acf-b2d6-b9d2feaa402d",
-            "number": "+234 (595) 635-8311"
-          }
-        ]
-      }
-    ],
-    "comment": "Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.  Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.",
-    "itEquipmentInfo": {
-      "id": "42e92a85-0621-403c-ae9b-eddeb27fef7d",
-      "type": "сервер",
-      "name": "сервер",
-      "isMinPromTorg": true,
-      "isMinCifri": true,
-      "description": "In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.  Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.",
-      "status": null
-    },
-    "technoParkInfo": {
-      "id": "4a9c7974-a799-49bf-968d-d727fe1e7030",
-      "approbationStatus": "Отказ",
-      "feedback": "Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum."
-    }
+    "extId": "0aeafe2e-c76d-4c5a-a222-717700089108",
+    "companyName": "Nlounge",
+    "companyType": "Агрегатор",
+    "inn": "5334686754",
+    "website": "http://squidoo.com/turpis/eget/elit/sodales/scelerisque.js",
+    "people": "Rudie Brydson",
+    "phones": "881-178-9751",
+    "emails": "rbrydson8@ed.gov",
+    "address": "0 Corben Alley",
+    "ITEquipment": "external hard drive",
+    "softwareName": "LogicPulse",
+    "isMinPromTorg": true,
+    "isMincifr": false,
+    "description": "Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.\n\nCurabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.\n\nInteger tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.",
+    "status": "отменен",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
   },
   {
-    "id": "24870b1f-74e1-4824-b2dc-27c4a33d7df9",
-    "companyName": "Эпсилон",
-    "type": {
-      "id": 1,
-      "type": "Агрегатор"
-    },
-    "inn": 7972096437,
-    "website": "http://oakley.com/suscipit/ligula/in/lacus.html",
-    "address": "улица Ленина",
-    "contacts": [
-      {
-        "id": "f6ccd60c-dd62-4099-8491-f28c7c5d5a79",
-        "name": "Константин Новиков",
-        "email": "bmcguiness0@meetup.com",
-        "phones": [
-          {
-            "id": "64680720-19db-40ee-a37a-bbd4134ef83a",
-            "number": "+351 (110) 579-2795"
-          }
-        ]
-      },
-      {
-        "id": "95ab4cc6-4934-4e05-a59b-019806a4f546",
-        "name": "Сергей Козлов",
-        "email": "kphette1@tamu.edu",
-        "phones": [
-          {
-            "id": "ce7def2d-225c-4f39-9350-d0bf79b9017f",
-            "number": "+55 (848) 459-3463"
-          },
-          {
-            "id": "443d64e1-3947-450d-955f-b0c38bcce53b",
-            "number": "+598 (505) 145-8718"
-          }
-        ]
-      }
-    ],
-    "comment": "Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.",
-    "itEquipmentInfo": {
-      "id": "fc0d1c21-5c34-4bfe-9f0c-2143b5a40e37",
-      "type": "ноутбук",
-      "name": "сервер",
-      "isMinPromTorg": true,
-      "isMinCifri": false,
-      "description": "Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.",
-      "status": null
-    },
-    "technoParkInfo": {
-      "id": "7ae7c260-1775-45c4-a202-3c15d78c4a35",
-      "approbationStatus": "Принято",
-      "feedback": "In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus."
-    }
+    "extId": "0e3947b9-3ed7-4885-8d43-67fe96416361",
+    "companyName": "Snaptags",
+    "companyType": "Агрегатор",
+    "inn": "9354046819",
+    "website": "http://com.com/molestie/lorem/quisque/ut/erat/curabitur/gravida.jsp",
+    "people": "Aubrette Pulman",
+    "phones": "423-660-0996",
+    "emails": "apulman9@youtube.com",
+    "address": "79 Meadow Valley Center",
+    "ITEquipment": "monitor",
+    "softwareName": "LogicPulse",
+    "isMinPromTorg": true,
+    "isMincifr": true,
+    "description": "Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.",
+    "status": "активный",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
   },
   {
-    "id": "ad9cc5fb-a8f7-4615-ae07-f3f189d7a64d",
-    "companyName": "Эпсилон",
-    "type": {
-      "id": 1,
-      "type": "Агрегатор"
-    },
-    "inn": 3497857968,
-    "website": "http://state.tx.us/platea/dictumst/morbi.xml",
-    "address": "улица Ленина",
-    "contacts": [
-      {
-        "id": "f2d67db9-2d76-4ed7-a2cd-876cfedd356e",
-        "name": "Антон Петров",
-        "email": "ldumbleton0@deviantart.com",
-        "phones": [
-          {
-            "id": "0c8a6920-6f11-4888-b337-063d3613e3a5",
-            "number": "+62 (261) 303-7480"
-          }
-        ]
-      },
-      {
-        "id": "72c91730-2567-413a-83b1-f07f79f6606e",
-        "name": "Антон Соколов",
-        "email": "bscarsbrook1@altervista.org",
-        "phones": [
-          {
-            "id": "89688fc6-a9e5-4c84-b5b8-7ad28869ed01",
-            "number": "+63 (816) 314-5588"
-          },
-          {
-            "id": "8a586a81-9e8d-4c36-b379-ef0059ca0728",
-            "number": "+66 (906) 993-8567"
-          },
-          {
-            "id": "5c65dce0-1e77-4d64-a43c-b234b0997690",
-            "number": "+86 (593) 984-5681"
-          }
-        ]
-      },
-      {
-        "id": "c873cab4-0fa8-4289-86ce-0377c6881632",
-        "name": "Анна Семенова",
-        "email": "fsparshatt2@ezinearticles.com",
-        "phones": [
-          {
-            "id": "6e546d40-4c67-4daf-963b-563c4a15bd64",
-            "number": "+507 (992) 333-9759"
-          },
-          {
-            "id": "bbece9d5-fa0a-4cf8-b0a2-dcc7c25d1241",
-            "number": "+7 (241) 115-8810"
-          }
-        ]
-      }
-    ],
-    "comment": "Sed ante. Vivamus tortor. Duis mattis egestas metus.  Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.",
-    "itEquipmentInfo": {
-      "id": "5727636d-a0f2-4122-b7e5-49c8dd709187",
-      "type": "ноутбук",
-      "name": "ноутбук",
-      "isMinPromTorg": false,
-      "isMinCifri": true,
-      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.  Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.",
-      "status": null
-    },
-    "technoParkInfo": {
-      "id": "aebc26e5-d0c0-41e1-8f0a-8a6e243ee830",
-      "approbationStatus": "Отказ",
-      "feedback": "Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.  Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.  Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem."
-    }
+    "extId": "22d073c2-670b-4500-9a2e-b3a8d1957a9b",
+    "companyName": "Skyba",
+    "companyType": "Вендор",
+    "inn": "4114630236",
+    "website": "http://themeforest.net/integer/non/velit/donec/diam/neque.jsp",
+    "people": "Gus McGinn",
+    "phones": "470-593-8611",
+    "emails": "gmcginna@pen.io",
+    "address": "9 Victoria Circle",
+    "ITEquipment": "router",
+    "softwareName": "DigitalDreams",
+    "isMinPromTorg": true,
+    "isMincifr": true,
+    "description": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.\n\nEtiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.",
+    "status": "в архиве",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
   },
   {
-    "id": "d21ec514-a46e-44e1-a816-9f981c2a7152",
-    "companyName": "Альфа",
-    "type": {
-      "id": 1,
-      "type": "Агрегатор"
-    },
-    "inn": 9204172785,
-    "website": "https://addthis.com/amet/cursus/id/turpis/integer.js",
-    "address": "улица Гагарина",
-    "contacts": [
-      {
-        "id": "20c08e89-8caa-4033-a7f6-c90561e61dfb",
-        "name": "Мария Козлова",
-        "email": "mowenson0@friendfeed.com",
-        "phones": [
-          {
-            "id": "f9ae9a7c-e070-409b-b45a-da1368829253",
-            "number": "+358 (614) 326-1432"
-          },
-          {
-            "id": "796fe975-8fae-4811-924f-3610bdc7bc95",
-            "number": "+675 (411) 274-6460"
-          },
-          {
-            "id": "d1b28059-54b9-4e1d-a6cd-1c455d8ed0e2",
-            "number": "+234 (180) 112-1175"
-          }
-        ]
-      }
-    ],
-    "comment": "Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.  Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.  Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
-    "itEquipmentInfo": {
-      "id": "ffab0b85-d0fe-4ea5-ae49-b21317bfe0a3",
-      "type": "коммутатор",
-      "name": "ноутбук",
-      "isMinPromTorg": true,
-      "isMinCifri": false,
-      "description": "Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.  Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.",
-      "status": null
-    },
-    "technoParkInfo": {
-      "id": "7b712794-9794-4a68-a419-f962b2afb755",
-      "approbationStatus": "Принято",
-      "feedback": "In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.  Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis."
-    }
+    "extId": "4f74135d-dc7e-4830-8ac9-2d32d61737e8",
+    "companyName": "Voomm",
+    "companyType": "Вендор",
+    "inn": "9274408064",
+    "website": "https://patch.com/at/feugiat.png",
+    "people": "Jerry Bolden",
+    "phones": "276-448-7480",
+    "emails": "jboldenb@chronoengine.com",
+    "address": "50136 Delladonna Drive",
+    "ITEquipment": "headset",
+    "softwareName": "PixelCraft",
+    "isMinPromTorg": true,
+    "isMincifr": true,
+    "description": "Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.\n\nFusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.",
+    "status": "отменен",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
   },
   {
-    "id": "3dbe8596-b338-40b7-9f74-40c98452cc37",
-    "companyName": "Альфа",
-    "type": {
-      "id": 1,
-      "type": "Агрегатор"
-    },
-    "inn": 9693990492,
-    "website": "https://economist.com/libero/non/mattis/pulvinar/nulla/pede/ullamcorper.jpg",
-    "address": "проспект Победы",
-    "contacts": [
-      {
-        "id": "972c7820-e391-454c-ac14-360895b828f2",
-        "name": "Владимир Кузнецов",
-        "email": "jschukert0@opera.com",
-        "phones": [
-          {
-            "id": "145c8c34-3653-44cd-8106-57c77d4b311d",
-            "number": "+47 (466) 710-2621"
-          }
-        ]
-      },
-      {
-        "id": "556d2928-f20f-40ff-b702-bf8a3230f8aa",
-        "name": "Антон Петров",
-        "email": "mjeayes1@newsvine.com",
-        "phones": [
-          {
-            "id": "21fb073e-d9f6-4540-8abb-3c03c4e1da9e",
-            "number": "+62 (265) 909-0503"
-          },
-          {
-            "id": "607ce688-82f9-4145-b1af-101f99e9f438",
-            "number": "+63 (487) 615-4513"
-          },
-          {
-            "id": "2fbb1de9-7a8b-476e-8bf9-c4a019b61240",
-            "number": "+86 (562) 266-0551"
-          }
-        ]
-      }
-    ],
-    "comment": "In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.  Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.",
-    "itEquipmentInfo": {
-      "id": "ffdb660b-0298-49bd-939c-c9665148ccf6",
-      "type": "коммутатор",
-      "name": "планшет",
-      "isMinPromTorg": false,
-      "isMinCifri": false,
-      "description": "Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.  Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.  Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.",
-      "status": null
-    },
-    "technoParkInfo": {
-      "id": "46c18736-5857-4722-950c-3304f53f04ac",
-      "approbationStatus": "Отказ",
-      "feedback": "Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus."
-    }
+    "extId": "ef2b7fcd-66ec-4d5c-8007-0971a93f0e05",
+    "companyName": "Quimm",
+    "companyType": "Агрегатор",
+    "inn": "8306285506",
+    "website": "http://unicef.org/mus/vivamus/vestibulum/sagittis/sapien.js",
+    "people": "Grantley Chastel",
+    "phones": "971-628-4185",
+    "emails": "gchastelc@usda.gov",
+    "address": "2617 Pawling Way",
+    "ITEquipment": "keyboard",
+    "softwareName": "PixelCraft",
+    "isMinPromTorg": true,
+    "isMincifr": false,
+    "description": "Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.\n\nSed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.\n\nPellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.",
+    "status": "выполнен",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
   },
   {
-    "id": "226a6896-5ee1-4f94-ba19-fe7b31eac193",
-    "companyName": "Бета",
-    "type": {
-      "id": 1,
-      "type": "Агрегатор"
-    },
-    "inn": 6592126620,
-    "website": "http://umich.edu/eros/elementum/pellentesque.json",
-    "address": "улица Ленина",
-    "contacts": [
-      {
-        "id": "1b2316e2-1be4-4b1b-a801-eb0107c58855",
-        "name": "Татьяна Иванова",
-        "email": "sjelk0@jimdo.com",
-        "phones": [
-          {
-            "id": "f9330bd3-ec1f-446a-b5cf-089e8d34de62",
-            "number": "+86 (437) 353-3396"
-          }
-        ]
-      },
-      {
-        "id": "fd31018e-6c8e-44c8-ac2a-f22d4a7a053c",
-        "name": "Григорий Козлов",
-        "email": "iglander1@topsy.com",
-        "phones": [
-          {
-            "id": "7bf76982-5b2f-42fe-8115-f2650e83a28c",
-            "number": "+1 (512) 273-8965"
-          },
-          {
-            "id": "deceee33-bd24-464d-a664-404cc6633aaa",
-            "number": "+62 (705) 880-7040"
-          }
-        ]
-      },
-      {
-        "id": "e77de754-345a-45d9-8b65-caabdf0043ed",
-        "name": "Владимир Кузнецов",
-        "email": "fcharsley2@hao123.com",
-        "phones": [
-          {
-            "id": "958eae7d-69ad-42b5-8bde-14e3098e10d1",
-            "number": "+352 (749) 388-3704"
-          },
-          {
-            "id": "4545a108-13a3-41bd-9dad-cc4d8944f419",
-            "number": "+685 (240) 624-1471"
-          },
-          {
-            "id": "899230d9-4561-4aec-9814-dd1c557f82d7",
-            "number": "+1 (865) 441-6633"
-          }
-        ]
-      }
-    ],
-    "comment": "Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.  Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.",
-    "itEquipmentInfo": {
-      "id": "3645e8bb-5587-442d-9fc4-8e7310b830d6",
-      "type": "маршрутизатор",
-      "name": "коммутатор",
-      "isMinPromTorg": true,
-      "isMinCifri": true,
-      "description": "Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.  Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.  Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.",
-      "status": null
-    },
-    "technoParkInfo": {
-      "id": "361bcf24-b854-4a26-aae4-6a199cce8854",
-      "approbationStatus": "Принято",
-      "feedback": "Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.  Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.  Fusce consequat. Nulla nisl. Nunc nisl."
-    }
+    "extId": "30fb507c-0c2e-43cb-9f84-1326b66f017a",
+    "companyName": "Meetz",
+    "companyType": "Агрегатор",
+    "inn": "9265123516",
+    "website": "http://princeton.edu/nibh/fusce/lacus/purus/aliquet/at.js",
+    "people": "Adina Human",
+    "phones": "767-842-4813",
+    "emails": "ahumand@so-net.ne.jp",
+    "address": "2 Onsgard Park",
+    "ITEquipment": "external hard drive",
+    "softwareName": "DigitalDreams",
+    "isMinPromTorg": true,
+    "isMincifr": false,
+    "description": "Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.",
+    "status": "выполнен",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
   },
   {
-    "id": "7393e45d-6bbb-4e7a-8c9a-d766a9e41d2b",
-    "companyName": "Дельта",
-    "type": {
-      "id": 1,
-      "type": "Вендор"
-    },
-    "inn": 7518241306,
-    "website": "http://gov.uk/luctus.jpg",
-    "address": "проспект Победы",
-    "contacts": [
-      {
-        "id": "090b1bcd-655a-4913-94cc-01aa17d73bca",
-        "name": "Евгения Алексеева",
-        "email": "mmarwood0@intel.com",
-        "phones": [
-          {
-            "id": "774d8ae6-88e1-4619-ac32-c59833415274",
-            "number": "+63 (711) 786-4260"
-          }
-        ]
-      }
-    ],
-    "comment": "In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.  Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.",
-    "itEquipmentInfo": {
-      "id": "2956e24f-16ba-4b09-9713-cb2c4861a0e2",
-      "type": "сервер",
-      "name": "коммутатор",
-      "isMinPromTorg": false,
-      "isMinCifri": true,
-      "description": "Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.  Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.",
-      "status": null
-    },
-    "technoParkInfo": {
-      "id": "f03a2497-ce1b-4ad2-af67-50a35d805064",
-      "approbationStatus": "Отказ",
-      "feedback": "Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.  Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat."
-    }
+    "extId": "b738678e-2210-4371-a3fd-43c67222e8b9",
+    "companyName": "Oozz",
+    "companyType": "Агрегатор",
+    "inn": "2012911196",
+    "website": "http://independent.co.uk/mauris.xml",
+    "people": "Hatty Geaveny",
+    "phones": "390-723-0985",
+    "emails": "hgeavenye@ucla.edu",
+    "address": "9 Scott Hill",
+    "ITEquipment": "external hard drive",
+    "softwareName": "TechMaster Pro",
+    "isMinPromTorg": false,
+    "isMincifr": true,
+    "description": "Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.\n\nProin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.",
+    "status": "в процессе",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
   },
   {
-    "id": "91f906a4-f663-4541-b688-2d30840b80d5",
-    "companyName": "Дельта",
-    "type": {
-      "id": 1,
-      "type": "Вендор"
-    },
-    "inn": 4877530426,
-    "website": "https://hatena.ne.jp/quisque/erat/eros.aspx",
-    "address": "площадь Революции",
-    "contacts": [
-      {
-        "id": "fd57722d-141c-446a-8b2b-d360d65866f9",
-        "name": "Иван Козлов",
-        "email": "sjaine0@cloudflare.com",
-        "phones": [
-          {
-            "id": "f8f115b5-2f76-4c2b-b4b2-bd9eadfefdcf",
-            "number": "+358 (702) 653-8738"
-          }
-        ]
-      },
-      {
-        "id": "038ae228-5265-4ba8-a048-abb8881ef530",
-        "name": "Дмитрий Смирнов",
-        "email": "dleah1@yolasite.com",
-        "phones": [
-          {
-            "id": "87e8ea1a-2c0e-4e39-8c5f-90864b141731",
-            "number": "+375 (432) 335-0379"
-          },
-          {
-            "id": "e0a82ef6-185a-49dd-a20f-c20c7b622c78",
-            "number": "+62 (473) 696-5915"
-          }
-        ]
-      },
-      {
-        "id": "a39254e4-1c7b-4008-aaa7-02e26b5ccb7e",
-        "name": "Анна Павлова",
-        "email": "nroofe2@rakuten.co.jp",
-        "phones": [
-          {
-            "id": "e47e5437-5249-462e-8374-92afba430bb7",
-            "number": "+86 (544) 529-7554"
-          },
-          {
-            "id": "5dd2286d-6095-495c-a22b-0d9f46d4c5b6",
-            "number": "+374 (145) 722-9331"
-          }
-        ]
-      }
-    ],
-    "comment": "In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.",
-    "itEquipmentInfo": {
-      "id": "e31cf6e8-e016-497b-9c45-2c511eed1e37",
-      "type": "ноутбук",
-      "name": "коммутатор",
-      "isMinPromTorg": false,
-      "isMinCifri": false,
-      "description": "Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.  Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.",
-      "status": null
-    },
-    "technoParkInfo": {
-      "id": "e33930d0-23a3-438a-a87f-7700211e2a4a",
-      "approbationStatus": "Отказ",
-      "feedback": "Sed ante. Vivamus tortor. Duis mattis egestas metus.  Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh."
-    }
+    "extId": "705115fc-af0e-46e1-9900-6b3c15791e05",
+    "companyName": "Yodel",
+    "companyType": "Агрегатор",
+    "inn": "6396759209",
+    "website": "https://discuz.net/cursus.js",
+    "people": "Jeana Butteris",
+    "phones": "842-310-7195",
+    "emails": "jbutterisf@unesco.org",
+    "address": "3417 Spenser Court",
+    "ITEquipment": "router",
+    "softwareName": "ByteForge",
+    "isMinPromTorg": true,
+    "isMincifr": true,
+    "description": "Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.\n\nDuis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.",
+    "status": "ожидание подтверждения",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
   },
   {
-    "id": "810098a2-3824-401f-84df-479d85551453",
-    "companyName": "Альфа",
-    "type": {
-      "id": 1,
-      "type": "Вендор"
-    },
-    "inn": 353989820,
-    "website": "https://stumbleupon.com/nunc/nisl/duis/bibendum/felis/sed/interdum.html",
-    "address": "улица Ленина",
-    "contacts": [
-      {
-        "id": "cf3807a0-ffaa-4138-8301-542b0768b80e",
-        "name": "Ольга Кузнецова",
-        "email": "lwick0@naver.com",
-        "phones": [
-          {
-            "id": "26bd8171-2668-4518-9e22-3512b1cc628a",
-            "number": "+7 (381) 876-1963"
-          },
-          {
-            "id": "45024413-69fd-49a9-9008-6787332c649a",
-            "number": "+7 (275) 241-3245"
-          },
-          {
-            "id": "86a9a2c9-8c22-495a-842d-be1e4cf998c5",
-            "number": "+385 (379) 552-5407"
-          }
-        ]
-      },
-      {
-        "id": "c4f778c4-04d7-46b8-950f-a6326e147bbb",
-        "name": "Юлия Соколова",
-        "email": "lbrothers1@hatena.ne.jp",
-        "phones": [
-          {
-            "id": "bbf25a79-907c-420b-99f6-c3438914b976",
-            "number": "+7 (870) 292-6887"
-          },
-          {
-            "id": "a337c1f8-f111-45bc-bba5-65b4b8106f1b",
-            "number": "+237 (859) 383-6423"
-          }
-        ]
-      }
-    ],
-    "comment": "Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.",
-    "itEquipmentInfo": {
-      "id": "009b4980-fd07-4ff5-ab6f-94b61eb7901e",
-      "type": "сервер",
-      "name": "ноутбук",
-      "isMinPromTorg": false,
-      "isMinCifri": false,
-      "description": "Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.",
-      "status": null
-    },
-    "technoParkInfo": {
-      "id": "5c69f639-f171-4c0d-aed0-57c6f921d564",
-      "approbationStatus": "Отказ",
-      "feedback": "Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.  Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat."
-    }
+    "extId": "6f4885fb-8e6a-49e7-b502-a6dee3b8b2e8",
+    "companyName": "Omba",
+    "companyType": "Вендор",
+    "inn": "7759094280",
+    "website": "http://geocities.jp/nulla.jsp",
+    "people": "Keriann Morefield",
+    "phones": "366-418-7223",
+    "emails": "kmorefieldg@biblegateway.com",
+    "address": "35 High Crossing Point",
+    "ITEquipment": "monitor",
+    "softwareName": "CodeGenius",
+    "isMinPromTorg": false,
+    "isMincifr": true,
+    "description": "Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.\n\nIn congue. Etiam justo. Etiam pretium iaculis justo.\n\nIn hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.",
+    "status": "в обработке",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
   },
   {
-    "id": "a2239b88-9b59-41b1-871d-ef41dda9914e",
-    "companyName": "Гамма",
-    "type": {
-      "id": 1,
-      "type": "Агрегатор"
-    },
-    "inn": 6711067372,
-    "website": "http://symantec.com/mi/in.json",
-    "address": "переулок Солнечный",
-    "contacts": [
-      {
-        "id": "8e374970-58a4-437e-8bec-2b4a08338188",
-        "name": "Людмила Кузнецова",
-        "email": "duglow0@squarespace.com",
-        "phones": [
-          {
-            "id": "ac8057c6-67c4-44bd-aeb2-32be42c00de0",
-            "number": "+420 (410) 767-0790"
-          },
-          {
-            "id": "254e06a3-d2fc-409b-873c-827fb888c51b",
-            "number": "+86 (529) 734-9352"
-          }
-        ]
-      }
-    ],
-    "comment": "Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.  In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.  Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.",
-    "itEquipmentInfo": {
-      "id": "520c1db0-2b5f-43bd-b15d-b12fbce7080e",
-      "type": "ноутбук",
-      "name": "сервер",
-      "isMinPromTorg": true,
-      "isMinCifri": true,
-      "description": "Fusce consequat. Nulla nisl. Nunc nisl.",
-      "status": null
-    },
-    "technoParkInfo": {
-      "id": "37c1b922-48de-418d-830d-1b3cb3ea27dc",
-      "approbationStatus": "Ожидание",
-      "feedback": "Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.  Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede."
-    }
+    "extId": "9e704314-1d74-47a5-8766-70fa7ccb8f3a",
+    "companyName": "Kamba",
+    "companyType": "Вендор",
+    "inn": "4042603432",
+    "website": "http://craigslist.org/sollicitudin/vitae/consectetuer/eget/rutrum.json",
+    "people": "Rahal Klasen",
+    "phones": "152-463-4340",
+    "emails": "rklasenh@samsung.com",
+    "address": "661 Debs Alley",
+    "ITEquipment": "external hard drive",
+    "softwareName": "DigitalDreams",
+    "isMinPromTorg": false,
+    "isMincifr": true,
+    "description": "Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.",
+    "status": "в процессе",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
   },
   {
-    "id": "f792ad62-b876-4185-b46d-468c724772be",
-    "companyName": "Альфа",
-    "type": {
-      "id": 1,
-      "type": "Вендор"
-    },
-    "inn": 9662710937,
-    "website": "https://ezinearticles.com/ante/vel/ipsum/praesent/blandit.js",
-    "address": "площадь Революции",
-    "contacts": [
-      {
-        "id": "12688197-4e6e-445a-8b05-201a57b1743e",
-        "name": "Денис Смирнов",
-        "email": "ngosz0@google.ca",
-        "phones": [
-          {
-            "id": "c7971afd-19a3-4d0e-b5ca-f498add4700c",
-            "number": "+62 (387) 828-5983"
-          }
-        ]
-      },
-      {
-        "id": "c2ba0cf6-8e68-4533-b111-d201b11e0b77",
-        "name": "Екатерина Лебедева",
-        "email": "dgammell1@ovh.net",
-        "phones": [
-          {
-            "id": "49866691-5259-49d0-8a1e-e53022814e8b",
-            "number": "+1 (650) 695-8495"
-          },
-          {
-            "id": "29776700-5b4c-4b5a-b5c8-e09fe1556deb",
-            "number": "+227 (686) 120-9171"
-          },
-          {
-            "id": "243163d9-331b-4cea-a8c9-b921f5d48815",
-            "number": "+503 (925) 217-7521"
-          }
-        ]
-      },
-      {
-        "id": "d981d1d8-8046-46b2-ae92-0c913859f32b",
-        "name": "Светлана Михайлова",
-        "email": "hkeaton2@dedecms.com",
-        "phones": [
-          {
-            "id": "e0a08b12-cfe6-43ad-8d7a-c020ce663040",
-            "number": "+7 (660) 671-5282"
-          },
-          {
-            "id": "3a05a38a-1595-4300-8554-48062cc4f65f",
-            "number": "+53 (983) 613-6672"
-          },
-          {
-            "id": "5cb2e41f-bd40-4024-bb92-4608a048ad1b",
-            "number": "+880 (397) 959-4999"
-          }
-        ]
-      }
-    ],
-    "comment": "Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.",
-    "itEquipmentInfo": {
-      "id": "20bc016d-3d40-4938-aaee-433a8122ed1d",
-      "type": "ноутбук",
-      "name": "коммутатор",
-      "isMinPromTorg": true,
-      "isMinCifri": true,
-      "description": "Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.",
-      "status": null
-    },
-    "technoParkInfo": {
-      "id": "70fa7987-a333-44fd-a8b0-0da633b748ba",
-      "approbationStatus": "Принято",
-      "feedback": "Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.  In congue. Etiam justo. Etiam pretium iaculis justo.  In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus."
-    }
+    "extId": "96012999-d521-4a6e-b125-45d7dea85d5b",
+    "companyName": "Linklinks",
+    "companyType": "Агрегатор",
+    "inn": "5336450383",
+    "website": "https://howstuffworks.com/gravida/nisi.aspx",
+    "people": "Renee Mattheissen",
+    "phones": "929-402-9138",
+    "emails": "rmattheisseni@studiopress.com",
+    "address": "6603 Kim Point",
+    "ITEquipment": "mouse",
+    "softwareName": "ByteForge",
+    "isMinPromTorg": false,
+    "isMincifr": false,
+    "description": "In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.\n\nMaecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.\n\nMaecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.",
+    "status": "в процессе",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
+  },
+  {
+    "extId": "8f03d7a5-d11b-408b-b87c-3dd797b615e6",
+    "companyName": "Skipfire",
+    "companyType": "Вендор",
+    "inn": "6434720378",
+    "website": "http://cnbc.com/libero/non.xml",
+    "people": "Hobart Dumbrall",
+    "phones": "644-748-7114",
+    "emails": "hdumbrallj@usa.gov",
+    "address": "54257 Bowman Center",
+    "ITEquipment": "monitor",
+    "softwareName": "TechMaster Pro",
+    "isMinPromTorg": false,
+    "isMincifr": false,
+    "description": "Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.",
+    "status": "приостановлен",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
+  },
+  {
+    "extId": "13603f3e-bbaa-443e-a8b4-45852990c670",
+    "companyName": "Einti",
+    "companyType": "Агрегатор",
+    "inn": "9728943687",
+    "website": "https://webnode.com/rhoncus.json",
+    "people": "Ceciley Klimshuk",
+    "phones": "775-789-2767",
+    "emails": "cklimshukk@dropbox.com",
+    "address": "5677 Schiller Park",
+    "ITEquipment": "tablet",
+    "softwareName": "LogicPulse",
+    "isMinPromTorg": true,
+    "isMincifr": true,
+    "description": "Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.\n\nAenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.",
+    "status": "приостановлен",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
+  },
+  {
+    "extId": "1794c9ad-3566-4cfd-bbbb-cbcb27d1b1be",
+    "companyName": "Livetube",
+    "companyType": "Агрегатор",
+    "inn": "3495968903",
+    "website": "https://ocn.ne.jp/habitasse/platea.jpg",
+    "people": "Felisha Bartoloma",
+    "phones": "117-734-3447",
+    "emails": "fbartolomal@whitehouse.gov",
+    "address": "90 Holmberg Road",
+    "ITEquipment": "mouse",
+    "softwareName": "InnovateX",
+    "isMinPromTorg": false,
+    "isMincifr": false,
+    "description": "Sed ante. Vivamus tortor. Duis mattis egestas metus.\n\nAenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.\n\nQuisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.",
+    "status": "выполнен",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
+  },
+  {
+    "extId": "56b73a80-ff8d-40b5-860c-0a585df4c177",
+    "companyName": "Reallinks",
+    "companyType": "Агрегатор",
+    "inn": "0435848070",
+    "website": "https://uiuc.edu/consequat/dui/nec/nisi/volutpat.jpg",
+    "people": "Hester Brownell",
+    "phones": "653-123-8691",
+    "emails": "hbrownellm@imageshack.us",
+    "address": "30 Raven Plaza",
+    "ITEquipment": "webcam",
+    "softwareName": "TechMaster Pro",
+    "isMinPromTorg": false,
+    "isMincifr": false,
+    "description": "Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.",
+    "status": "завершенный",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
+  },
+  {
+    "extId": "1bc68a3b-c532-4253-8960-f1b0df3d3807",
+    "companyName": "Fanoodle",
+    "companyType": "Вендор",
+    "inn": "3192550759",
+    "website": "https://geocities.jp/consequat/nulla/nisl/nunc/nisl/duis/bibendum.jsp",
+    "people": "Arther Barszczewski",
+    "phones": "823-614-6732",
+    "emails": "abarszczewskin@ameblo.jp",
+    "address": "8 Pepper Wood Junction",
+    "ITEquipment": "tablet",
+    "softwareName": "PixelCraft",
+    "isMinPromTorg": false,
+    "isMincifr": false,
+    "description": "Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.\n\nDuis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.",
+    "status": "в архиве",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
+  },
+  {
+    "extId": "c6019135-8103-4b50-a492-b9c36cd78699",
+    "companyName": "LiveZ",
+    "companyType": "Агрегатор",
+    "inn": "5655379120",
+    "website": "http://livejournal.com/mauris/eget/massa/tempor/convallis/nulla.xml",
+    "people": "Patin Samweyes",
+    "phones": "829-793-7794",
+    "emails": "psamweyeso@moonfruit.com",
+    "address": "91 Dakota Lane",
+    "ITEquipment": "laptop",
+    "softwareName": "ByteForge",
+    "isMinPromTorg": false,
+    "isMincifr": false,
+    "description": "In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.\n\nAliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.",
+    "status": "приостановлен",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
+  },
+  {
+    "extId": "5a738eb8-900a-4254-9f7c-7e26495175f3",
+    "companyName": "Snaptags",
+    "companyType": "Агрегатор",
+    "inn": "0049364782",
+    "website": "http://last.fm/tortor/duis/mattis.jpg",
+    "people": "Marten Meyer",
+    "phones": "394-910-2409",
+    "emails": "mmeyerp@netscape.com",
+    "address": "2350 Pepper Wood Way",
+    "ITEquipment": "keyboard",
+    "softwareName": "DigitalDreams",
+    "isMinPromTorg": false,
+    "isMincifr": true,
+    "description": "Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.\n\nQuisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.",
+    "status": "приостановлен",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
+  },
+  {
+    "extId": "39d897f9-8734-450e-8f3a-1bb518d0a9c5",
+    "companyName": "Miboo",
+    "companyType": "Агрегатор",
+    "inn": "5901696174",
+    "website": "http://mac.com/arcu/adipiscing/molestie/hendrerit/at/vulputate.js",
+    "people": "Jermain Godspeede",
+    "phones": "913-749-7928",
+    "emails": "jgodspeedeq@i2i.jp",
+    "address": "8 Graedel Way",
+    "ITEquipment": "external hard drive",
+    "softwareName": "InnovateX",
+    "isMinPromTorg": true,
+    "isMincifr": false,
+    "description": "Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.",
+    "status": "ожидание подтверждения",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
+  },
+  {
+    "extId": "ec18420d-480d-4a71-8bea-385de7f73ccc",
+    "companyName": "Bubblebox",
+    "companyType": "Агрегатор",
+    "inn": "1986841944",
+    "website": "https://unicef.org/proin/at.xml",
+    "people": "Vidovik Bahike",
+    "phones": "946-358-5554",
+    "emails": "vbahiker@berkeley.edu",
+    "address": "4466 Hanover Drive",
+    "ITEquipment": "printer",
+    "softwareName": "DataWizard",
+    "isMinPromTorg": false,
+    "isMincifr": true,
+    "description": "Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.\n\nDuis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.\n\nMauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.",
+    "status": "ожидание подтверждения",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
+  },
+  {
+    "extId": "485f0979-7293-4ed8-b08e-50ea211a10f9",
+    "companyName": "Edgetag",
+    "companyType": "Агрегатор",
+    "inn": "1825655812",
+    "website": "http://eventbrite.com/ante/nulla/justo/aliquam/quis.jpg",
+    "people": "Wilie Wattingham",
+    "phones": "597-945-3640",
+    "emails": "wwattinghams@opera.com",
+    "address": "3 Atwood Way",
+    "ITEquipment": "laptop",
+    "softwareName": "CodeGenius",
+    "isMinPromTorg": false,
+    "isMincifr": false,
+    "description": "In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.\n\nSuspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.\n\nMaecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.",
+    "status": "выполнен",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
+  },
+  {
+    "extId": "21ce23e3-4dff-4ff4-bf31-9db4e41d8e81",
+    "companyName": "Wordware",
+    "companyType": "Агрегатор",
+    "inn": "4917333547",
+    "website": "https://purevolume.com/vulputate.jpg",
+    "people": "Danica Gamble",
+    "phones": "549-619-9933",
+    "emails": "dgamblet@salon.com",
+    "address": "2265 Columbus Point",
+    "ITEquipment": "monitor",
+    "softwareName": "TechMaster Pro",
+    "isMinPromTorg": true,
+    "isMincifr": false,
+    "description": "Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.\n\nFusce consequat. Nulla nisl. Nunc nisl.\n\nDuis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.",
+    "status": "в процессе",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
+  },
+  {
+    "extId": "41a70f42-2389-4dc9-94e9-007a9fbd7890",
+    "companyName": "Jetwire",
+    "companyType": "Агрегатор",
+    "inn": "0171434978",
+    "website": "https://wikipedia.org/vestibulum/sed/magna/at/nunc/commodo/placerat.jpg",
+    "people": "Myrna Spaughton",
+    "phones": "293-676-8171",
+    "emails": "mspaughtonu@uiuc.edu",
+    "address": "32 Coleman Parkway",
+    "ITEquipment": "monitor",
+    "softwareName": "TechMaster Pro",
+    "isMinPromTorg": false,
+    "isMincifr": true,
+    "description": "Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.\n\nIn sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.\n\nSuspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.",
+    "status": "отменен",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
+  },
+  {
+    "extId": "401c468e-de65-4647-80fb-61aafa8bcfdc",
+    "companyName": "Feedspan",
+    "companyType": "Агрегатор",
+    "inn": "9939412428",
+    "website": "http://opera.com/diam.js",
+    "people": "Helsa Sybry",
+    "phones": "192-354-0995",
+    "emails": "hsybryv@addthis.com",
+    "address": "18900 Linden Circle",
+    "ITEquipment": "keyboard",
+    "softwareName": "LogicPulse",
+    "isMinPromTorg": false,
+    "isMincifr": true,
+    "description": "Sed ante. Vivamus tortor. Duis mattis egestas metus.\n\nAenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.",
+    "status": "ожидание подтверждения",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
+  },
+  {
+    "extId": "b59042e5-0e00-413e-a5cd-abdbddb52bb1",
+    "companyName": "Podcat",
+    "companyType": "Вендор",
+    "inn": "5924221792",
+    "website": "https://opensource.org/auctor.json",
+    "people": "Daniele Towns",
+    "phones": "551-238-1287",
+    "emails": "dtownsw@mysql.com",
+    "address": "8 Sundown Center",
+    "ITEquipment": "router",
+    "softwareName": "CyberNinja",
+    "isMinPromTorg": true,
+    "isMincifr": true,
+    "description": "In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.\n\nSuspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.",
+    "status": "приостановлен",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
+  },
+  {
+    "extId": "e70299ab-0dff-47c0-a599-bd870c698a95",
+    "companyName": "Teklist",
+    "companyType": "Агрегатор",
+    "inn": "8108017610",
+    "website": "http://hhs.gov/hac/habitasse/platea.html",
+    "people": "Tricia Robroe",
+    "phones": "356-550-8744",
+    "emails": "trobroex@sbwire.com",
+    "address": "5886 Morningstar Road",
+    "ITEquipment": "laptop",
+    "softwareName": "DataWizard",
+    "isMinPromTorg": false,
+    "isMincifr": true,
+    "description": "Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.",
+    "status": "завершенный",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
+  },
+  {
+    "extId": "10663f34-168b-472b-b7fe-203a09107673",
+    "companyName": "Fivechat",
+    "companyType": "Агрегатор",
+    "inn": "9373102362",
+    "website": "https://4shared.com/vulputate/justo/in/blandit/ultrices/enim/lorem.json",
+    "people": "Francesco Rawet",
+    "phones": "298-486-3878",
+    "emails": "frawety@wp.com",
+    "address": "79103 Ryan Alley",
+    "ITEquipment": "external hard drive",
+    "softwareName": "ByteForge",
+    "isMinPromTorg": false,
+    "isMincifr": false,
+    "description": "Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.",
+    "status": "ожидание подтверждения",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
+  },
+  {
+    "extId": "7ccaf5c5-1a54-4dc8-a8ae-b47aa22259f2",
+    "companyName": "Meejo",
+    "companyType": "Агрегатор",
+    "inn": "5699697128",
+    "website": "http://domainmarket.com/praesent/blandit.jsp",
+    "people": "Lorry Povey",
+    "phones": "507-678-5783",
+    "emails": "lpoveyz@google.de",
+    "address": "332 Mcguire Terrace",
+    "ITEquipment": "external hard drive",
+    "softwareName": "LogicPulse",
+    "isMinPromTorg": false,
+    "isMincifr": false,
+    "description": "Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.",
+    "status": "отменен",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
+  },
+  {
+    "extId": "9bdbcb85-20c9-4bde-ba53-d84a6e880dd3",
+    "companyName": "Quatz",
+    "companyType": "Вендор",
+    "inn": "6562971373",
+    "website": "https://issuu.com/aliquet/pulvinar/sed.html",
+    "people": "Jecho Palay",
+    "phones": "889-747-9223",
+    "emails": "jpalay10@oracle.com",
+    "address": "437 Hagan Plaza",
+    "ITEquipment": "tablet",
+    "softwareName": "CodeGenius",
+    "isMinPromTorg": true,
+    "isMincifr": false,
+    "description": "Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.\n\nMaecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.\n\nNullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.",
+    "status": "в процессе",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
+  },
+  {
+    "extId": "d533f498-8347-417f-940e-fb44d9760324",
+    "companyName": "Eayo",
+    "companyType": "Агрегатор",
+    "inn": "6732254243",
+    "website": "http://bing.com/consequat.js",
+    "people": "Ibbie McCarney",
+    "phones": "302-564-8245",
+    "emails": "imccarney11@rediff.com",
+    "address": "2657 Banding Alley",
+    "ITEquipment": "tablet",
+    "softwareName": "ByteForge",
+    "isMinPromTorg": false,
+    "isMincifr": true,
+    "description": "Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.\n\nMauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.",
+    "status": "в обработке",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
+  },
+  {
+    "extId": "fd6d7c82-f60f-4946-9cbd-5d50785ae492",
+    "companyName": "Yacero",
+    "companyType": "Агрегатор",
+    "inn": "2880201578",
+    "website": "http://creativecommons.org/elementum/eu/interdum/eu/tincidunt/in.aspx",
+    "people": "Merle Chevis",
+    "phones": "175-899-6995",
+    "emails": "mchevis12@ycombinator.com",
+    "address": "8 Bayside Street",
+    "ITEquipment": "webcam",
+    "softwareName": "TechSavvy",
+    "isMinPromTorg": true,
+    "isMincifr": true,
+    "description": "Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.\n\nSed ante. Vivamus tortor. Duis mattis egestas metus.\n\nAenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.",
+    "status": "выполнен",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
+  },
+  {
+    "extId": "8ac19842-c6c4-46ba-8f67-ebb6600902fd",
+    "companyName": "Babbleset",
+    "companyType": "Вендор",
+    "inn": "7259463872",
+    "website": "http://51.la/ultrices/posuere/cubilia/curae/donec.jsp",
+    "people": "Nickola Boggas",
+    "phones": "763-240-0977",
+    "emails": "nboggas13@comsenz.com",
+    "address": "44 1st Road",
+    "ITEquipment": "mouse",
+    "softwareName": "TechSavvy",
+    "isMinPromTorg": false,
+    "isMincifr": false,
+    "description": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.\n\nEtiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.\n\nPraesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.",
+    "status": "в архиве",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
+  },
+  {
+    "extId": "ca8af89b-76b2-44c8-a30f-47f14e5bea05",
+    "companyName": "Zoombox",
+    "companyType": "Агрегатор",
+    "inn": "9080596183",
+    "website": "http://spiegel.de/blandit/lacinia/erat/vestibulum/sed/magna/at.json",
+    "people": "Bary Itzkovich",
+    "phones": "830-212-0170",
+    "emails": "bitzkovich14@pen.io",
+    "address": "80180 Grasskamp Avenue",
+    "ITEquipment": "keyboard",
+    "softwareName": "TechSavvy",
+    "isMinPromTorg": false,
+    "isMincifr": false,
+    "description": "Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.\n\nDuis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.\n\nMauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.",
+    "status": "выполнен",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
+  },
+  {
+    "extId": "a6091787-f5e9-4b6a-89bf-6911c2c90192",
+    "companyName": "Thoughtsphere",
+    "companyType": "Агрегатор",
+    "inn": "2844406793",
+    "website": "http://issuu.com/ultrices/erat/tortor/sollicitudin/mi/sit.json",
+    "people": "Mitzi Drayson",
+    "phones": "478-251-2979",
+    "emails": "mdrayson15@bing.com",
+    "address": "9 Farragut Place",
+    "ITEquipment": "laptop",
+    "softwareName": "CodeGenius",
+    "isMinPromTorg": true,
+    "isMincifr": true,
+    "description": "Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.",
+    "status": "ожидание подтверждения",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
+  },
+  {
+    "extId": "3a24d57e-5b82-4bce-9cda-c8aa6fde4ea0",
+    "companyName": "Midel",
+    "companyType": "Агрегатор",
+    "inn": "7382594882",
+    "website": "https://themeforest.net/sit.html",
+    "people": "Andrej Foulcher",
+    "phones": "667-534-2603",
+    "emails": "afoulcher16@salon.com",
+    "address": "633 Fieldstone Trail",
+    "ITEquipment": "laptop",
+    "softwareName": "PixelCraft",
+    "isMinPromTorg": false,
+    "isMincifr": false,
+    "description": "Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.",
+    "status": "выполнен",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
+  },
+  {
+    "extId": "601b0494-eb65-4a3c-96f0-6f9dae833ba8",
+    "companyName": "Katz",
+    "companyType": "Агрегатор",
+    "inn": "6383150235",
+    "website": "http://vinaora.com/imperdiet.png",
+    "people": "Abigail Gulland",
+    "phones": "574-500-2525",
+    "emails": "agulland17@canalblog.com",
+    "address": "133 Reindahl Park",
+    "ITEquipment": "keyboard",
+    "softwareName": "TechSavvy",
+    "isMinPromTorg": false,
+    "isMincifr": false,
+    "description": "Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.\n\nMaecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.",
+    "status": "в процессе",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
+  },
+  {
+    "extId": "a0e1ba5b-1858-41fe-a5ef-42aef305e616",
+    "companyName": "Devshare",
+    "companyType": "Вендор",
+    "inn": "3676784022",
+    "website": "https://skype.com/justo/etiam.png",
+    "people": "Tessie Halmkin",
+    "phones": "270-195-8082",
+    "emails": "thalmkin18@state.gov",
+    "address": "0157 Hayes Parkway",
+    "ITEquipment": "headset",
+    "softwareName": "PixelCraft",
+    "isMinPromTorg": false,
+    "isMincifr": true,
+    "description": "Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.",
+    "status": "приостановлен",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
+  },
+  {
+    "extId": "09565be0-0e54-4a61-93f9-f809d0b987b8",
+    "companyName": "Photolist",
+    "companyType": "Агрегатор",
+    "inn": "6950154348",
+    "website": "https://tinypic.com/erat/tortor/sollicitudin.xml",
+    "people": "Dorelia Gilhooley",
+    "phones": "360-397-6286",
+    "emails": "dgilhooley19@dell.com",
+    "address": "033 Pepper Wood Pass",
+    "ITEquipment": "headset",
+    "softwareName": "TechMaster Pro",
+    "isMinPromTorg": true,
+    "isMincifr": true,
+    "description": "Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.\n\nMauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.",
+    "status": "в процессе",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
+  },
+  {
+    "extId": "47ad159f-e591-484e-8bf9-7d598d563e77",
+    "companyName": "Twimbo",
+    "companyType": "Агрегатор",
+    "inn": "5750022927",
+    "website": "http://twitter.com/vulputate/vitae/nisl.jpg",
+    "people": "Marie Gyles",
+    "phones": "242-771-3957",
+    "emails": "mgyles1a@unblog.fr",
+    "address": "8 Corscot Place",
+    "ITEquipment": "laptop",
+    "softwareName": "CyberNinja",
+    "isMinPromTorg": true,
+    "isMincifr": true,
+    "description": "Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.",
+    "status": "в процессе",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
+  },
+  {
+    "extId": "75200658-85d6-4a06-bfb6-328c97b466c3",
+    "companyName": "Oodoo",
+    "companyType": "Агрегатор",
+    "inn": "8280821880",
+    "website": "https://elpais.com/amet/consectetuer/adipiscing/elit.png",
+    "people": "Woodrow Dy",
+    "phones": "153-142-8329",
+    "emails": "wdy1b@eventbrite.com",
+    "address": "3673 Mockingbird Plaza",
+    "ITEquipment": "webcam",
+    "softwareName": "CodeGenius",
+    "isMinPromTorg": false,
+    "isMincifr": false,
+    "description": "Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.\n\nMaecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.\n\nNullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.",
+    "status": "выполнен",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
+  },
+  {
+    "extId": "f5eeea8c-0b7f-4f14-bd5c-40ed03753239",
+    "companyName": "Zoombeat",
+    "companyType": "Агрегатор",
+    "inn": "0159541735",
+    "website": "http://ezinearticles.com/fusce/congue/diam/id/ornare/imperdiet/sapien.jsp",
+    "people": "Lawry Gilham",
+    "phones": "517-997-3458",
+    "emails": "lgilham1c@salon.com",
+    "address": "46660 Delladonna Court",
+    "ITEquipment": "external hard drive",
+    "softwareName": "ByteForge",
+    "isMinPromTorg": false,
+    "isMincifr": true,
+    "description": "Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.\n\nIn quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.\n\nMaecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.",
+    "status": "ожидание подтверждения",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
+  },
+  {
+    "extId": "7de9b05b-ced9-49bc-85a2-c29efd42bc26",
+    "companyName": "Jamia",
+    "companyType": "Агрегатор",
+    "inn": "4879385085",
+    "website": "http://mac.com/ac/tellus/semper/interdum.png",
+    "people": "Silvester Carss",
+    "phones": "407-123-5300",
+    "emails": "scarss1d@booking.com",
+    "address": "6657 Pawling Pass",
+    "ITEquipment": "laptop",
+    "softwareName": "InnovateX",
+    "isMinPromTorg": true,
+    "isMincifr": true,
+    "description": "Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.\n\nQuisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.\n\nPhasellus in felis. Donec semper sapien a libero. Nam dui.",
+    "status": "приостановлен",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
+  },
+  {
+    "extId": "a82737c1-c1f9-428e-920b-e8fe72c59dc3",
+    "companyName": "Bubbletube",
+    "companyType": "Вендор",
+    "inn": "5266776587",
+    "website": "https://exblog.jp/eget/elit/sodales.jsp",
+    "people": "Saundra Poser",
+    "phones": "259-297-8056",
+    "emails": "sposer1e@ebay.com",
+    "address": "74 David Trail",
+    "ITEquipment": "router",
+    "softwareName": "ByteForge",
+    "isMinPromTorg": false,
+    "isMincifr": true,
+    "description": "Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.\n\nProin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.",
+    "status": "активный",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
+  },
+  {
+    "extId": "d665ac54-dd7d-4363-99b2-813c37c5e81e",
+    "companyName": "Jatri",
+    "companyType": "Агрегатор",
+    "inn": "1654491063",
+    "website": "http://stumbleupon.com/pulvinar/nulla.html",
+    "people": "Ruthy Dudny",
+    "phones": "407-121-9816",
+    "emails": "rdudny1f@upenn.edu",
+    "address": "95 Mendota Hill",
+    "ITEquipment": "tablet",
+    "softwareName": "TechMaster Pro",
+    "isMinPromTorg": false,
+    "isMincifr": false,
+    "description": "Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.",
+    "status": "активный",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
+  },
+  {
+    "extId": "873dc065-0b7e-433a-a390-542dedf4616b",
+    "companyName": "Quaxo",
+    "companyType": "Вендор",
+    "inn": "0650485378",
+    "website": "http://mediafire.com/consequat/ut/nulla/sed.png",
+    "people": "Cati Dugood",
+    "phones": "724-898-3213",
+    "emails": "cdugood1g@nature.com",
+    "address": "87118 Schmedeman Point",
+    "ITEquipment": "router",
+    "softwareName": "CodeGenius",
+    "isMinPromTorg": true,
+    "isMincifr": true,
+    "description": "Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.",
+    "status": "завершенный",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
+  },
+  {
+    "extId": "c3d9bffd-c151-4d70-bd95-1fe95104b586",
+    "companyName": "Realmix",
+    "companyType": "Вендор",
+    "inn": "9756074337",
+    "website": "http://sfgate.com/tristique/est/et/tempus/semper.jsp",
+    "people": "Jimmie Prene",
+    "phones": "548-113-5093",
+    "emails": "jprene1h@i2i.jp",
+    "address": "1064 Forest Run Park",
+    "ITEquipment": "headset",
+    "softwareName": "PixelCraft",
+    "isMinPromTorg": true,
+    "isMincifr": false,
+    "description": "Fusce consequat. Nulla nisl. Nunc nisl.\n\nDuis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.\n\nIn hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.",
+    "status": "в архиве",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
+  },
+  {
+    "extId": "99bb1779-4e31-4c78-873b-d2cd7e16b8cd",
+    "companyName": "LiveZ",
+    "companyType": "Вендор",
+    "inn": "0655603514",
+    "website": "https://instagram.com/blandit/non/interdum/in/ante/vestibulum/ante.html",
+    "people": "Dasi Dellow",
+    "phones": "105-864-3507",
+    "emails": "ddellow1i@ow.ly",
+    "address": "563 Garrison Lane",
+    "ITEquipment": "monitor",
+    "softwareName": "CyberNinja",
+    "isMinPromTorg": true,
+    "isMincifr": true,
+    "description": "Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.",
+    "status": "в процессе",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
+  },
+  {
+    "extId": "47e1a321-020f-4f1a-83a9-2f9e6127eea7",
+    "companyName": "Rhynoodle",
+    "companyType": "Агрегатор",
+    "inn": "3397987059",
+    "website": "https://webs.com/integer/a/nibh/in/quis.html",
+    "people": "Haven Skippen",
+    "phones": "699-822-1789",
+    "emails": "hskippen1j@nifty.com",
+    "address": "425 Mccormick Trail",
+    "ITEquipment": "printer",
+    "softwareName": "CodeGenius",
+    "isMinPromTorg": false,
+    "isMincifr": false,
+    "description": "Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.",
+    "status": "выполнен",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
+  },
+  {
+    "extId": "0b6f406a-5e2e-455a-ae9e-d1f3dd1873b7",
+    "companyName": "Skippad",
+    "companyType": "Агрегатор",
+    "inn": "1097197697",
+    "website": "https://sogou.com/adipiscing/elit.jpg",
+    "people": "Page Rudgard",
+    "phones": "157-239-0321",
+    "emails": "prudgard1k@geocities.com",
+    "address": "13416 Erie Street",
+    "ITEquipment": "laptop",
+    "softwareName": "PixelCraft",
+    "isMinPromTorg": false,
+    "isMincifr": false,
+    "description": "In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.\n\nMaecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.\n\nMaecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.",
+    "status": "в архиве",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
+  },
+  {
+    "extId": "b96da1ab-43ea-4026-8d9e-fa00cb9c14c2",
+    "companyName": "Dynabox",
+    "companyType": "Агрегатор",
+    "inn": "0203290119",
+    "website": "https://washington.edu/ipsum/primis/in/faucibus/orci/luctus.js",
+    "people": "Mira Martine",
+    "phones": "185-256-2323",
+    "emails": "mmartine1l@opensource.org",
+    "address": "8 Hanson Point",
+    "ITEquipment": "printer",
+    "softwareName": "InnovateX",
+    "isMinPromTorg": false,
+    "isMincifr": false,
+    "description": "Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.\n\nCurabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.",
+    "status": "приостановлен",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
+  },
+  {
+    "extId": "de7d9364-458f-4691-9724-04f4412866f7",
+    "companyName": "Oyondu",
+    "companyType": "Агрегатор",
+    "inn": "9219628597",
+    "website": "https://flavors.me/in/hac/habitasse/platea.xml",
+    "people": "Sheffy Winspire",
+    "phones": "522-394-3847",
+    "emails": "swinspire1m@jigsy.com",
+    "address": "08 Anhalt Alley",
+    "ITEquipment": "external hard drive",
+    "softwareName": "TechSavvy",
+    "isMinPromTorg": false,
+    "isMincifr": true,
+    "description": "Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.\n\nPellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.\n\nCum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+    "status": "отменен",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
+  },
+  {
+    "extId": "1c261205-0bf4-43e7-8ce1-7c82b8c13b54",
+    "companyName": "Vipe",
+    "companyType": "Вендор",
+    "inn": "3956377311",
+    "website": "https://fotki.com/amet/consectetuer.js",
+    "people": "Hazlett Farryn",
+    "phones": "115-678-1426",
+    "emails": "hfarryn1n@opera.com",
+    "address": "172 Lotheville Terrace",
+    "ITEquipment": "monitor",
+    "softwareName": "ByteForge",
+    "isMinPromTorg": false,
+    "isMincifr": false,
+    "description": "Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.\n\nSed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.\n\nPellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.",
+    "status": "завершенный",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
+  },
+  {
+    "extId": "ed6b6aa7-c28a-4ae0-835f-4fe873c9b224",
+    "companyName": "Devcast",
+    "companyType": "Агрегатор",
+    "inn": "2142091512",
+    "website": "https://yellowbook.com/gravida/sem/praesent/id/massa/id/nisl.xml",
+    "people": "Giulia Shewery",
+    "phones": "759-783-4371",
+    "emails": "gshewery1o@jalbum.net",
+    "address": "16268 Luster Point",
+    "ITEquipment": "headset",
+    "softwareName": "DataWizard",
+    "isMinPromTorg": true,
+    "isMincifr": false,
+    "description": "Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.\n\nCurabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.",
+    "status": "в архиве",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
+  },
+  {
+    "extId": "8a6dc083-e02b-4349-b2b4-c2301438d8ed",
+    "companyName": "Twitterwire",
+    "companyType": "Агрегатор",
+    "inn": "9960201090",
+    "website": "https://loc.gov/maecenas/rhoncus/aliquam/lacus/morbi.js",
+    "people": "Cobbie Underwood",
+    "phones": "534-395-4978",
+    "emails": "cunderwood1p@chron.com",
+    "address": "0169 Thompson Place",
+    "ITEquipment": "tablet",
+    "softwareName": "PixelCraft",
+    "isMinPromTorg": true,
+    "isMincifr": false,
+    "description": "Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.\n\nInteger ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.",
+    "status": "активный",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
+  },
+  {
+    "extId": "22f7840d-0149-47db-b584-f119e827c4f2",
+    "companyName": "Thoughtstorm",
+    "companyType": "Агрегатор",
+    "inn": "0264487141",
+    "website": "https://rediff.com/curabitur/gravida/nisi.png",
+    "people": "Elvis Yoseloff",
+    "phones": "818-171-6290",
+    "emails": "eyoseloff1q@forbes.com",
+    "address": "2 Forest Center",
+    "ITEquipment": "keyboard",
+    "softwareName": "InnovateX",
+    "isMinPromTorg": false,
+    "isMincifr": false,
+    "description": "Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.\n\nSed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.",
+    "status": "в архиве",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
+  },
+  {
+    "extId": "d3b4f9b5-3152-4734-b9bb-1d9e9d334f83",
+    "companyName": "Miboo",
+    "companyType": "Агрегатор",
+    "inn": "6396149761",
+    "website": "https://symantec.com/ipsum/primis.aspx",
+    "people": "Gasparo Dorricott",
+    "phones": "959-903-0842",
+    "emails": "gdorricott1r@mayoclinic.com",
+    "address": "225 Northfield Park",
+    "ITEquipment": "monitor",
+    "softwareName": "TechSavvy",
+    "isMinPromTorg": false,
+    "isMincifr": true,
+    "description": "Sed ante. Vivamus tortor. Duis mattis egestas metus.",
+    "status": "в обработке",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
+  },
+  {
+    "extId": "9559cbd4-8e81-413c-ba3a-0fe5c2f44ce9",
+    "companyName": "Twimbo",
+    "companyType": "Вендор",
+    "inn": "3904256904",
+    "website": "https://creativecommons.org/sit/amet/sapien/dignissim.png",
+    "people": "Rodrique Crannach",
+    "phones": "855-430-0383",
+    "emails": "rcrannach1s@cnbc.com",
+    "address": "542 Hagan Junction",
+    "ITEquipment": "webcam",
+    "softwareName": "ByteForge",
+    "isMinPromTorg": true,
+    "isMincifr": false,
+    "description": "Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.\n\nCurabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.",
+    "status": "в обработке",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
+  },
+  {
+    "extId": "f9b1363b-827a-48e0-91bb-16b810826947",
+    "companyName": "Zoozzy",
+    "companyType": "Вендор",
+    "inn": "4946013598",
+    "website": "http://spiegel.de/sagittis/sapien/cum/sociis/natoque/penatibus.png",
+    "people": "Wini Moulton",
+    "phones": "603-150-7786",
+    "emails": "wmoulton1t@over-blog.com",
+    "address": "0719 American Crossing",
+    "ITEquipment": "headset",
+    "softwareName": "DataWizard",
+    "isMinPromTorg": false,
+    "isMincifr": true,
+    "description": "Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.\n\nDuis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.",
+    "status": "выполнен",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
+  },
+  {
+    "extId": "5aa07fce-91d4-41e2-be79-7917c5020932",
+    "companyName": "Mybuzz",
+    "companyType": "Вендор",
+    "inn": "0977458695",
+    "website": "http://behance.net/erat/vestibulum/sed/magna/at/nunc/commodo.jsp",
+    "people": "Paula Pakenham",
+    "phones": "134-973-7000",
+    "emails": "ppakenham1u@netscape.com",
+    "address": "613 Dorton Road",
+    "ITEquipment": "tablet",
+    "softwareName": "DataWizard",
+    "isMinPromTorg": false,
+    "isMincifr": true,
+    "description": "Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.\n\nIn sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.",
+    "status": "активный",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
+  },
+  {
+    "extId": "7adeac10-9d36-451f-9083-47c6b0b263d3",
+    "companyName": "Topdrive",
+    "companyType": "Агрегатор",
+    "inn": "9880168089",
+    "website": "https://spotify.com/primis/in/faucibus.jsp",
+    "people": "Clarie Lissenden",
+    "phones": "519-516-9491",
+    "emails": "clissenden1v@hexun.com",
+    "address": "49 Rutledge Lane",
+    "ITEquipment": "tablet",
+    "softwareName": "PixelCraft",
+    "isMinPromTorg": true,
+    "isMincifr": true,
+    "description": "Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.",
+    "status": "приостановлен",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
+  },
+  {
+    "extId": "5415f3fe-a1d2-4db8-a80f-ee359804f57f",
+    "companyName": "Npath",
+    "companyType": "Агрегатор",
+    "inn": "5399267012",
+    "website": "https://google.cn/vulputate/luctus/cum/sociis/natoque/penatibus.xml",
+    "people": "Alfonso Decruse",
+    "phones": "170-507-0398",
+    "emails": "adecruse1w@disqus.com",
+    "address": "1755 Sutherland Court",
+    "ITEquipment": "router",
+    "softwareName": "CyberNinja",
+    "isMinPromTorg": true,
+    "isMincifr": true,
+    "description": "Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.\n\nAenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.\n\nCurabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.",
+    "status": "отменен",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
+  },
+  {
+    "extId": "cf25b5c6-178a-4eb6-bb95-0159d96e1028",
+    "companyName": "Fatz",
+    "companyType": "Агрегатор",
+    "inn": "9399745295",
+    "website": "https://tmall.com/nibh.js",
+    "people": "Mufinella Danielian",
+    "phones": "537-483-1597",
+    "emails": "mdanielian1x@yellowbook.com",
+    "address": "0 Vermont Pass",
+    "ITEquipment": "printer",
+    "softwareName": "PixelCraft",
+    "isMinPromTorg": false,
+    "isMincifr": false,
+    "description": "Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.\n\nPraesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.\n\nMorbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.",
+    "status": "в архиве",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
+  },
+  {
+    "extId": "598b72b7-9d20-4a4d-b467-5ee99d84fe3c",
+    "companyName": "Pixonyx",
+    "companyType": "Агрегатор",
+    "inn": "3825844455",
+    "website": "https://hubpages.com/penatibus/et/magnis/dis/parturient/montes.html",
+    "people": "Rebeka Postill",
+    "phones": "235-570-7609",
+    "emails": "rpostill1y@weebly.com",
+    "address": "899 Dahle Road",
+    "ITEquipment": "mouse",
+    "softwareName": "TechSavvy",
+    "isMinPromTorg": false,
+    "isMincifr": true,
+    "description": "Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.\n\nMaecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.\n\nNullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.",
+    "status": "завершенный",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
+  },
+  {
+    "extId": "92d3fde0-09a3-436c-bf82-633037e3bb57",
+    "companyName": "Demizz",
+    "companyType": "Вендор",
+    "inn": "2456861140",
+    "website": "http://uiuc.edu/orci/mauris.html",
+    "people": "Katie Leupold",
+    "phones": "947-613-1872",
+    "emails": "kleupold1z@gmpg.org",
+    "address": "84887 Golf Course Point",
+    "ITEquipment": "printer",
+    "softwareName": "CyberNinja",
+    "isMinPromTorg": true,
+    "isMincifr": true,
+    "description": "Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.\n\nProin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.\n\nAenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.",
+    "status": "выполнен",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
+  },
+  {
+    "extId": "5538a373-5430-451c-9041-1678e2a43e87",
+    "companyName": "Browsetype",
+    "companyType": "Агрегатор",
+    "inn": "8662504272",
+    "website": "https://list-manage.com/leo.aspx",
+    "people": "Alecia Methley",
+    "phones": "602-842-5386",
+    "emails": "amethley20@narod.ru",
+    "address": "263 Clarendon Plaza",
+    "ITEquipment": "headset",
+    "softwareName": "PixelCraft",
+    "isMinPromTorg": false,
+    "isMincifr": true,
+    "description": "Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.",
+    "status": "выполнен",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
+  },
+  {
+    "extId": "2c5b65d0-7e6e-4111-a694-3678eed41a7c",
+    "companyName": "Blogpad",
+    "companyType": "Вендор",
+    "inn": "9865505290",
+    "website": "https://epa.gov/eget/massa.json",
+    "people": "Ruby Joret",
+    "phones": "619-453-4324",
+    "emails": "rjoret21@senate.gov",
+    "address": "98054 Kipling Road",
+    "ITEquipment": "headset",
+    "softwareName": "CyberNinja",
+    "isMinPromTorg": false,
+    "isMincifr": false,
+    "description": "Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.\n\nSed ante. Vivamus tortor. Duis mattis egestas metus.\n\nAenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.",
+    "status": "выполнен",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
+  },
+  {
+    "extId": "ad12c1ae-c502-4b66-901e-74baa59a16c9",
+    "companyName": "Feedbug",
+    "companyType": "Агрегатор",
+    "inn": "6219139364",
+    "website": "http://nhs.uk/ac/consequat.html",
+    "people": "Rossy Cadwell",
+    "phones": "341-369-8279",
+    "emails": "rcadwell22@globo.com",
+    "address": "7 Montana Circle",
+    "ITEquipment": "webcam",
+    "softwareName": "ByteForge",
+    "isMinPromTorg": false,
+    "isMincifr": false,
+    "description": "Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.\n\nCum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+    "status": "в планах",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
+  },
+  {
+    "extId": "84a863e0-1261-4ca1-827e-ebbe944beade",
+    "companyName": "Aimbo",
+    "companyType": "Агрегатор",
+    "inn": "1919530177",
+    "website": "https://instagram.com/in/purus/eu/magna.aspx",
+    "people": "Wyatt Serfati",
+    "phones": "807-268-8775",
+    "emails": "wserfati23@blogspot.com",
+    "address": "44713 Karstens Street",
+    "ITEquipment": "router",
+    "softwareName": "DigitalDreams",
+    "isMinPromTorg": false,
+    "isMincifr": false,
+    "description": "Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.",
+    "status": "в планах",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
+  },
+  {
+    "extId": "1c16a3dd-3492-46b4-a96d-120f32aea754",
+    "companyName": "Eamia",
+    "companyType": "Агрегатор",
+    "inn": "9195416404",
+    "website": "http://nytimes.com/elit/ac/nulla/sed/vel/enim/sit.json",
+    "people": "Melisa Posner",
+    "phones": "290-751-4711",
+    "emails": "mposner24@github.com",
+    "address": "16 Maple Wood Road",
+    "ITEquipment": "laptop",
+    "softwareName": "DigitalDreams",
+    "isMinPromTorg": false,
+    "isMincifr": false,
+    "description": "In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.\n\nMaecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.\n\nMaecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.",
+    "status": "в архиве",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
+  },
+  {
+    "extId": "c5245be8-a192-4567-bae5-93fec39fcca8",
+    "companyName": "Gigashots",
+    "companyType": "Агрегатор",
+    "inn": "6925596715",
+    "website": "https://craigslist.org/vestibulum.png",
+    "people": "Elisha Earry",
+    "phones": "672-177-8431",
+    "emails": "eearry25@umich.edu",
+    "address": "06 Stuart Alley",
+    "ITEquipment": "webcam",
+    "softwareName": "TechSavvy",
+    "isMinPromTorg": false,
+    "isMincifr": false,
+    "description": "Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.",
+    "status": "выполнен",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
+  },
+  {
+    "extId": "2e0cc523-efca-4943-b389-fc0e72352f4d",
+    "companyName": "Wordware",
+    "companyType": "Агрегатор",
+    "inn": "8653377867",
+    "website": "https://delicious.com/lacinia/nisi/venenatis/tristique/fusce.aspx",
+    "people": "Elise Margery",
+    "phones": "557-730-4557",
+    "emails": "emargery26@ucla.edu",
+    "address": "762 Wayridge Pass",
+    "ITEquipment": "router",
+    "softwareName": "CyberNinja",
+    "isMinPromTorg": false,
+    "isMincifr": true,
+    "description": "Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.\n\nDuis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.\n\nIn sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.",
+    "status": "отменен",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
+  },
+  {
+    "extId": "7c3baa63-6b80-4e38-97ce-446ca76c3dfa",
+    "companyName": "Bubblebox",
+    "companyType": "Вендор",
+    "inn": "1433404524",
+    "website": "http://oracle.com/maecenas/pulvinar/lobortis/est.json",
+    "people": "Oswald Trye",
+    "phones": "518-612-8871",
+    "emails": "otrye27@virginia.edu",
+    "address": "2 Waxwing Hill",
+    "ITEquipment": "keyboard",
+    "softwareName": "LogicPulse",
+    "isMinPromTorg": true,
+    "isMincifr": false,
+    "description": "Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.\n\nMorbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.\n\nFusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.",
+    "status": "приостановлен",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
+  },
+  {
+    "extId": "a5265f9b-f9df-404a-8739-9c4901653130",
+    "companyName": "Edgetag",
+    "companyType": "Вендор",
+    "inn": "2831571766",
+    "website": "https://tmall.com/eget/semper/rutrum/nulla/nunc/purus/phasellus.html",
+    "people": "Jacquie Greenan",
+    "phones": "852-470-0047",
+    "emails": "jgreenan28@time.com",
+    "address": "38 Golf View Alley",
+    "ITEquipment": "tablet",
+    "softwareName": "DataWizard",
+    "isMinPromTorg": true,
+    "isMincifr": true,
+    "description": "Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.",
+    "status": "в архиве",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
+  },
+  {
+    "extId": "cdc9c218-36ed-481d-9d50-d609bb525e39",
+    "companyName": "Babbleset",
+    "companyType": "Агрегатор",
+    "inn": "3248281545",
+    "website": "http://nsw.gov.au/in/libero.jpg",
+    "people": "Romola Tainton",
+    "phones": "401-768-7569",
+    "emails": "rtainton29@dailymail.co.uk",
+    "address": "0 Canary Terrace",
+    "ITEquipment": "printer",
+    "softwareName": "CodeGenius",
+    "isMinPromTorg": true,
+    "isMincifr": true,
+    "description": "Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.\n\nDuis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.",
+    "status": "в процессе",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
+  },
+  {
+    "extId": "6883eb91-cf20-4a94-b6d2-4bc0fe04b380",
+    "companyName": "Tagtune",
+    "companyType": "Вендор",
+    "inn": "0511938276",
+    "website": "http://vkontakte.ru/quam/turpis.html",
+    "people": "Heather Caird",
+    "phones": "669-811-4936",
+    "emails": "hcaird2a@ted.com",
+    "address": "09444 Charing Cross Place",
+    "ITEquipment": "mouse",
+    "softwareName": "ByteForge",
+    "isMinPromTorg": false,
+    "isMincifr": true,
+    "description": "Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.",
+    "status": "активный",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
+  },
+  {
+    "extId": "8a1c2de7-2bca-4737-9b75-256f26d2ef6d",
+    "companyName": "Gevee",
+    "companyType": "Агрегатор",
+    "inn": "8040107113",
+    "website": "https://studiopress.com/molestie/nibh/in/lectus/pellentesque/at.jpg",
+    "people": "Linoel Bellee",
+    "phones": "681-902-1011",
+    "emails": "lbellee2b@cmu.edu",
+    "address": "20565 Delladonna Avenue",
+    "ITEquipment": "laptop",
+    "softwareName": "TechMaster Pro",
+    "isMinPromTorg": true,
+    "isMincifr": true,
+    "description": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.\n\nEtiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.\n\nPraesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.",
+    "status": "ожидание подтверждения",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
+  },
+  {
+    "extId": "8f16cfda-9650-4fa0-883f-ffcfa5819b79",
+    "companyName": "Vimbo",
+    "companyType": "Агрегатор",
+    "inn": "0342701452",
+    "website": "http://rakuten.co.jp/nec/condimentum/neque/sapien/placerat/ante/nulla.xml",
+    "people": "Zonnya Hastings",
+    "phones": "586-602-4287",
+    "emails": "zhastings2c@columbia.edu",
+    "address": "23677 Judy Point",
+    "ITEquipment": "keyboard",
+    "softwareName": "CyberNinja",
+    "isMinPromTorg": true,
+    "isMincifr": true,
+    "description": "Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.\n\nCum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.\n\nEtiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.",
+    "status": "в обработке",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
+  },
+  {
+    "extId": "8f44f589-ff51-4b0f-abac-83daa66d09f3",
+    "companyName": "Plambee",
+    "companyType": "Агрегатор",
+    "inn": "5880786439",
+    "website": "https://over-blog.com/odio/curabitur/convallis/duis/consequat.xml",
+    "people": "Panchito Beves",
+    "phones": "970-993-9608",
+    "emails": "pbeves2d@biglobe.ne.jp",
+    "address": "4 Green Road",
+    "ITEquipment": "laptop",
+    "softwareName": "DataWizard",
+    "isMinPromTorg": true,
+    "isMincifr": true,
+    "description": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.\n\nEtiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.",
+    "status": "в планах",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
+  },
+  {
+    "extId": "93d7d384-71ad-4e89-9828-46e38535db7a",
+    "companyName": "Zoomcast",
+    "companyType": "Агрегатор",
+    "inn": "6026975977",
+    "website": "http://google.fr/congue/vivamus/metus.xml",
+    "people": "Roanna Clemenceau",
+    "phones": "379-380-8292",
+    "emails": "rclemenceau2e@cargocollective.com",
+    "address": "4 Talisman Point",
+    "ITEquipment": "monitor",
+    "softwareName": "DigitalDreams",
+    "isMinPromTorg": true,
+    "isMincifr": false,
+    "description": "Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.\n\nDuis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.",
+    "status": "в обработке",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
+  },
+  {
+    "extId": "db329f0d-0423-4848-acc5-68bf39fc9408",
+    "companyName": "Divape",
+    "companyType": "Вендор",
+    "inn": "3357187361",
+    "website": "http://rakuten.co.jp/amet/sapien.png",
+    "people": "Sofie Davie",
+    "phones": "891-422-2336",
+    "emails": "sdavie2f@accuweather.com",
+    "address": "17417 Armistice Street",
+    "ITEquipment": "external hard drive",
+    "softwareName": "TechSavvy",
+    "isMinPromTorg": true,
+    "isMincifr": true,
+    "description": "Sed ante. Vivamus tortor. Duis mattis egestas metus.\n\nAenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.",
+    "status": "в планах",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
+  },
+  {
+    "extId": "8b8a0aff-09e3-4170-84fb-cd8d09779dc8",
+    "companyName": "Skiba",
+    "companyType": "Агрегатор",
+    "inn": "0551458003",
+    "website": "http://indiegogo.com/posuere.jpg",
+    "people": "Viki Alessandretti",
+    "phones": "448-720-6587",
+    "emails": "valessandretti2g@cdbaby.com",
+    "address": "62 Truax Point",
+    "ITEquipment": "printer",
+    "softwareName": "ByteForge",
+    "isMinPromTorg": true,
+    "isMincifr": false,
+    "description": "Fusce consequat. Nulla nisl. Nunc nisl.",
+    "status": "активный",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
+  },
+  {
+    "extId": "b3955e2f-f459-4825-ba99-d32eab2d5b53",
+    "companyName": "Twiyo",
+    "companyType": "Агрегатор",
+    "inn": "1709333251",
+    "website": "https://nydailynews.com/dapibus/augue.html",
+    "people": "Tamarah Davydoch",
+    "phones": "410-659-2301",
+    "emails": "tdavydoch2h@tiny.cc",
+    "address": "3 Stone Corner Crossing",
+    "ITEquipment": "keyboard",
+    "softwareName": "DigitalDreams",
+    "isMinPromTorg": false,
+    "isMincifr": true,
+    "description": "Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.\n\nInteger ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.",
+    "status": "отменен",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
+  },
+  {
+    "extId": "d3e2ad4a-439c-4e04-9103-1ba18fb40cdd",
+    "companyName": "Brightbean",
+    "companyType": "Вендор",
+    "inn": "4278567413",
+    "website": "https://newsvine.com/curae/duis.xml",
+    "people": "Fidelity Langham",
+    "phones": "589-658-5173",
+    "emails": "flangham2i@businessweek.com",
+    "address": "9 Almo Parkway",
+    "ITEquipment": "monitor",
+    "softwareName": "TechMaster Pro",
+    "isMinPromTorg": false,
+    "isMincifr": false,
+    "description": "Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.\n\nFusce consequat. Nulla nisl. Nunc nisl.",
+    "status": "в планах",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
+  },
+  {
+    "extId": "7af31d3c-ff37-4b46-b55f-e889b5178ca7",
+    "companyName": "Gigaclub",
+    "companyType": "Вендор",
+    "inn": "7234572813",
+    "website": "http://dmoz.org/ipsum/praesent/blandit/lacinia.js",
+    "people": "Jarib Croley",
+    "phones": "577-582-5292",
+    "emails": "jcroley2j@prweb.com",
+    "address": "0 Melody Park",
+    "ITEquipment": "printer",
+    "softwareName": "LogicPulse",
+    "isMinPromTorg": true,
+    "isMincifr": true,
+    "description": "Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.",
+    "status": "в обработке",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
+  },
+  {
+    "extId": "21d95f52-d3d5-4e4a-95f8-c69079db2acd",
+    "companyName": "Yakitri",
+    "companyType": "Агрегатор",
+    "inn": "9618202356",
+    "website": "https://themeforest.net/eleifend/luctus/ultricies/eu/nibh.aspx",
+    "people": "Ronald Barrett",
+    "phones": "378-434-8916",
+    "emails": "rbarrett2k@vinaora.com",
+    "address": "947 Stang Parkway",
+    "ITEquipment": "laptop",
+    "softwareName": "DataWizard",
+    "isMinPromTorg": false,
+    "isMincifr": false,
+    "description": "Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.\n\nCum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+    "status": "в обработке",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
+  },
+  {
+    "extId": "7f647dcb-9ba8-4503-9b7f-06e1cf12bae4",
+    "companyName": "Zazio",
+    "companyType": "Агрегатор",
+    "inn": "2758952815",
+    "website": "https://51.la/massa.png",
+    "people": "Kasey Wyd",
+    "phones": "351-464-9679",
+    "emails": "kwyd2l@typepad.com",
+    "address": "242 International Trail",
+    "ITEquipment": "mouse",
+    "softwareName": "TechSavvy",
+    "isMinPromTorg": true,
+    "isMincifr": false,
+    "description": "Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.\n\nQuisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.\n\nPhasellus in felis. Donec semper sapien a libero. Nam dui.",
+    "status": "отменен",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
+  },
+  {
+    "extId": "8576c749-4d73-4883-9106-c0f2f7396313",
+    "companyName": "Voonder",
+    "companyType": "Агрегатор",
+    "inn": "1894979893",
+    "website": "http://opera.com/convallis.jsp",
+    "people": "Kirbie Chessum",
+    "phones": "881-437-6732",
+    "emails": "kchessum2m@fc2.com",
+    "address": "3016 Clyde Gallagher Way",
+    "ITEquipment": "external hard drive",
+    "softwareName": "InnovateX",
+    "isMinPromTorg": false,
+    "isMincifr": false,
+    "description": "Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.\n\nCum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.\n\nEtiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.",
+    "status": "выполнен",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
+  },
+  {
+    "extId": "2d52e412-9104-42fe-b290-7f0953b9e089",
+    "companyName": "Quatz",
+    "companyType": "Вендор",
+    "inn": "3827583888",
+    "website": "https://taobao.com/fermentum/justo/nec/condimentum/neque/sapien/placerat.aspx",
+    "people": "Chelsae Hess",
+    "phones": "132-233-3103",
+    "emails": "chess2n@marketwatch.com",
+    "address": "50 Village Green Center",
+    "ITEquipment": "keyboard",
+    "softwareName": "ByteForge",
+    "isMinPromTorg": true,
+    "isMincifr": false,
+    "description": "Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.\n\nDuis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.",
+    "status": "выполнен",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
+  },
+  {
+    "extId": "f31ac544-fe39-4ac0-b0b0-dc383b1f6080",
+    "companyName": "Kwimbee",
+    "companyType": "Вендор",
+    "inn": "8769334552",
+    "website": "http://gnu.org/elit/sodales/scelerisque/mauris/sit.png",
+    "people": "Fredi Warde",
+    "phones": "672-874-4449",
+    "emails": "fwarde2o@earthlink.net",
+    "address": "92 Armistice Plaza",
+    "ITEquipment": "keyboard",
+    "softwareName": "TechSavvy",
+    "isMinPromTorg": true,
+    "isMincifr": true,
+    "description": "Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.",
+    "status": "в архиве",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
+  },
+  {
+    "extId": "d9a2f196-1032-4fa1-8a05-f1c5ac38acb8",
+    "companyName": "Zoomcast",
+    "companyType": "Вендор",
+    "inn": "5922779141",
+    "website": "https://ihg.com/nec/nisi/volutpat/eleifend.aspx",
+    "people": "Barrie Tinman",
+    "phones": "311-775-3693",
+    "emails": "btinman2p@un.org",
+    "address": "67 Grim Parkway",
+    "ITEquipment": "laptop",
+    "softwareName": "LogicPulse",
+    "isMinPromTorg": true,
+    "isMincifr": false,
+    "description": "In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.",
+    "status": "активный",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
+  },
+  {
+    "extId": "f6a075a4-bf79-45c5-879a-78f439e0d634",
+    "companyName": "Meejo",
+    "companyType": "Вендор",
+    "inn": "5436264743",
+    "website": "https://prlog.org/sed/tincidunt/eu.json",
+    "people": "Jamaal McKinna",
+    "phones": "899-530-5298",
+    "emails": "jmckinna2q@princeton.edu",
+    "address": "98409 Parkside Crossing",
+    "ITEquipment": "mouse",
+    "softwareName": "PixelCraft",
+    "isMinPromTorg": true,
+    "isMincifr": true,
+    "description": "In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.",
+    "status": "активный",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
+  },
+  {
+    "extId": "b4dbf879-430a-404c-89e1-29441f40f07b",
+    "companyName": "Aimbo",
+    "companyType": "Вендор",
+    "inn": "7479254962",
+    "website": "http://wufoo.com/enim/blandit/mi/in/porttitor/pede.jsp",
+    "people": "Kandace Caulder",
+    "phones": "117-351-1585",
+    "emails": "kcaulder2r@redcross.org",
+    "address": "3 Mockingbird Crossing",
+    "ITEquipment": "tablet",
+    "softwareName": "TechMaster Pro",
+    "isMinPromTorg": false,
+    "isMincifr": true,
+    "description": "Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.\n\nPhasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.\n\nProin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.",
+    "status": "в планах",
+    "approbation": "Аппробация",
+    "feedback": "Отзыв",
+    "comments": "Комментарии"
   }
 ]

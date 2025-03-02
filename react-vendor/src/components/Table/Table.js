@@ -1,18 +1,24 @@
-
 import React, {useMemo} from "react";
 import {getCoreRowModel, useReactTable, flexRender, getFilteredRowModel, getSortedRowModel} from '@tanstack/react-table'
 import "./Table.css"
 import sortImage from "../Resources/sort.svg"
-import mDataJSON from './mdata.json'
 import columnsData from "./Columns";
+import {useQuery} from "@tanstack/react-query";
 
 const Table = ({ columnFilters }) => {
-    const data = useMemo(() => mDataJSON, [])
     const columns = useMemo(() => columnsData, [])
 
-    const customFilterFn = (rows, columnId, filterValue) => {
-        console.log(rows, columnId, filterValue)
-    }
+    const {
+        isPending,
+        error,
+        data
+    } = useQuery({
+        queryKey: ['companies'],
+        queryFn: async () => {
+            const response = await fetch('http://127.0.0.1:9090/users')
+            return await response.json()
+        }
+    })
 
     const table = useReactTable({
         data,
@@ -23,9 +29,12 @@ const Table = ({ columnFilters }) => {
         getCoreRowModel: getCoreRowModel(),
         getFilteredRowModel: getFilteredRowModel(),
         getSortedRowModel: getSortedRowModel(),
-        columnResizeMode: "onChange",
-        getColumnCanGlobalFilter: () => true
+        columnResizeMode: "onChange"
     });
+
+    if (isPending) { return "Loading" }
+
+    if (error) { return "Error" }
 
     return (
         <div className="table-container" key="table-container">
