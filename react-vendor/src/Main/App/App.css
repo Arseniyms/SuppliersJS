@@ -1,3 +1,7 @@
+:root {
+  --main-background-color: #f7fafc;
+}
+
 .App {
   text-align: left;
 }
