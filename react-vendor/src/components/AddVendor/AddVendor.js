@@ -1,4 +1,4 @@
-import React, {useMemo} from "react";
+import React, {useMemo, useRef} from "react";
 import Navbar from "../Navbar/Navbar";
 import AddInput from "./AddInput";
 import "./AddVendor.css"
@@ -13,15 +13,23 @@ const Text = {
 
 const AddVendor = () => {
     const columns = useMemo(() => columnsData, [])
-    let result = new Map(columns.map(i => [i.accessorKey, i.defaultValue]));
+    const requiredColumns = useMemo(() => columnsData.filter(i => i.isRequired), [])
+    const [isButtonEnabled, setIsButtonEnabled] = React.useState(requiredColumns.length === 0);
+    const resultRef = useRef(new Map(columns.map(i => [i.accessorKey, i.defaultValue])));
 
     const handleChange = (e) => {
-        result.set(e.target.id, e.target.value);
+        resultRef.current.set(e.target.id, e.target.value);
+
+        setIsButtonEnabled(
+            requiredColumns.every(column => {
+                return resultRef.current.get(column.accessorKey) !== "";
+            })
+        )
     }
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        const obj = Object.fromEntries(result)
+        const obj = Object.fromEntries(resultRef.current)
 
         fetch('http://127.0.0.1:9090/users/add', {
             method: 'POST',
@@ -44,11 +52,12 @@ const AddVendor = () => {
                             key={column.accessorKey}
                             keyDB={column.accessorKey}
                             onChange={handleChange}
+                            isRequired={column.isRequired}
                         />
                     ))}
                 </form>
                 <div className="button-background">
-                    <button onClick={handleSubmit}>{Text.SAVE}</button>
+                    <button disabled={!isButtonEnabled} onClick={handleSubmit}>{Text.SAVE}</button>
                 </div>
             </div>
         </div>

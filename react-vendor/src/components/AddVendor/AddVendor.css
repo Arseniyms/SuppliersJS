@@ -36,3 +36,8 @@
 .add-container button:hover {
     background-color: #889be4
 }
+
+.add-container button:disabled {
+    background-color: #44454e;
+    cursor: not-allowed;
+}

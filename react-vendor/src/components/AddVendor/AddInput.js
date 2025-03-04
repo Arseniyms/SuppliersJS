@@ -1,9 +1,11 @@
-import React, {useEffect, useState} from "react";
+import React, {useEffect} from "react";
 import './AddInput.css'
 
-const AddInput = ({text, keyDB, onChange}) => {
-    const [inputValue, setInputValue] = useState('');
+const Text = {
+    REQUIRED_FIELD: "*обязательное поле"
+}
 
+const AddInput = ({text, keyDB, onChange, isRequired}) => {
     useEffect(() => {
         document.querySelectorAll('textarea').forEach(el => {
             el.style.height = el.setAttribute('style', 'height: ' + el.scrollHeight + 'px');
@@ -23,6 +25,7 @@ const AddInput = ({text, keyDB, onChange}) => {
                 id={keyDB}
                 onChange={(e) => onChange(e)}
             />
+            {isRequired ? <div>{Text.REQUIRED_FIELD}</div> : null}
         </div>
     )
 }

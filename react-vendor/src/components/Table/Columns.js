@@ -7,7 +7,8 @@ const columnsData = [
         size: 100,
         cell: (props) => <p>{props.getValue()}</p>,
         isDefaultToExport: true,
-        defaultValue: ""
+        defaultValue: "",
+        isRequired: true,
     },
     {
         accessorKey: 'companyType',
@@ -16,7 +17,8 @@ const columnsData = [
         header: 'Агрегатор/Вендор',
         cell: (props) => <p>{props.getValue()}</p>,
         isDefaultToExport: true,
-        defaultValue: ""
+        defaultValue: "",
+        isRequired: true,
     },
     {
         accessorKey: 'inn',
@@ -24,7 +26,8 @@ const columnsData = [
         enableSorting: false,
         cell: (props) => <p>{props.getValue()}</p>,
         isDefaultToExport: true,
-        defaultValue: ""
+        defaultValue: "",
+        isRequired: true,
     },
     {
         accessorKey: 'website',
