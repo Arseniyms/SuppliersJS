@@ -31,7 +31,7 @@ const Navbar = () => {
                 <div className="navbar-buttons-only-icons">
                     <NavButtonIcon src={notificationImage} link="/notifications"/>
                 </div>
-                <div className="navbar-button-only-text">
+                <div>
                     <NavButtonText text={Text.ADD} link="/add"/>
                 </div>
             </div>
@@ -68,7 +68,7 @@ const NavButtonIcon = (props) => {
 const NavButtonText = (props) => {
     return (
         <NavLinkCommon link={props.link}>
-            <button>
+            <button className="navbar-button-only-text">
                 {props.text}
             </button>
         </NavLinkCommon>

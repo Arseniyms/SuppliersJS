@@ -4,6 +4,8 @@ import "./Table.css"
 import sortImage from "../Resources/sort.svg"
 import columnsData from "./Columns";
 import {useQuery} from "@tanstack/react-query";
+import Loader from "../Loader/Loader";
+import Error from "../Error/Error";
 
 const Table = ({ columnFilters }) => {
     const columns = useMemo(() => columnsData, [])
@@ -11,7 +13,8 @@ const Table = ({ columnFilters }) => {
     const {
         isPending,
         error,
-        data
+        data,
+        refetch
     } = useQuery({
         queryKey: ['companies'],
         queryFn: async () => {
@@ -32,9 +35,9 @@ const Table = ({ columnFilters }) => {
         columnResizeMode: "onChange"
     });
 
-    if (isPending) { return "Loading" }
+    if (isPending) { return <div className="table-loader"><Loader/></div>  }
 
-    if (error) { return "Error" }
+    if (error) { return <div className="table-error"><Error onClick={() => refetch()}/></div> }
 
     return (
         <div className="table-container" key="table-container">

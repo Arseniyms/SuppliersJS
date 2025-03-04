@@ -1,4 +1,18 @@
 
+.table-loader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 64px;
+}
+
+.table-error {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 64px;
+}
+
 .table-container {
     margin-top: 32px;
     margin-right: 15%;

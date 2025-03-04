@@ -2,7 +2,7 @@
 .mainCollection {
     display: flex;
     flex-direction: column;
-    justify-content: left;
+    /*justify-content: left;*/
     margin: auto 15%;
 }
 
