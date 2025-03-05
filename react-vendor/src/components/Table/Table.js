@@ -35,10 +35,13 @@ const Table = ({ columnFilters }) => {
         columnResizeMode: "onChange"
     });
 
+    const onCompanyClick = (originalRow) => {
+        console.log(originalRow.extId !== undefined)
+    }
+
     if (isPending) { return <div className="table-loader"><Loader/></div>  }
 
     if (error) { return <div className="table-error"><Error onClick={() => refetch()}/></div> }
-
     return (
         <div className="table-container" key="table-container">
             <table width={table.getTotalSize()} key="table">
@@ -81,7 +84,7 @@ const Table = ({ columnFilters }) => {
                 <tbody>
                 {
                     table.getRowModel().rows.map((rowModel) => (
-                        <tr key={rowModel.id}>
+                        <tr key={rowModel.id} onClick={() => onCompanyClick(rowModel.original)}>
                             {rowModel.getVisibleCells().map(cell =>
                                 <td width={cell.column.getSize()} key={cell.id}>
                                     {

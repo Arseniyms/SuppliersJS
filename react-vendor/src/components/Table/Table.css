@@ -15,34 +15,58 @@
 
 .table-container {
     margin-top: 32px;
-    margin-right: 15%;
-    margin-left: 15%;
+    margin-right: 5%;
+    margin-left: 5%;
     margin-bottom: auto;
     box-sizing: border-box;
     overflow-x: scroll;
+    padding-right: 5%;
+    padding-left: 5%;
+    border-radius: 8px;
 }
 
 table {
     overflow-x: scroll;
-    border-spacing: 0;
-    border-collapse: collapse;
-    border-width: 1px;
-    border-style: solid;
-    border-color: black;
+    border-collapse: separate;
+    border-spacing: 0 16px;
 }
 
-th {
+table thead tr {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 5px;
+    border-radius: 8px;
+    background-color: var(--background-color);
+}
+
+thead tr th {
     text-align: left;
     position: relative;
-    border-width: 1px;
-    border-style: solid;
-    border-color: black;
+    border-right: 1px solid #aaa;
+    padding-inline: 8px;
+
+    &:last-child {
+        border-right: none;
+    }
 }
 
-td {
-    border-width: 1px;
-    border-style: solid;
-    border-color: black;
+tbody tr {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 5px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: transform .2s;
+}
+
+tbody tr:hover {
+    transform: scale(1, 1.04)
+}
+
+tbody td {
+    padding-inline: 8px;
+    vertical-align: middle;
+    border-right: 1px solid #aaa;
+
+    &:last-child {
+        border-right: none;
+    }
 }
 
 table .resizer {
@@ -61,7 +85,7 @@ table .resizer {
 
 .resizer.isResizing {
     opacity: 1;
-    background-color: chartreuse;
+    background-color: #1363b5;
 }
 
 /**:hover > .resizer {*/
