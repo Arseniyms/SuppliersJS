@@ -2,6 +2,7 @@ import React from 'react'
 import './Navbar.css'
 import notificationImage from '../Resources/notifications.svg'
 import {NavLink} from "react-router-dom";
+import MainButton from "../MainButton/MainButton";
 
 const Text = {
     VENDORS: "Поставщики",
@@ -68,9 +69,7 @@ const NavButtonIcon = (props) => {
 const NavButtonText = (props) => {
     return (
         <NavLinkCommon link={props.link}>
-            <button className="navbar-button-only-text">
-                {props.text}
-            </button>
+            <MainButton text={props.text}/>
         </NavLinkCommon>
     )
 }

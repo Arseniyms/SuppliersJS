@@ -1,5 +1,6 @@
 import React, {useMemo} from "react";
 import {getCoreRowModel, useReactTable, flexRender, getFilteredRowModel, getSortedRowModel} from '@tanstack/react-table'
+import {useNavigate} from "react-router-dom";
 import "./Table.css"
 import sortImage from "../Resources/sort.svg"
 import columnsData from "./Columns";
@@ -9,6 +10,7 @@ import Error from "../Error/Error";
 
 const Table = ({ columnFilters }) => {
     const columns = useMemo(() => columnsData, [])
+    const navigate = useNavigate();
 
     const {
         isPending,
@@ -17,8 +19,9 @@ const Table = ({ columnFilters }) => {
         refetch
     } = useQuery({
         queryKey: ['companies'],
+        refetchOnWindowFocus: false,
         queryFn: async () => {
-            const response = await fetch('http://127.0.0.1:9090/users')
+            const response = await fetch('http://127.0.0.1:9090/users/')
             return await response.json()
         }
     })
@@ -36,12 +39,15 @@ const Table = ({ columnFilters }) => {
     });
 
     const onCompanyClick = (originalRow) => {
-        console.log(originalRow.extId !== undefined)
+        if (originalRow.extId !== undefined) {
+            navigate(`/vendors/${originalRow.extId}`)
+        }
     }
 
     if (isPending) { return <div className="table-loader"><Loader/></div>  }
 
     if (error) { return <div className="table-error"><Error onClick={() => refetch()}/></div> }
+
     return (
         <div className="table-container" key="table-container">
             <table width={table.getTotalSize()} key="table">

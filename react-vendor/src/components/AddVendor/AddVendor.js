@@ -31,7 +31,7 @@ const AddVendor = () => {
         e.preventDefault();
         const obj = Object.fromEntries(resultRef.current)
 
-        fetch('http://127.0.0.1:9090/users/add', {
+        fetch('http://127.0.0.1:9090/users/', {
             method: 'POST',
             body: JSON.stringify(obj)
         })

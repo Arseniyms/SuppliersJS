@@ -4,6 +4,7 @@ import Navbar from "../components/Navbar/Navbar";
 import MainCollection from "../components/MainCollection/MainCollection";
 import Export from "../components/Export/Export";
 import AddVendor from "../components/AddVendor/AddVendor";
+import Detail from "../components/Detail/Detail";
 
 const ErrorBoundary = () => {
     const error = useRouteError();
@@ -19,6 +20,7 @@ const ErrorBoundary = () => {
 export const router = createHashRouter([
     { path: "/", element: <App/>},
     { path: "/vendors", element: <MainCollection/> },
+    { path: "/vendors/:extId", element: <Detail/> },
     { path: "/export", element: <Export/> },
     { path: "/notifications", element: <Notification/> },
     { path: "/add", element: <AddVendor/> }
