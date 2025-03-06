@@ -2,13 +2,13 @@ import React, {useMemo, useRef, useState} from "react";
 
 import "./Detail.css"
 import {useParams} from "react-router-dom";
-import Navbar from "../Navbar/Navbar";
+import Navbar from "../../components/Navbar/Navbar";
 import {useQuery} from "@tanstack/react-query";
-import Loader from "../Loader/Loader";
-import Error from "../Error/Error";
-import columnsData from "../Table/Columns";
+import Loader from "../../components/Loader/Loader";
+import Error from "../../components/Error/Error";
+import columnsData from "../../components/Table/Columns";
 import AddInput from "../AddVendor/AddInput";
-import MainButton from "../MainButton/MainButton";
+import MainButton from "../../components/MainButton/MainButton";
 import toast, {Toaster} from "react-hot-toast";
 import {useCompanyById} from "../../services/serviceHooks";
 import {CompanyService} from "../../services/companyService";

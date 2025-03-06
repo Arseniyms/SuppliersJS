@@ -1,10 +1,10 @@
 import React, {useEffect, useMemo, useState} from "react";
-import Navbar from "../Navbar/Navbar";
+import Navbar from "../../components/Navbar/Navbar";
 import "./Export.css"
-import columnsData from "../Table/Columns";
+import columnsData from "../../components/Table/Columns";
 import SelectableColumn from "./SelectableColumn";
-import excelImage from '../Resources/excel.svg'
-import pdfImage from '../Resources/pdf.svg'
+import excelImage from '../../components/Resources/excel.svg'
+import pdfImage from '../../components/Resources/pdf.svg'
 
 import {useLocalStorage} from "../../services/useLocalStorage";
 import {exportToExcel} from "../../services/exports/exportToExcel";

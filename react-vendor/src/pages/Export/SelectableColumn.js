@@ -1,5 +1,5 @@
-import removeImage from "../Resources/remove.svg";
-import addImage from "../Resources/add.svg";
+import removeImage from "../../components/Resources/remove.svg";
+import addImage from "../../components/Resources/add.svg";
 import React from "react";
 import "./SelectableColumn.css"
 

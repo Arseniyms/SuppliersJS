@@ -1,8 +1,8 @@
 import React, {useMemo, useRef} from "react";
-import Navbar from "../Navbar/Navbar";
+import Navbar from "../../components/Navbar/Navbar";
 import AddInput from "./AddInput";
 import "./AddVendor.css"
-import columnsData from "../Table/Columns";
+import columnsData from "../../components/Table/Columns";
 import {CompanyService} from "../../services/companyService";
 import toast, {Toaster} from "react-hot-toast";
 

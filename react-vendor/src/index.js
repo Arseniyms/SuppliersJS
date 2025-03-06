@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import {RouterProvider} from "react-router-dom";
-import {router} from "./Main/Router";
+import {router} from "./main/Router";
 import {QueryClient} from "@tanstack/react-query";
 import { createSyncStoragePersister } from '@tanstack/query-sync-storage-persister'
 import { PersistQueryClientProvider } from '@tanstack/react-query-persist-client'

@@ -1,10 +1,10 @@
 import {createBrowserRouter, createHashRouter, useRouteError} from "react-router-dom";
 import App from "./App/App";
 import Navbar from "../components/Navbar/Navbar";
-import MainCollection from "../components/MainCollection/MainCollection";
-import Export from "../components/Export/Export";
-import AddVendor from "../components/AddVendor/AddVendor";
-import Detail from "../components/Detail/Detail";
+import MainCollection from "../pages/MainCollection/MainCollection";
+import Export from "../pages/Export/Export";
+import AddVendor from "../pages/AddVendor/AddVendor";
+import Detail from "../pages/Detail/Detail";
 
 const ErrorBoundary = () => {
     const error = useRouteError();
