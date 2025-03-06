@@ -81,9 +81,7 @@ const Export = () => {
                         <ul>
                             {selectedColumns.map((column, i) => (
                                 <li key={i}>
-                                    {
-                                        <SelectableColumn column={column} onClick={onDelete} isSelected={true}/>
-                                    }
+                                    {<SelectableColumn column={column} onClick={onDelete} isSelected={true}/>}
                                 </li>
                             ))}
                         </ul>
@@ -91,7 +89,7 @@ const Export = () => {
                 </div>
 
                 <div className="to-export-buttons">
-                    <ExportButton image={excelImage} text={Text.EXPORT_EXCEL} onClick={exportToExcel} />
+                    <ExportButton image={excelImage} text={Text.EXPORT_EXCEL} onClick={() => exportToExcel(getItem())} />
                     <ExportButton image={pdfImage} text={Text.EXPORT_PDF} onClick={exportToPdf} />
                 </div>
             </div>
