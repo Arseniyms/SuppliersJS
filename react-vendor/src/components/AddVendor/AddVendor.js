@@ -3,6 +3,8 @@ import Navbar from "../Navbar/Navbar";
 import AddInput from "./AddInput";
 import "./AddVendor.css"
 import columnsData from "../Table/Columns";
+import {CompanyService} from "../../services/companyService";
+import toast, {Toaster} from "react-hot-toast";
 
 const Text = {
     TITLE: "Добавление нового поставщика",
@@ -31,16 +33,20 @@ const AddVendor = () => {
         e.preventDefault();
         const obj = Object.fromEntries(resultRef.current)
 
-        fetch('http://127.0.0.1:9090/users/', {
-            method: 'POST',
-            body: JSON.stringify(obj)
-        })
-            .then(res => {console.log(res)})
-            .catch(err => {console.log(err)});
+        CompanyService.addCompany(obj)
+            .then(res => {
+                console.log(res)
+                toast.success("Компания успешно добавлена")
+            })
+            .catch(err => {
+                console.log(err)
+                toast.error("Ошибка сохранения, повторите позже")
+            });
     }
 
     return (
         <div >
+            <div><Toaster/></div>
             <Navbar/>
             <div className="add-container">
                 <form className="add-vendor">

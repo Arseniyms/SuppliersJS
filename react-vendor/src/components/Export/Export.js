@@ -1,10 +1,14 @@
-import React, {useMemo, useState} from "react";
+import React, {useEffect, useMemo, useState} from "react";
 import Navbar from "../Navbar/Navbar";
 import "./Export.css"
 import columnsData from "../Table/Columns";
 import SelectableColumn from "./SelectableColumn";
 import excelImage from '../Resources/excel.svg'
 import pdfImage from '../Resources/pdf.svg'
+
+import {useLocalStorage} from "../../services/useLocalStorage";
+import {exportToExcel} from "../../services/exports/exportToExcel";
+import {exportToPdf} from "../../services/exports/exportToPDF";
 
 const Text = {
     EXPORT: "Экспорт",
@@ -15,12 +19,24 @@ const Text = {
     EXPORT_PDF: "\nPDF"
 }
 
-
 const Export = () => {
+    const { setItem, getItem, removeItem } = useLocalStorage('selectedExportColumns');
     const columns = useMemo(() => columnsData, [])
 
-    const [selectedColumns, setSelectedColumns] = useState(columns.filter(x => x.isDefaultToExport))
+    const [selectedColumns, setSelectedColumns] = useState(
+        () => {
+            const savedColumns = getItem()
+            if (savedColumns.length === 0) {
+                return columns.filter(x => x.isDefaultToExport)
+            }
+            return columns.filter(x => savedColumns.includes(x.accessorKey))
+        }
+    )
     const columnsToSelect = columns.filter(i => !selectedColumns.includes(i))
+
+    useEffect(() => {
+        setItem(selectedColumns.map(x => x.accessorKey))
+    }, [selectedColumns])
 
     const onAdd = (column) => {
         if (column.header !== undefined) {
@@ -75,8 +91,8 @@ const Export = () => {
                 </div>
 
                 <div className="to-export-buttons">
-                    <ExportButton image={excelImage} text={Text.EXPORT_EXCEL} />
-                    <ExportButton image={pdfImage} text={Text.EXPORT_PDF} />
+                    <ExportButton image={excelImage} text={Text.EXPORT_EXCEL} onClick={exportToExcel} />
+                    <ExportButton image={pdfImage} text={Text.EXPORT_PDF} onClick={exportToPdf} />
                 </div>
             </div>
         </div>

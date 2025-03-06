@@ -10,6 +10,8 @@ import columnsData from "../Table/Columns";
 import AddInput from "../AddVendor/AddInput";
 import MainButton from "../MainButton/MainButton";
 import toast, {Toaster} from "react-hot-toast";
+import {useCompanyById} from "../../services/serviceHooks";
+import {CompanyService} from "../../services/companyService";
 
 const Detail = () => {
     let { extId } = useParams();
@@ -22,14 +24,7 @@ const Detail = () => {
         error,
         data,
         refetch
-    } = useQuery({
-        queryKey: ['company-detail'],
-        refetchOnWindowFocus: false,
-        queryFn: async () => {
-            const response = await fetch(`http://127.0.0.1:9090/users/${extId}`)
-            return await response.json()
-        }
-    })
+    } = useCompanyById(extId)
 
     const handleChange = (e) => {
         resultRef.current.set(e.target.id, e.target.value);
@@ -44,10 +39,7 @@ const Detail = () => {
         resultRef.current.set("extId", extId);
         const obj = Object.fromEntries(resultRef.current)
 
-        fetch('http://127.0.0.1:9090/users/', {
-            method: 'PATCH',
-            body: JSON.stringify(obj)
-        })
+        CompanyService.updateCompany(obj)
             .then(res => {
                 resultRef.current.clear()
                 toast.success("Компания успешно изменена")

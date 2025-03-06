@@ -5,7 +5,7 @@ const MainButton = (props) => {
 
     const handleClick = (e) => {
         if (!props.isLoading) {
-            props.onClick(e);
+            props.onClick && props.onClick(e);
         }
     }
     return (<button className="main-button" onClick={handleClick}>

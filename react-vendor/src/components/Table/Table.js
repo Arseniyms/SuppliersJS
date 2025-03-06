@@ -4,9 +4,9 @@ import {useNavigate} from "react-router-dom";
 import "./Table.css"
 import sortImage from "../Resources/sort.svg"
 import columnsData from "./Columns";
-import {useQuery} from "@tanstack/react-query";
 import Loader from "../Loader/Loader";
 import Error from "../Error/Error";
+import {useCompanies} from "../../services/serviceHooks";
 
 const Table = ({ columnFilters }) => {
     const columns = useMemo(() => columnsData, [])
@@ -17,14 +17,7 @@ const Table = ({ columnFilters }) => {
         error,
         data,
         refetch
-    } = useQuery({
-        queryKey: ['companies'],
-        refetchOnWindowFocus: false,
-        queryFn: async () => {
-            const response = await fetch('http://127.0.0.1:9090/users/')
-            return await response.json()
-        }
-    })
+    } = useCompanies()
 
     const table = useReactTable({
         data,
