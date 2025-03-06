@@ -29,9 +29,9 @@ const Navbar = () => {
             </div>
 
             <div className="navbar-buttons">
-                <div className="navbar-buttons-only-icons">
-                    <NavButtonIcon src={notificationImage} link="/notifications"/>
-                </div>
+                {/*<div className="navbar-buttons-only-icons">*/}
+                {/*    <NavButtonIcon src={notificationImage} link="/notifications"/>*/}
+                {/*</div>*/}
                 <div>
                     <NavButtonText text={Text.ADD} link="/add"/>
                 </div>

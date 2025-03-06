@@ -1,4 +1,4 @@
-import React, {useMemo, useRef} from "react";
+import React, {useMemo, useRef, useState} from "react";
 
 import "./Detail.css"
 import {useParams} from "react-router-dom";
@@ -9,11 +9,13 @@ import Error from "../Error/Error";
 import columnsData from "../Table/Columns";
 import AddInput from "../AddVendor/AddInput";
 import MainButton from "../MainButton/MainButton";
+import toast, {Toaster} from "react-hot-toast";
 
 const Detail = () => {
     let { extId } = useParams();
     const columns = useMemo(() => columnsData, [])
     const resultRef = useRef(new Map());
+    const [isPatching, setIsPatching] = useState(false);
 
     const {
         isPending,
@@ -38,19 +40,25 @@ const Detail = () => {
         if (resultRef.current.size === 0) {
             return
         }
+        setIsPatching(true);
         resultRef.current.set("extId", extId);
         const obj = Object.fromEntries(resultRef.current)
-        
+
         fetch('http://127.0.0.1:9090/users/', {
             method: 'PATCH',
             body: JSON.stringify(obj)
         })
             .then(res => {
-                alert("Компания успешно изменена")
                 resultRef.current.clear()
+                toast.success("Компания успешно изменена")
                 console.log(res)
+                setIsPatching(false);
             })
-            .catch(err => {console.log(err)});
+            .catch(err => {
+                console.log(err)
+                toast.error("Ошибка сохранения, повторите позже")
+                setIsPatching(false);
+            });
     }
 
     let initialData = new Map()
@@ -60,6 +68,7 @@ const Detail = () => {
 
     return (
         <div>
+            <div><Toaster/></div>
             <Navbar/>
             {(() => {
                 if (isPending) {
@@ -70,7 +79,7 @@ const Detail = () => {
                 }
                 return <div className="detail-full">
                     <div className="detail-buttons">
-                        <MainButton text={"Сохранить изменения"} onClick={handleSubmit}/>
+                        <MainButton text={"Сохранить изменения"} onClick={handleSubmit} isLoading={isPatching}/>
                         <MainButton text={"Отправить данные на почту"}/>
                     </div>
 
