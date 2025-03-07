@@ -1,6 +1,6 @@
 import fetcher from "./api";
 
-const API_PATH = '/users/';
+const API_PATH = '/companies/';
 
 export class CompanyService {
 

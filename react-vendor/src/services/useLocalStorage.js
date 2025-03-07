@@ -1,5 +1,10 @@
 
+
 export const useLocalStorage = (key) => {
+    return LocalStorage(key)
+};
+
+export const LocalStorage = (key) => {
     const setItem = (value) => {
         try {
             window.localStorage.setItem(key, JSON.stringify(value));

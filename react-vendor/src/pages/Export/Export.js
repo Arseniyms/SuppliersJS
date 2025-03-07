@@ -20,13 +20,13 @@ const Text = {
 }
 
 const Export = () => {
-    const { setItem, getItem, removeItem } = useLocalStorage('selectedExportColumns');
+    const { setItem, getItem} = useLocalStorage('selectedExportColumns');
     const columns = useMemo(() => columnsData, [])
 
     const [selectedColumns, setSelectedColumns] = useState(
         () => {
             const savedColumns = getItem()
-            if (savedColumns.length === 0) {
+            if (!savedColumns || savedColumns.length === 0) {
                 return columns.filter(x => x.isDefaultToExport)
             }
             return columns.filter(x => savedColumns.includes(x.accessorKey))
