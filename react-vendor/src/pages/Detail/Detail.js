@@ -2,8 +2,6 @@ import React, {useMemo, useRef, useState} from "react";
 
 import "./Detail.css"
 import {useParams} from "react-router-dom";
-import Navbar from "../../components/Navbar/Navbar";
-import {useQuery} from "@tanstack/react-query";
 import Loader from "../../components/Loader/Loader";
 import Error from "../../components/Error/Error";
 import columnsData from "../../components/Table/Columns";
@@ -38,17 +36,20 @@ const Detail = () => {
         setIsPatching(true);
         resultRef.current.set("extId", extId);
         const obj = Object.fromEntries(resultRef.current)
+        const promise = CompanyService.updateCompany(obj)
 
-        CompanyService.updateCompany(obj)
+        toast.promise(promise, {
+            loading: "В процессе",
+            success: "Компания успешно изменена",
+            error: "Ошибка сохранения, повторите позже",
+        })
             .then(res => {
                 resultRef.current.clear()
-                toast.success("Компания успешно изменена")
                 console.log(res)
                 setIsPatching(false);
             })
             .catch(err => {
                 console.log(err)
-                toast.error("Ошибка сохранения, повторите позже")
                 setIsPatching(false);
             });
     }
@@ -61,7 +62,6 @@ const Detail = () => {
     return (
         <div>
             <div><Toaster/></div>
-            <Navbar/>
             {(() => {
                 if (isPending) {
                     return <div className="table-loader"><Loader/></div>

@@ -1,5 +1,4 @@
 import React, {useEffect, useMemo, useState} from "react";
-import Navbar from "../../components/Navbar/Navbar";
 import "./Export.css"
 import columnsData from "../../components/Table/Columns";
 import SelectableColumn from "./SelectableColumn";
@@ -54,8 +53,6 @@ const Export = () => {
 
     return (
         <div>
-            <Navbar/>
-
             <div className="main-container">
                 <div className="to-select-container">
                     <div className="all-to-select">

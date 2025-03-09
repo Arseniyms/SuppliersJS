@@ -1,5 +1,4 @@
 import React, {useMemo, useRef} from "react";
-import Navbar from "../../components/Navbar/Navbar";
 import AddInput from "./AddInput";
 import "./AddVendor.css"
 import columnsData from "../../components/Table/Columns";
@@ -47,7 +46,6 @@ const AddVendor = () => {
     return (
         <div >
             <div><Toaster/></div>
-            <Navbar/>
             <div className="add-container">
                 <form className="add-vendor">
                     <h1>{Text.TITLE}</h1>

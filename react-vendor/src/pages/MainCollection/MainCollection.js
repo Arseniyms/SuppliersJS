@@ -1,6 +1,5 @@
 import React, {useState} from "react";
 import "./MainCollection.css"
-import Navbar from "../../components/Navbar/Navbar";
 import SearchBar from "../../components/SearchBar/SearchBar";
 import Table from "../../components/Table/Table";
 
@@ -17,7 +16,6 @@ const MainCollection = () => {
 
     return (
         <div>
-            <Navbar />
             <div className="mainCollection">
                 <h1>{Text.TITLE}</h1>
                 <SearchBar onSearch={handleSearch} />

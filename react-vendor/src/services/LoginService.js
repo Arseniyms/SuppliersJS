@@ -1,6 +1,8 @@
 import fetcher from "./api";
+import {LocalStorage} from "./useLocalStorage";
 
 const LOGIN_API_PATH = '/login/';
+const LOCAL_TOKEN_KEY = "token"
 
 export class LoginService {
 
@@ -19,5 +21,16 @@ export class LoginService {
                 "Authorization": "Bearer " + token
             }
         });
+    }
+
+    static async validateToken() {
+        return fetcher(LOGIN_API_PATH)
+    }
+
+    static isAuthenticated() {
+        const { getItem } = LocalStorage(LOCAL_TOKEN_KEY)
+        const token = getItem();
+
+        return token && token !== "";
     }
 }
