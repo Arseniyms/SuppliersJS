@@ -1,5 +1,5 @@
 import React, {useEffect, useMemo, useRef} from "react";
-import AddInput from "./AddInput";
+import AddInput from "../../components/AddInput/AddInput";
 import "./AddVendor.css"
 import columnsData from "../../components/Table/Columns";
 import {CompanyService} from "../../services/companyService";
@@ -63,6 +63,7 @@ const AddVendor = () => {
                     {columns.map(column => (
                         <AddInput
                             text={column.header}
+                            selectableFields={column.selectableFields}
                             key={column.accessorKey}
                             keyDB={column.accessorKey}
                             onChange={handleChange}

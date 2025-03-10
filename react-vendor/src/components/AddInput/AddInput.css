@@ -43,7 +43,8 @@
     }
 }
 
-.add-input textarea {
+.add-input textarea,
+.add-input select {
     -webkit-appearance: none;
     box-sizing: border-box;
     outline: none;

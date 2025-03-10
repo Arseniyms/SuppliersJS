@@ -20,7 +20,8 @@ const columnsData = [
         isDefaultToExport: true,
         defaultValue: "",
         isRequired: true,
-        isPublic: true
+        isPublic: true,
+        selectableFields: ['Агрегатор', 'Вендор']
     },
     {
         accessorKey: 'inn',
@@ -101,22 +102,24 @@ const columnsData = [
         header: 'Наличие в реестре Минпромторга',
         enableSorting: false,
         cell: (props) => <p>{
-            props.getValue() ? "Да" : "Нет"
+            props.getValue()
         }</p>,
         isDefaultToExport: true,
-        defaultValue: false,
-        isPublic: true
+        defaultValue: "",
+        isPublic: true,
+        selectableFields: ['Да', 'Нет']
     },
     {
         accessorKey: 'isMincifr',
         header: 'Наличие в реестре Минцифор',
         enableSorting: false,
         cell: (props) => <p>{
-            props.getValue() ? "Да" : "Нет"
+            props.getValue()
         }</p>,
         isDefaultToExport: true,
-        defaultValue: false,
+        defaultValue: "",
         isPublic: true,
+        selectableFields: ['Да', 'Нет']
     },
     {
         accessorKey: 'description',
@@ -133,6 +136,7 @@ const columnsData = [
         cell: (props) => <p>{props.getValue()}</p>,
         defaultValue: "",
         isPublic: true,
+        selectableFields: ['Принято', 'В обработке', "Отказано"]
     },
     {
         accessorKey: 'approbation',

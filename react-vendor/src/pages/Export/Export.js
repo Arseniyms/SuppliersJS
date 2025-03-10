@@ -3,11 +3,9 @@ import "./Export.css"
 import columnsData from "../../components/Table/Columns";
 import SelectableColumn from "./SelectableColumn";
 import excelImage from '../../components/Resources/excel.svg'
-import pdfImage from '../../components/Resources/pdf.svg'
 
 import {useLocalStorage} from "../../services/useLocalStorage";
 import {exportToExcel} from "../../services/exports/exportToExcel";
-import {exportToPdf} from "../../services/exports/exportToPDF";
 
 const Text = {
     EXPORT: "Экспорт",

@@ -18,7 +18,8 @@
     bottom: 0;
     padding-top: 16px;
     padding-bottom: 8px;
-    background-color: var(--main-background-color);
+    background-color: white;
+    /*background-color: var(--main-background-color);*/
 }
 
 .add-container .button-background button {

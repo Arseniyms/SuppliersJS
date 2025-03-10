@@ -5,7 +5,7 @@ import {useParams} from "react-router-dom";
 import Loader from "../../components/Loader/Loader";
 import Error from "../../components/Error/Error";
 import columnsData from "../../components/Table/Columns";
-import AddInput from "../AddVendor/AddInput";
+import AddInput from "../../components/AddInput/AddInput";
 import MainButton from "../../components/MainButton/MainButton";
 import toast, {Toaster} from "react-hot-toast";
 import {useCompanyById} from "../../services/serviceHooks";
@@ -145,6 +145,7 @@ const Detail = () => {
                         {columns.map(column => (
                             <AddInput className="detail-input"
                                       text={column.header}
+                                      selectableFields={column.selectableFields}
                                       key={column.accessorKey}
                                       keyDB={column.accessorKey}
                                       onChange={handleChange}
