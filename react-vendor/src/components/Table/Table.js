@@ -7,9 +7,11 @@ import columnsData from "./Columns";
 import Loader from "../Loader/Loader";
 import Error from "../Error/Error";
 import {useCompanies} from "../../services/serviceHooks";
+import {LoginService} from "../../services/LoginService";
 
 const Table = ({ columnFilters }) => {
-    const columns = useMemo(() => columnsData, [])
+    const isLoggedIn = LoginService.isAuthenticated()
+    const columns = useMemo(() => columnsData.filter((c) => isLoggedIn || c.isPublic), [])
     const navigate = useNavigate();
 
     const {
@@ -33,7 +35,7 @@ const Table = ({ columnFilters }) => {
 
     const onCompanyClick = (originalRow) => {
         if (originalRow.extId !== undefined) {
-            navigate(`/vendors/${originalRow.extId}`)
+            navigate(`/${originalRow.extId}`)
         }
     }
 

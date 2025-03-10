@@ -87,7 +87,7 @@ const Export = () => {
 
                 <div className="to-export-buttons">
                     <ExportButton image={excelImage} text={Text.EXPORT_EXCEL} onClick={() => exportToExcel(getItem())} />
-                    <ExportButton image={pdfImage} text={Text.EXPORT_PDF} onClick={exportToPdf} />
+                    {/*<ExportButton image={pdfImage} text={Text.EXPORT_PDF} onClick={exportToPdf} />*/}
                 </div>
             </div>
         </div>

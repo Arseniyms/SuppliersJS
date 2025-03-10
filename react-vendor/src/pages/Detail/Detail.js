@@ -10,12 +10,47 @@ import MainButton from "../../components/MainButton/MainButton";
 import toast, {Toaster} from "react-hot-toast";
 import {useCompanyById} from "../../services/serviceHooks";
 import {CompanyService} from "../../services/companyService";
+import {LoginService} from "../../services/LoginService";
+import {MailService} from "../../services/mailService";
+import ToastLogin from "../../components/ToastLogin/ToastLogin";
+import {useLocalStorage} from "../../services/useLocalStorage";
+
+const SaveToast = {
+    loading: "В процессе",
+    success: "Компания успешно изменена",
+    error: "Ошибка сохранения, повторите позже",
+}
+
+const MailingToast = {
+    loading: "В процессе",
+    success: "Информация была успешно отправлена",
+    error: "Ошибка отправки, проверьте корректность почты или повторите позже",
+}
+
+
+const Text = {
+    SAVE: "Сохранить изменения",
+    TO_MAIL: "Отправить данные на почту"
+}
+
+const MailToast = {
+    id: "mail",
+    duration: 50000
+}
+
+const MailToastText = {
+    TITLE: "Введите почту для отправки",
+    ENTER: "Отправить",
+    PLACEHOLDER: "Почта"
+}
 
 const Detail = () => {
     let { extId } = useParams();
     const columns = useMemo(() => columnsData, [])
     const resultRef = useRef(new Map());
     const [isPatching, setIsPatching] = useState(false);
+    const isLoggedIn = LoginService.isAuthenticated()
+    const { setItem, getItem } = useLocalStorage("user_email")
 
     const {
         isPending,
@@ -38,11 +73,7 @@ const Detail = () => {
         const obj = Object.fromEntries(resultRef.current)
         const promise = CompanyService.updateCompany(obj)
 
-        toast.promise(promise, {
-            loading: "В процессе",
-            success: "Компания успешно изменена",
-            error: "Ошибка сохранения, повторите позже",
-        })
+        toast.promise(promise, SaveToast)
             .then(res => {
                 resultRef.current.clear()
                 console.log(res)
@@ -52,6 +83,41 @@ const Detail = () => {
                 console.log(err)
                 setIsPatching(false);
             });
+    }
+
+    const handleMail = (mail) => {
+        setItem(mail)
+
+        const promise = MailService.sendToMail({
+            mail: mail,
+            extId: extId
+        })
+
+        toast.promise(
+            promise,
+            MailingToast,
+            {id:"email"}
+        )
+            .then(res => {
+                console.log(res)
+            })
+            .catch(err => {
+                console.log(err)
+            })
+    }
+
+    const pressedMail = (e) => {
+        e.preventDefault();
+        toast(() => (
+            <ToastLogin
+                t
+                onLogin={handleMail}
+                title={MailToastText.TITLE}
+                enterText={MailToastText.ENTER}
+                defaultValue={getItem()}
+                placeholder={MailToastText.PLACEHOLDER}
+            />), MailToast
+        );
     }
 
     let initialData = new Map()
@@ -71,8 +137,8 @@ const Detail = () => {
                 }
                 return <div className="detail-full">
                     <div className="detail-buttons">
-                        <MainButton text={"Сохранить изменения"} onClick={handleSubmit} isLoading={isPatching}/>
-                        <MainButton text={"Отправить данные на почту"}/>
+                        {isLoggedIn && <MainButton text={Text.SAVE} onClick={handleSubmit} isLoading={isPatching}/>}
+                        <MainButton text={Text.TO_MAIL} onClick={pressedMail}/>
                     </div>
 
                     <div className="detail-container">
@@ -84,6 +150,7 @@ const Detail = () => {
                                       onChange={handleChange}
                                       isRequired={false}
                                       value={initialData.get(column.accessorKey)}
+                                      readOnly={!isLoggedIn}
                             />
                         ))}
                     </div>

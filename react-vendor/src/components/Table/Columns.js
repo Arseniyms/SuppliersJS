@@ -9,6 +9,7 @@ const columnsData = [
         isDefaultToExport: true,
         defaultValue: "",
         isRequired: true,
+        isPublic: true
     },
     {
         accessorKey: 'companyType',
@@ -19,6 +20,7 @@ const columnsData = [
         isDefaultToExport: true,
         defaultValue: "",
         isRequired: true,
+        isPublic: true
     },
     {
         accessorKey: 'inn',
@@ -28,6 +30,7 @@ const columnsData = [
         isDefaultToExport: true,
         defaultValue: "",
         isRequired: true,
+        isPublic: true,
     },
     {
         accessorKey: 'website',
@@ -35,22 +38,25 @@ const columnsData = [
         enableSorting: false,
         cell: (props) => <p>{props.getValue()}</p>,
         isDefaultToExport: true,
-        defaultValue: ""
+        defaultValue: "",
+        isPublic: true,
     },
     {
         accessorKey: 'people',
         header: 'ФИО',
         cell: (props) => <p>{props.getValue()}</p>,
         isDefaultToExport: true,
-        defaultValue: ""
+        defaultValue: "",
+        isPublic: false,
     },
     {
         accessorKey: 'phones',
-        header: 'Телефоны',
+        header: 'Сотовые',
         enableSorting: false,
         cell: (props) => <p>{props.getValue()}</p>,
         isDefaultToExport: true,
-        defaultValue: ""
+        defaultValue: "",
+        isPublic: false
     },
     {
         accessorKey: 'emails',
@@ -58,7 +64,8 @@ const columnsData = [
         enableSorting: false,
         cell: (props) => <p>{props.getValue()}</p>,
         isDefaultToExport: true,
-        defaultValue: ""
+        defaultValue: "",
+        isPublic: false
     },
     {
         accessorKey: 'address',
@@ -66,7 +73,8 @@ const columnsData = [
         enableSorting: false,
         cell: (props) => <p>{props.getValue()}</p>,
         isDefaultToExport: true,
-        defaultValue: ""
+        defaultValue: "",
+        isPublic: true
     },
     {
         accessorKey: 'ITEquipment',
@@ -75,7 +83,8 @@ const columnsData = [
             props.getValue()
         }</p>,
         isDefaultToExport: true,
-        defaultValue: ""
+        defaultValue: "",
+        isPublic: true
     },
     {
         accessorKey: 'softwareName',
@@ -84,7 +93,8 @@ const columnsData = [
             props.getValue()
         }</p>,
         isDefaultToExport: true,
-        defaultValue: ""
+        defaultValue: "",
+        isPublic: true
     },
     {
         accessorKey: 'isMinPromTorg',
@@ -94,7 +104,8 @@ const columnsData = [
             props.getValue() ? "Да" : "Нет"
         }</p>,
         isDefaultToExport: true,
-        defaultValue: false
+        defaultValue: false,
+        isPublic: true
     },
     {
         accessorKey: 'isMincifr',
@@ -104,7 +115,8 @@ const columnsData = [
             props.getValue() ? "Да" : "Нет"
         }</p>,
         isDefaultToExport: true,
-        defaultValue: false
+        defaultValue: false,
+        isPublic: true,
     },
     {
         accessorKey: 'description',
@@ -112,26 +124,30 @@ const columnsData = [
         size: 400,
         enableSorting: false,
         cell: (props) => <p>{props.getValue()}</p>,
-        defaultValue: ""
+        defaultValue: "",
+        isPublic: true,
     },
     {
         accessorKey: 'status',
         header: 'Статус',
         cell: (props) => <p>{props.getValue()}</p>,
-        defaultValue: ""
+        defaultValue: "",
+        isPublic: true,
     },
     {
         accessorKey: 'approbation',
         header: 'Апробация в Технопарке',
         cell: (props) => <p>{props.getValue()}</p>,
-        defaultValue: ""
+        defaultValue: "",
+        isPublic: true,
     },
     {
         accessorKey: 'feedback',
         header: 'Обратная связь со стороны Технопарка',
         size: 400,
         cell: (props) => <p>{props.getValue()}</p>,
-        defaultValue: ""
+        defaultValue: "",
+        isPublic: true,
     },
     {
         accessorKey: 'comments',
@@ -139,7 +155,8 @@ const columnsData = [
         size: 400,
         enableSorting: false,
         cell: (props) => <p>{props.getValue()}</p>,
-        defaultValue: ""
+        defaultValue: "",
+        isPublic: true
     }
 ]
 

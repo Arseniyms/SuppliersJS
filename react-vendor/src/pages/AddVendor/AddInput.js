@@ -5,7 +5,7 @@ const Text = {
     REQUIRED_FIELD: "*обязательное поле"
 }
 
-const AddInput = ({text, keyDB, onChange, isRequired, value}) => {
+const AddInput = ({text, keyDB, onChange, isRequired, value, readOnly}) => {
     useEffect(() => {
         document.querySelectorAll('textarea').forEach(el => {
             el.style.height = el.setAttribute('style', 'height: ' + el.scrollHeight + 'px');
@@ -25,6 +25,7 @@ const AddInput = ({text, keyDB, onChange, isRequired, value}) => {
                 id={keyDB}
                 onChange={(e) => onChange(e)}
                 defaultValue={value}
+                readOnly={readOnly}
             />
             {isRequired ? <div>{Text.REQUIRED_FIELD}</div> : null}
         </div>

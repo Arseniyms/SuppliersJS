@@ -15,6 +15,12 @@ const Text = {
     LOGIN: "Вход"
 }
 
+const LoginToastText = {
+    TITLE: "Для получения полного доступа введите пароль",
+    ENTER: "Вход",
+    PLACEHOLDER: "Пароль"
+}
+
 const PromiseToast = {
     loading: "В процессе",
     success: "Успешный вход",
@@ -39,7 +45,6 @@ const Navbar = () => {
                 console.log(response)
             })
             .catch(error => {
-                removeItem()
                 console.log(error)
             })
     }, [])
@@ -48,7 +53,16 @@ const Navbar = () => {
         if (isLoggedIn) {
             navigate("/add")
         } else {
-            toast(() => ( <ToastLogin t onLogin={handleLogin}/>), LoginToast);
+            toast(() => (
+                <ToastLogin
+                    t
+                    onLogin={handleLogin}
+                    title={LoginToastText.TITLE}
+                    enterText={LoginToastText.ENTER}
+                    placeholder={LoginToastText.PLACEHOLDER}
+                    inputType={"password"}
+                />), LoginToast
+            );
         }
     }
 
@@ -91,7 +105,7 @@ const Navbar = () => {
             <div className="navbar-links">
                 <ul>
                     <li>
-                        <NavLinkButton text={Text.VENDORS} link="/vendors"/>
+                        <NavLinkButton text={Text.VENDORS} link="/"/>
                     </li>
                     <li>
                         <NavLinkButton text={Text.EXPORT} link="/export"/>

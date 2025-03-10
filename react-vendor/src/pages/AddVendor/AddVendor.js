@@ -1,9 +1,11 @@
-import React, {useMemo, useRef} from "react";
+import React, {useEffect, useMemo, useRef} from "react";
 import AddInput from "./AddInput";
 import "./AddVendor.css"
 import columnsData from "../../components/Table/Columns";
 import {CompanyService} from "../../services/companyService";
 import toast, {Toaster} from "react-hot-toast";
+import {LoginService} from "../../services/LoginService";
+import {useNavigate} from "react-router-dom";
 
 const Text = {
     TITLE: "Добавление нового поставщика",
@@ -17,6 +19,14 @@ const AddVendor = () => {
     const requiredColumns = useMemo(() => columnsData.filter(i => i.isRequired), [])
     const [isButtonEnabled, setIsButtonEnabled] = React.useState(requiredColumns.length === 0);
     const resultRef = useRef(new Map(columns.map(i => [i.accessorKey, i.defaultValue])));
+    const isLoggedIn = LoginService.isAuthenticated()
+    const navigate = useNavigate();
+
+    useEffect(() => {
+        if (!isLoggedIn){
+            navigate("/");
+        }
+    },[isLoggedIn]);
 
     const handleChange = (e) => {
         resultRef.current.set(e.target.id, e.target.value);

@@ -10,8 +10,8 @@ export const router = createHashRouter([
         path: "/",
         element: <NavbarWrapper/>,
         children: [
-            { path: "/vendors", element: <MainCollection/> },
-            { path: "/vendors/:extId", element: <Detail/> },
+            { path: "/", element: <MainCollection/> },
+            { path: "/:extId", element: <Detail/> },
             { path: "/export", element: <Export/> },
             { path: "/add", element: <AddVendor/> }
         ]

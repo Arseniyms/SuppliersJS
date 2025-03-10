@@ -9,8 +9,8 @@ const Text = {
     ENTER: "Вход"
 }
 
-const ToastLogin = ({t, onLogin}) => {
-    const [password, setPassword] = useState("");
+const ToastLogin = ({t, onLogin, title, enterText, placeholder, defaultValue, inputType}) => {
+    const [password, setPassword] = useState(defaultValue);
 
     const onLoginClick = (e) => {
         e.preventDefault();
@@ -21,21 +21,20 @@ const ToastLogin = ({t, onLogin}) => {
         onLogin(password)
     }
 
-
     return (
         <div className="toast-login">
-            <div className="heading">{Text.TITLE}</div>
+            <div className="heading">{title}</div>
             <form className="form" action="">
                 <div className="input-field">
                     <input
                         required
                         autoComplete="off"
-                        // type="password"
+                        type={inputType}
                         name="text"
-                        id="password"
+                        defaultValue={defaultValue}
                         onChange={(e) => {setPassword(e.target.value)}}
                     />
-                    <label htmlFor="password">Пароль</label>
+                    <label htmlFor="password">{placeholder}</label>
                 </div>
 
                 <div className="toast-login-buttons">
@@ -44,7 +43,7 @@ const ToastLogin = ({t, onLogin}) => {
 
                         toast.dismiss(t.id)
                     }}/>
-                    <MainButton text = {Text.ENTER} onClick={onLoginClick}/>
+                    <MainButton text = {enterText} onClick={onLoginClick}/>
                 </div>
             </form>
         </div>
