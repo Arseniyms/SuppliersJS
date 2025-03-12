@@ -8,7 +8,7 @@ const MainButton = (props) => {
             props.onClick && props.onClick(e);
         }
     }
-    return (<button className="main-button" onClick={handleClick}>
+    return (<button style={props.style} className="main-button" onClick={handleClick}>
         {props.isLoading ? <span className="main-button-loader"></span> : props.text}
     </button>)
 }

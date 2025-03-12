@@ -24,14 +24,6 @@ a {
     color: var(--primary-color);
 }
 
-.navbar-icon-name {
-    color: var(--primary-color);
-    font-size: 1.8rem;
-    font-weight: bold;
-    padding-left: 1rem;
-    display:flex;
-}
-
 .navbar-links {
     align-items: center;
     margin-left: auto;
@@ -71,8 +63,8 @@ li {
 
 .navbar-buttons-only-icons {
     margin: 0.5rem;
-    width: 40px;
-    height: 40px;
+    width: 32px;
+    height: 32px;
     border-radius: 8px;
     background-color: var(--button-icon-background-color);
     border-color: transparent;
@@ -81,4 +73,26 @@ li {
 
 .navbar-buttons-only-icons:hover {
     background: var(--text-hover-color);
+}
+
+.main-icon-image img {
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+}
+
+.main-icon-image {
+    border: none;
+    background-color: transparent;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.navbar-icon-name {
+    color: var(--primary-color);
+    font-size: 1.8rem;
+    font-weight: bold;
+    padding-left: 1rem;
+    display: flex;
+    align-items: center;
 }

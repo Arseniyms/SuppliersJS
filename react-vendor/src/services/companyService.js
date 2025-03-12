@@ -25,4 +25,10 @@ export class CompanyService {
             body: JSON.stringify(obj)
         });
     }
+
+    static async deleteCompany(companyId) {
+        return fetcher(`${API_PATH}${companyId}`, {
+            method: 'DELETE',
+        })
+    }
 }

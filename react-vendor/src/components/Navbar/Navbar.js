@@ -7,6 +7,7 @@ import {useLocalStorage} from "../../services/useLocalStorage";
 import toast, {Toaster} from "react-hot-toast";
 import ToastLogin from "../ToastLogin/ToastLogin";
 import exit from "../Resources/exit.svg"
+import icon from "../Resources/icon.svg"
 
 const Text = {
     VENDORS: "Поставщики",
@@ -95,6 +96,9 @@ const Navbar = () => {
         <nav className="navbar">
             <Toaster/>
             <div className="navbar-icon-name">
+                <button className="main-icon-image" onClick={() => navigate("/")}>
+                    <img src={icon} alt=""/>
+                </button>
                 {isLoggedIn &&
                     <button className="navbar-buttons-only-icons" onClick={handleLogout}>
                         <img src={exit} alt=""/>
@@ -114,9 +118,7 @@ const Navbar = () => {
             </div>
 
             <div className="navbar-buttons">
-                <div>
-                    <NavButtonText text={isLoggedIn ? Text.ADD : Text.LOGIN} onClick={handleMainClick}/>
-                </div>
+                <NavButtonText text={isLoggedIn ? Text.ADD : Text.LOGIN} onClick={handleMainClick}/>
             </div>
         </nav>
     );

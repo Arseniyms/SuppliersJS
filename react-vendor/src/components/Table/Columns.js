@@ -4,7 +4,7 @@ const columnsData = [
     {
         accessorKey: 'companyName',
         header: 'Название компании',
-        size: 100,
+        size: 120,
         cell: (props) => <p>{props.getValue()}</p>,
         isDefaultToExport: true,
         defaultValue: "",
@@ -53,6 +53,7 @@ const columnsData = [
     {
         accessorKey: 'phones',
         header: 'Сотовые',
+        size: 300,
         enableSorting: false,
         cell: (props) => <p>{props.getValue()}</p>,
         isDefaultToExport: true,
@@ -136,7 +137,7 @@ const columnsData = [
         cell: (props) => <p>{props.getValue()}</p>,
         defaultValue: "",
         isPublic: true,
-        selectableFields: ['Принято', 'В обработке', "Отказано"]
+        selectableFields: ['На апробации', 'Планируется', "Пройдено", "Отказ"]
     },
     {
         accessorKey: 'approbation',
@@ -144,6 +145,7 @@ const columnsData = [
         cell: (props) => <p>{props.getValue()}</p>,
         defaultValue: "",
         isPublic: true,
+        selectableFields: ['Да', 'Нет', "В процессе"]
     },
     {
         accessorKey: 'feedback',

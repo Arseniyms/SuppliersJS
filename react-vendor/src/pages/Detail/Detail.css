@@ -15,4 +15,9 @@
 .detail-buttons {
     display: flex;
     flex-direction: row;
+    gap: 16px;
+}
+
+.delete-button {
+    margin-top: 50px;
 }

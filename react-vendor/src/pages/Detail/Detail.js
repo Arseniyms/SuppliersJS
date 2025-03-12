@@ -1,7 +1,7 @@
 import React, {useMemo, useRef, useState} from "react";
 
 import "./Detail.css"
-import {useParams} from "react-router-dom";
+import {useNavigate, useParams} from "react-router-dom";
 import Loader from "../../components/Loader/Loader";
 import Error from "../../components/Error/Error";
 import columnsData from "../../components/Table/Columns";
@@ -14,6 +14,7 @@ import {LoginService} from "../../services/LoginService";
 import {MailService} from "../../services/mailService";
 import ToastLogin from "../../components/ToastLogin/ToastLogin";
 import {useLocalStorage} from "../../services/useLocalStorage";
+import ToastChoose from "../../components/ToastChoose/ToastChoose";
 
 const SaveToast = {
     loading: "В процессе",
@@ -27,15 +28,25 @@ const MailingToast = {
     error: "Ошибка отправки, проверьте корректность почты или повторите позже",
 }
 
-
 const Text = {
     SAVE: "Сохранить изменения",
-    TO_MAIL: "Отправить данные на почту"
+    TO_MAIL: "Отправить данные на почту",
+    DELETE: "Удалить компанию"
 }
 
 const MailToast = {
     id: "mail",
     duration: 50000
+}
+
+const DeleteToast = {
+    id: "delete"
+}
+
+const DeleteToastText = {
+    title: "Уверены, что хотите удалить компанию?",
+    firstText: "Отмена",
+    secondText: "Удалить"
 }
 
 const MailToastText = {
@@ -51,6 +62,7 @@ const Detail = () => {
     const [isPatching, setIsPatching] = useState(false);
     const isLoggedIn = LoginService.isAuthenticated()
     const { setItem, getItem } = useLocalStorage("user_email")
+    const navigate = useNavigate()
 
     const {
         isPending,
@@ -120,6 +132,31 @@ const Detail = () => {
         );
     }
 
+    const pressedDelete = (e) => {
+        e.preventDefault();
+
+        toast((t) => (
+            <ToastChoose
+                title={DeleteToastText.title}
+                firstText={DeleteToastText.firstText}
+                secondText={DeleteToastText.secondText}
+                secondStyle={{color: "red"}}
+                onFirstButton={() => toast.dismiss(t.id)}
+                onSecondButton={() => {
+                    CompanyService.deleteCompany(extId)
+                        .then(res => {
+                            console.log(res)
+                            toast.dismiss(t.id)
+                            navigate("/")
+                        })
+                        .catch(err => {
+                            console.log(err)
+                        })
+                }}
+            />
+        ), DeleteToast)
+    }
+
     let initialData = new Map()
     if (data !== null && data !== undefined) {
         initialData = new Map(Object.entries(data))
@@ -156,6 +193,9 @@ const Detail = () => {
                         ))}
                     </div>
 
+                    <div className="delete-button">
+                        {isLoggedIn && <MainButton style={{color: "red"}} text={Text.DELETE} onClick={pressedDelete}/>}
+                    </div>
                 </div>
             })()}
         </div>

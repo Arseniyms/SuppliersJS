@@ -1,5 +1,5 @@
 {
-  "name": "react-vendor",
+  "name": "Providers",
   "version": "0.1.0",
   "private": true,
   "homepage": ".",
@@ -29,7 +29,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "electron": "electron .",
-    "package": "electron-packager . --out=Packaged"
+    "package": "electron-packager . --out=Packaged --icon=./build/icon"
   },
   "eslintConfig": {
     "extends": [

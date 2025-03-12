@@ -34,9 +34,8 @@ const AddInput = ({text, selectableFields, keyDB, onChange, isRequired, value, r
                         disabled={readOnly}
                         required={isRequired}
                         onChange={handleSelectChange}
-                        value={selectedValue}
+                        defaultValue={selectedValue}
                     >
-                        <option value="" disabled selected hidden>{Text.CHOOSE}</option>
                         <option key={-1} value={""}/>)
                         {selectableFields.map((item, index) => (
                             <option key={index} value={item}>{item}</option>)
