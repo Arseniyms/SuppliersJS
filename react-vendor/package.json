@@ -1,6 +1,8 @@
 {
   "name": "Providers",
   "version": "0.1.0",
+  "author": "Matus Arseniy",
+  "description": "Provider app for GPN",
   "private": true,
   "homepage": ".",
   "main": "./src/main.js",
@@ -29,7 +31,24 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "electron": "electron .",
-    "package": "electron-packager . --out=Packaged --icon=./build/icon"
+    "package": "electron-packager . --out=Packaged --icon=./build/icon",
+    "builder": "electron-builder"
+  },
+  "build": {
+    "appId": "Providers",
+    "win": {
+      "target": [
+        "nsis"
+      ],
+      "icon": "icon.ico"
+    },
+    "nsis": {
+      "oneClick": false,
+      "installerIcon": "icon.ico",
+      "uninstallerIcon": "icon.ico",
+      "uninstallDisplayName": "Providers-uninstall",
+      "allowToChangeInstallationDirectory": true
+    }
   },
   "eslintConfig": {
     "extends": [
@@ -52,6 +71,7 @@
   "devDependencies": {
     "@testing-library/react": "^16.2.0",
     "electron": "^34.3.0",
+    "electron-builder": "^25.1.8",
     "electron-packager": "^17.1.2"
   }
 }

@@ -13,6 +13,7 @@ Packaged
 
 # production
 /build
+dist
 
 # misc
 .idea
