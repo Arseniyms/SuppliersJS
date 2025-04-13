@@ -34,7 +34,7 @@ table {
 table thead tr {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 5px;
     border-radius: 8px;
-    background-color: var(--background-color);
+    background-color: transparent;
 }
 
 thead tr th {
@@ -42,9 +42,15 @@ thead tr th {
     position: relative;
     border-right: 1px solid #aaa;
     padding-inline: 8px;
-
+    background-color: var(--background-color);
     &:last-child {
         border-right: none;
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+    }
+    &:first-child {
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
     }
 }
 

@@ -1,4 +1,4 @@
-import React, {useEffect, useMemo} from 'react'
+import React, {useEffect} from 'react'
 import './Navbar.css'
 import {NavLink, useNavigate} from "react-router-dom";
 import MainButton from "../MainButton/MainButton";

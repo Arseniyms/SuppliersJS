@@ -1,4 +1,3 @@
-import toast from "react-hot-toast";
 import React from "react";
 import "./ToastChoose.css"
 import MainButton from "../MainButton/MainButton";

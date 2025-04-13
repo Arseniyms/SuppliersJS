@@ -15,13 +15,13 @@ const columnsData = [
         accessorKey: 'companyType',
         enableSorting: false,
         size: 100,
-        header: 'Агрегатор/Вендор',
+        header: 'Интегратор/Вендор',
         cell: (props) => <p>{props.getValue()}</p>,
         isDefaultToExport: true,
         defaultValue: "",
         isRequired: true,
         isPublic: true,
-        selectableFields: ['Агрегатор', 'Вендор']
+        selectableFields: ['Интегратор', 'Вендор']
     },
     {
         accessorKey: 'inn',
